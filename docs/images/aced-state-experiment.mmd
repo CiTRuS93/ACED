@@ -1,0 +1,20 @@
+stateDiagram-v2
+    direction TB
+    state "Preparation / canary\nDeploy disabled; protected bounded canary" as EC
+    state "Canary boundary review\nAgent yielded; verify native facts" as EB
+    state "Main authority available\nNew invocation; same frozen plan" as EM
+    state "Main active / waiting\nNative start and fixed end; agent may be absent" as EA
+    state "Closure pending\nDeadline is not proof of zero" as EZ
+    state "Readout pending\nClosed window; await maturity / obtain analysis" as ER
+    state "Unsuccessful attempt\nFailure or invalidity; retain actual identities" as EF
+    state "Verify settlement\nReconcile only if needed; no mandatory cleanup task" as EX
+    state "Decide\nVerified attempt outcome" as ED
+    EC --> EB: X1 boundary requested
+    EB --> EM: X2 main scope granted
+    EM --> EA: X3 activate once under protection
+    EA --> EZ: X4 native end / closure event
+    EZ --> ER: X5 zero verified
+    ER --> ED: X6 valid mature analysis accepted
+    EF --> EX: X7 check settlement
+    EX --> ED: X8 unsuccessful outcome settled
+    EC --> EF: X9 established failure

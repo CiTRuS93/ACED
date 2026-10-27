@@ -1,0 +1,20 @@
+stateDiagram-v2
+    direction TB
+    state "Accepted start\nIdentity, source, limits and exclusive ownership" as START
+    state "Hypothesize\nEvidence, assumptions and admitted cycle plan" as H
+    state "Implement\nCandidate and trusted checks" as I
+    state "Experiment\nCanary -> zero -> separate main -> readout" as E
+    state "Decide\nDisposition, learning and next action" as D
+    state "completed\nSettled cycle; assessment recorded separately" as DONE
+    state "Stop / reconcile\nSee F; retains current stage until safe closure" as STOPREF
+    state "stopped\nSticky operator stop + verified settlement" as STOPPED
+    START --> H: L1 create run
+    H --> I: L2 plan accepted
+    I --> E: L3 checks accepted
+    E --> D: L4 attempt settled
+    H --> D: L5a safely abandoned
+    I --> D: L5b same guard
+    D --> H: L6 next_hypothesis · new cycle
+    D --> I: L7 repair · new cycle
+    D --> DONE: L8 finish
+    STOPREF --> STOPPED: L9 operator stop + settlement

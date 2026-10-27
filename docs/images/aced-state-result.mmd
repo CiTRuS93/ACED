@@ -1,0 +1,22 @@
+stateDiagram-v2
+    direction TB
+    state "Retained result / error\ncompleted | waiting | blocked | failed; or no output" as OR
+    state "Inspect / verify\nCheck syntax, native facts, operations and scope" as OV
+    state "Accepted facts / handoff\nLegal advance or resume through A / D" as OA
+    state "Durable wait\nTimer, native record or authority boundary" as OW
+    state "Correction required\nActionable feedback; normally read/report scope" as OC
+    state "Named blocker\nOwner + missing fact/access/budget; remains inspectable" as OB
+    state "New task if needed\nSame stage or accepted next scope; use D" as ON
+    state "Failure / uncertainty\nObserve original outcome; F only if cleanup is required" as OF
+    state "Decide / safe outcome\nOnly after the legal settled-attempt guard" as OD
+    OR --> OV: R1 retain once + inspect
+    OV --> OA: R2 facts accepted
+    OV --> OW: R3 named pending dependency
+    OV --> OC: R4 usable correction path
+    OV --> OB: R5 blocked / exhausted
+    OW --> OV: R6 due native recheck
+    OC --> ON: R7 bounded new invocation
+    OB --> OV: R8 dependency actually changes
+    OV --> OF: R9 failed / unknown effects
+    OF --> OD: R10 settled unsuccessful attempt
+    OF --> OV: R11 original outcome established

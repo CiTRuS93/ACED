@@ -1,0 +1,65 @@
+classDiagram
+    direction TB
+    class Goal["Goal"] {
+        <<value>>
+        project_id / objective
+    }
+    class ProjectConfig["ProjectConfig"] {
+        <<value>>
+        project_id / workspace / source_revision
+        resource_id / default_agent / required_checks
+        max_tasks / max_attempts / max_cycles
+        cleanup_tasks / poll_seconds / constraints
+        require_research_observation: bool
+        step(Step): StepConfig
+        snapshot() / fingerprint
+    }
+    class RunContinuation["RunContinuation"] {
+        <<value>>
+        previous_run_id / accepted_source
+        learning_references / candidate_ids
+    }
+    class StepConfig["StepConfig"] {
+        <<value>>
+        agent: str | None / instructions
+        tool_profile / timeout_seconds / max_cost
+    }
+    class ExperimentPlan["ExperimentPlan"] {
+        <<value>>
+        metric / decision_rule / guardrails
+        separate canary + main cohorts / allocation
+        canary duration + samples / main duration
+        monitor_grace / readout + observation delay
+        native: Mapping[str, Any]
+        fingerprint
+    }
+    class ApprovalPolicy["ApprovalPolicy"] {
+        <<value>>
+        boundaries / approvers / channel
+        destinations / events / escalation
+        delivery_failure / no_response
+        no_response_seconds / validity_seconds
+        mode(scope): ApprovalMode
+    }
+    class Step["Step"] {
+        <<enum>>
+        HYPOTHESIZE / IMPLEMENT
+        EXPERIMENT / DECIDE
+    }
+    class PlanBounds["PlanBounds"] {
+        <<value>>
+        allowed metrics / rules / guardrails
+        allocation and time ceilings
+        traffic, maturity and observation floors
+        admit(plan: ExperimentPlan)
+    }
+    class ApprovalMode["ApprovalMode"] {
+        <<enum>>
+        REVIEW / DENY / PREAUTHORIZED
+    }
+    ProjectConfig --> StepConfig : steps[Step]: 0..*
+    ProjectConfig --> ExperimentPlan : plan: 1
+    ProjectConfig --> ApprovalPolicy : approvals: 1
+    ProjectConfig --> PlanBounds : plan_bounds: 0..1
+    PlanBounds ..> ExperimentPlan : admit()
+    ApprovalPolicy --> ApprovalMode : boundary values

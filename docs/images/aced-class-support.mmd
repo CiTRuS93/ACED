@@ -1,0 +1,73 @@
+classDiagram
+    direction TB
+    class DemoRunner["DemoRunner"] {
+        <<fixture>>
+        tasks: dict[str, AgentTask]
+        infrastructure: DemoInfrastructure | None
+        start() / observe() / cancel()
+    }
+    class DemoInfrastructure["DemoInfrastructure"] {
+        <<fixture>>
+        clock / ledger / exposures / stop_receipts
+        tasks / proposals / native_plan
+        authorize() / read_evidence()
+        safety() / request_stop() / execute() / monitor()
+    }
+    class DemoClock["DemoClock"] {
+        <<fixture>>
+        value: datetime (mutable dataclass)
+        now() / tick(seconds)
+    }
+    class DemoIdentity["DemoIdentity"] {
+        <<fixture>>
+        principal: Principal
+        async authenticate(context)
+    }
+    class Conformance["cli + reference"] {
+        <<module>>
+        __main__ delegates to cli.main()
+        conformance() / demo_project() / envelope()
+    }
+    class Contracts["Structural contracts"] {
+        <<group>>
+        DemoRunner → AgentRunner
+        DemoInfrastructure → Infrastructure
+        DemoClock → Clock
+        DemoIdentity → IdentityProvider
+    }
+    class StoreError["StoreError"] {
+        <<exception>>
+        extends RuntimeError
+    }
+    class ConflictError["ConflictError"] {
+        <<exception>>
+        extends StoreError
+    }
+    class StaleLeaseError["StaleLeaseError"] {
+        <<exception>>
+        extends ConflictError
+    }
+    class NotFoundError["NotFoundError"] {
+        <<exception>>
+        extends StoreError
+    }
+    class ValueErrors["ValueError subclasses"] {
+        <<exception>>
+        TransitionError · transitions.py
+        InvalidEvidence · workflow.py
+        JSONFormatError · _json.py
+        PendingEvidence · host infrastructure.py
+        BrowserCheckoutError · product shop.py
+    }
+    class OtherErrors["Other exception types"] {
+        <<exception>>
+        AuthorizationError extends PermissionError
+        ShopUnavailable extends RuntimeError
+    }
+    DemoRunner --> DemoInfrastructure : executes fixture work
+    DemoInfrastructure --> DemoClock : clock
+    Conformance --> DemoInfrastructure : constructs fixture runtime
+    Conformance --> DemoIdentity : injects
+    ConflictError --|> StoreError
+    StaleLeaseError --|> ConflictError
+    NotFoundError --|> StoreError

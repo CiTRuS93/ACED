@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2220" viewBox="0 0 1800 2220" role="img" aria-labelledby="title desc">
+<title id="title">E · native product and private operator tools</title>
+<desc id="desc">Product records enforce effects independently of ACED. The two traffic paths have different access boundaries. Current source, not a proposed architecture. Solid arrows are associations or calls; dashed open triangles show structural protocol conformance.</desc>
+<rect width="1800" height="2220" fill="#ffffff"/>
+<polyline points="520,243.0 660,267.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="660.00,267.00 647.34,269.97 649.05,259.99" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1140,267.0 1280,267.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1280.00,267.00 1268.03,272.06 1268.03,261.94" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="780.0,389 780,505 280,505 280.0,580" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="280.00,580.00 274.94,568.03 285.06,568.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="900.0,389 900.0,580" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="900.00,580.00 894.94,568.03 905.06,568.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1020.0,389 1020,505 1520,505 1520.0,580" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1520.00,580.00 1514.94,568.03 1525.06,568.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="660,332.0 610,345 610,1075 660,1073.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="660.00,1073.00 648.24,1078.54 647.83,1068.42" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polygon points="660.00,332.00 651.00,329.17 644.51,336.03 653.52,338.85" fill="#566d88"/>
+<polyline points="1760,1142.0 1785,1160 1785,455 1165,455 1165,290 1140,267.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1140.00,267.00 1152.24,271.38 1145.38,278.83" fill="white" stroke="#566d88" stroke-width="2"/>
+<polyline points="280.0,1370 280.0,1175" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="280.00,1175.00 285.06,1186.97 274.94,1186.97" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="280.0,1566 280.0,1730" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="280.00,1730.00 274.94,1718.03 285.06,1718.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polygon points="280.00,1566.00 275.00,1574.00 280.00,1582.00 285.00,1574.00" fill="#566d88"/>
+<polyline points="520,1468.0 660,1490.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="660.00,1490.00 647.39,1493.14 648.96,1483.14" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1520.0,1264 1520,1360 900,1360 900.0,1380" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="900.00,1380.00 894.94,1368.03 905.06,1368.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1140,1490.0 1280,1543.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1280.00,1543.00 1267.01,1543.50 1270.59,1534.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="900.0,1600 900.0,1780" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="900.00,1780.00 894.94,1768.03 905.06,1768.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1020.0,1600 1020,1700 1520,1700 1520.0,1780" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1520.00,1780.00 1514.94,1768.03 1525.06,1768.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<text x="40" y="59" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="700" fill="#24344b" text-anchor="start">E · native product and private operator tools</text>
+<text x="40" y="95" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#5c6c7e" text-anchor="start">Product records enforce effects independently of ACED. The two traffic paths have different access boundaries.</text>
+<rect x="40" y="145" width="480" height="196" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="54" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="54" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Handler</text>
+<text x="54" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">playground.web.create_server · nested</text>
+<path d="M 40 232 H 520" stroke="#6b8bb7"/>
+<text x="54" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">extends BaseHTTPRequestHandler</text>
+<path d="M 40 270 H 520" stroke="#6b8bb7"/>
+<text x="54" y="297" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">do_HEAD() / do_GET() / do_POST()</text>
+<rect x="660" y="145" width="480" height="244" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="674" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="674" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">ReferenceShop</text>
+<text x="674" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">playground/shop.py</text>
+<path d="M 660 232 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">database / connection: sqlite3.Connection</text>
+<path d="M 660 270 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="297" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">control() / operation() / validate_fence()</text>
+<text x="674" y="321" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">browser_visit() / browser_purchase()</text>
+<text x="674" y="345" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">readout() / overview() / summary()</text>
+<rect x="1280" y="145" width="480" height="244" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="1294" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="1294" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">scoped_control</text>
+<text x="1294" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">playground/scoped_control.py</text>
+<path d="M 1280 232 H 1760" stroke="#c6a36c"/>
+<text x="1294" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">native grant / protection / stop latch</text>
+<path d="M 1280 270 H 1760" stroke="#c6a36c"/>
+<text x="1294" y="297" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">grant() / protect() / authorize()</text>
+<text x="1294" y="321" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">exposure_open() / record_effect()</text>
+<text x="1294" y="345" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">stop_run() / expire()</text>
+<rect x="40" y="580" width="480" height="152" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="54" y="604" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="54" y="634" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">BrowserSession</text>
+<text x="54" y="656" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">playground/shop.py</text>
+<path d="M 40 667 H 520" stroke="#72a898"/>
+<text x="54" y="694" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">visitor_token / session_id / user_id</text>
+<rect x="660" y="580" width="480" height="176" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="674" y="604" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="674" y="634" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">ControlReceipt</text>
+<text x="674" y="656" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">playground/shop.py</text>
+<path d="M 660 667 H 1140" stroke="#72a898"/>
+<text x="674" y="694" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">operation_id / operation / status</text>
+<text x="674" y="718" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">effective_at / details / request_hash</text>
+<rect x="1280" y="580" width="480" height="224" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="1294" y="604" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="1294" y="634" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">ShopReadout</text>
+<text x="1294" y="656" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">playground/shop.py</text>
+<path d="M 1280 667 H 1760" stroke="#72a898"/>
+<text x="1294" y="694" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">experiment_id / observed_at</text>
+<text x="1294" y="718" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">counts / conversion / confidence interval</text>
+<text x="1294" y="742" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">latency / errors / delayed harms</text>
+<text x="1294" y="766" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">assignment + exposure integrity / blockers</text>
+<rect x="660" y="985" width="480" height="176" rx="6" fill="#eef1f7" stroke="#7c8d9f"/>
+<text x="674" y="1009" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#7c8d9f" text-anchor="start">«store»</text>
+<text x="674" y="1039" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Native product SQLite</text>
+<text x="674" y="1061" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">independent from runtime SQLite</text>
+<path d="M 660 1072 H 1140" stroke="#7c8d9f"/>
+<text x="674" y="1099" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">source of experiment and operation records</text>
+<text x="674" y="1123" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">assignment / metrics / protection / ownership</text>
+<rect x="40" y="955" width="480" height="220" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="54" y="979" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="54" y="1009" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">web + overview</text>
+<text x="54" y="1031" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">playground/{web,overview}.py</text>
+<path d="M 40 1042 H 520" stroke="#c6a36c"/>
+<text x="54" y="1069" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">HTTP API / storefront / observed dashboard</text>
+<path d="M 40 1080 H 520" stroke="#c6a36c"/>
+<text x="54" y="1107" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">create_server(): ThreadingHTTPServer</text>
+<text x="54" y="1131" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">serve_shop() / overview_page()</text>
+<rect x="1280" y="1020" width="480" height="244" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="1294" y="1044" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="1294" y="1074" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Simulator</text>
+<text x="1294" y="1096" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">tools/playground_simulator/simulator.py</text>
+<path d="M 1280 1107 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="1134" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">extends ReferenceShop</text>
+<text x="1294" y="1158" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">state / private: sqlite3.Connection</text>
+<path d="M 1280 1169 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="1196" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">initialize() / attach()</text>
+<text x="1294" y="1220" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">configure_scenario() / run_traffic()</text>
+<rect x="40" y="1370" width="480" height="196" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="54" y="1394" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="54" y="1424" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">BrowserTraffic</text>
+<text x="54" y="1446" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">tools/playground_simulator/browser.py</text>
+<path d="M 40 1457 H 520" stroke="#6b8bb7"/>
+<text x="54" y="1484" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">origin / seed / population / state: BrowserState</text>
+<path d="M 40 1495 H 520" stroke="#6b8bb7"/>
+<text x="54" y="1522" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">run() / close()</text>
+<rect x="40" y="1730" width="480" height="220" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="54" y="1754" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="54" y="1784" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">BrowserState</text>
+<text x="54" y="1806" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">tools/playground_simulator/browser_state.py</text>
+<path d="M 40 1817 H 520" stroke="#6b8bb7"/>
+<text x="54" y="1844" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">path / lock / connection: sqlite3.Connection</text>
+<path d="M 40 1855 H 520" stroke="#6b8bb7"/>
+<text x="54" y="1882" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">recover() / begin() / checkpoint() / finish()</text>
+<text x="54" y="1906" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">storage() / save_storage() / read()</text>
+<rect x="660" y="1380" width="480" height="220" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="674" y="1404" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="674" y="1434" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">strategy</text>
+<text x="674" y="1456" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">tools/playground_simulator/strategy.py</text>
+<path d="M 660 1467 H 1140" stroke="#c6a36c"/>
+<text x="674" y="1494" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">shared deterministic traffic policy</text>
+<path d="M 660 1505 H 1140" stroke="#c6a36c"/>
+<text x="674" y="1532" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">persona_for() / profile() / arrival()</text>
+<text x="674" y="1556" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">choose_purchase(options): PurchaseChoice | None</text>
+<rect x="1280" y="1455" width="480" height="176" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="1294" y="1479" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="1294" y="1509" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Persona</text>
+<text x="1294" y="1531" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">tools/playground_simulator/strategy.py</text>
+<path d="M 1280 1542 H 1760" stroke="#72a898"/>
+<text x="1294" y="1569" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">name / weight / intent / budget</text>
+<text x="1294" y="1593" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">scrolls / patience</text>
+<rect x="660" y="1780" width="480" height="152" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="674" y="1804" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="674" y="1834" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">PurchaseOption</text>
+<text x="674" y="1856" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">tools/playground_simulator/strategy.py</text>
+<path d="M 660 1867 H 1140" stroke="#72a898"/>
+<text x="674" y="1894" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">label / card_text / visible / enabled</text>
+<rect x="1280" y="1780" width="480" height="152" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="1294" y="1804" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="1294" y="1834" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">PurchaseChoice</text>
+<text x="1294" y="1856" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">tools/playground_simulator/strategy.py</text>
+<path d="M 1280 1867 H 1760" stroke="#72a898"/>
+<text x="1294" y="1894" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">index / label / price_cents</text>
+<rect x="40" y="2050" width="1720" height="70" rx="6" fill="#f8fafc" stroke="#d9e1ea"/>
+<text x="54" y="2077" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">Private operator subsystem starts at Simulator / BrowserTraffic / strategy; it is not imported by the product or scheduled by core. Simulator owns private SQLite in addition to the product DB;</text>
+<text x="54" y="2101" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">BrowserState has a separate private checkpoint DB. The operator CLI selects traffic tools; export.export_product() copies only the public allowlist for host workspace preparation.</text>
+<rect x="538.8046875" y="243" width="102.390625" height="48" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="260" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">per-request</text>
+<text x="590" y="282" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">instance</text>
+<rect x="1154.734375" y="243" width="110.53125" height="48" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1210" y="260" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">native effect</text>
+<text x="1210" y="282" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">guards</text>
+<rect x="446.9296875" y="478" width="126.140625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="510" y="495" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">browser_visit()</text>
+<rect x="811.0" y="508" width="178.0" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="900" y="525" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">control() / operation()</text>
+<rect x="1216.9765625" y="478" width="86.046875" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1260" y="495" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">readout()</text>
+<rect x="533.9296875" y="898" width="142.140625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="605" y="915" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">owns connection</text>
+<rect x="1643.78125" y="928" width="72.4375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1680" y="945" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">inherits</text>
+<rect x="187.890625" y="1283" width="184.21875" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="280" y="1300" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">Playwright / HTTP only</text>
+<rect x="252.625" y="1668" width="54.75" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="280" y="1685" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">owns</text>
+<rect x="564.8203125" y="1453" width="50.359375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="1470" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">uses</text>
+<rect x="1167.2421875" y="1332" width="125.515625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1230" y="1349" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">persona policy</text>
+<rect x="1162.109375" y="1478" width="95.78125" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1210" y="1495" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">population</text>
+<rect x="832.9453125" y="1708" width="134.109375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="900" y="1725" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">accepts options</text>
+<rect x="1188.4921875" y="1673" width="123.015625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1250" y="1690" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">returns choice</text>
+<text x="40" y="2201" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#68788a" text-anchor="start">CURRENT CODE · 2026-10-21 · fields/methods abbreviated · arrows explained in docs/code-structure.md</text>
+</svg>

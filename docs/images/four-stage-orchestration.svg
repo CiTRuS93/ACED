@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="820" viewBox="0 0 1280 820" role="img" aria-labelledby="title desc">
+<title id="title">Four-stage orchestration: development preview</title>
+<desc id="desc">ACED owns Hypothesize, Implement, Experiment and Decide. Agents own procedures within stages. Existing host infrastructure owns authority, native evidence and independent stopping. Durable waits and evidence-bound handoffs connect the work.</desc>
+<rect width="1280" height="820" fill="#f8fafc"/>
+<text x="48" y="52.96" fill="#263449" font-family="DejaVu Sans, sans-serif" font-size="32" font-weight="700" text-anchor="start">Four stages. Agent-owned procedures.</text>
+<text x="48" y="90.04" fill="#64748b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">Development preview · durable progress, explicit evidence and bounded authority</text>
+<rect x="32" y="120" width="1216" height="200" rx="16" fill="#eaf0fa" stroke="#c7d5ed"/>
+<text x="52" y="151.26" fill="#21416f" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="start">ACED  /  owns the loop and handoffs</text>
+<rect x="58" y="181" width="242" height="86" rx="12" fill="#ffffff" stroke="#adc2e0"/>
+<text x="74" y="214.94" fill="#193963" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" text-anchor="start">Hypothesize</text>
+<text x="74" y="244.92" fill="#475569" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Candidates; admit cycle plan</text>
+<polyline points="307,223 356,223" fill="none" stroke="#315a8e" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="356.00,223.00 345.96,227.49 345.96,218.51" fill="#315a8e"/>
+<rect x="365" y="181" width="242" height="86" rx="12" fill="#ffffff" stroke="#adc2e0"/>
+<text x="381" y="214.94" fill="#193963" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" text-anchor="start">Implement</text>
+<text x="381" y="244.92" fill="#475569" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Checked candidate and signals</text>
+<polyline points="614,223 663,223" fill="none" stroke="#315a8e" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="663.00,223.00 652.96,227.49 652.96,218.51" fill="#315a8e"/>
+<rect x="672" y="181" width="242" height="86" rx="12" fill="#ffffff" stroke="#adc2e0"/>
+<text x="688" y="214.94" fill="#193963" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" text-anchor="start">Experiment</text>
+<text x="688" y="244.92" fill="#475569" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Closed window and readout</text>
+<polyline points="921,223 970,223" fill="none" stroke="#315a8e" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="970.00,223.00 959.96,227.49 959.96,218.51" fill="#315a8e"/>
+<rect x="979" y="181" width="242" height="86" rx="12" fill="#ffffff" stroke="#adc2e0"/>
+<text x="995" y="214.94" fill="#193963" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" text-anchor="start">Decide</text>
+<text x="995" y="244.92" fill="#475569" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Disposition and learning</text>
+<polyline points="1100,272 1100,296 180,296 180,272" fill="none" stroke="#315a8e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="180.00,272.00 184.49,282.04 175.51,282.04" fill="#315a8e"/>
+<polyline points="486,296 486,272" fill="none" stroke="#315a8e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="486.00,272.00 490.49,282.04 481.51,282.04" fill="#315a8e"/>
+<rect x="565" y="281" width="470" height="29" rx="0" fill="#eaf0fa" stroke="#eaf0fa"/>
+<text x="800" y="296.92" fill="#21416f" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle">Next hypothesis or bounded repair after decision</text>
+<text x="52" y="360.26" fill="#126258" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="start">AGENTS  /  choose and execute procedures inside each stage</text>
+<rect x="58" y="383" width="242" height="116" rx="12" fill="#edf8f5" stroke="#b6dcd1"/>
+<text x="73" y="412.7" fill="#21534d" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Inspect data and source</text>
+<text x="73" y="441.7" fill="#21534d" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Compare explanations</text>
+<text x="73" y="470.7" fill="#21534d" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Form the hypothesis</text>
+<polyline points="179.0,366 179.0,378" fill="none" stroke="#7eaaa2" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="179.00,378.00 174.51,367.96 183.49,367.96" fill="#7eaaa2"/>
+<rect x="365" y="383" width="242" height="116" rx="12" fill="#edf8f5" stroke="#b6dcd1"/>
+<text x="380" y="412.7" fill="#21534d" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Edit, test and debug</text>
+<text x="380" y="441.7" fill="#21534d" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Inspect product behavior</text>
+<text x="380" y="470.7" fill="#21534d" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Return native check records</text>
+<polyline points="486.0,366 486.0,378" fill="none" stroke="#7eaaa2" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="486.00,378.00 481.51,367.96 490.49,367.96" fill="#7eaaa2"/>
+<rect x="672" y="383" width="242" height="116" rx="12" fill="#edf8f5" stroke="#b6dcd1"/>
+<text x="687" y="412.7" fill="#21534d" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Deploy and operate tests</text>
+<text x="687" y="441.7" fill="#21534d" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Diagnose meaningful events</text>
+<text x="687" y="470.7" fill="#21534d" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Obtain the actual readout</text>
+<polyline points="793.0,366 793.0,378" fill="none" stroke="#7eaaa2" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="793.00,378.00 788.51,367.96 797.49,367.96" fill="#7eaaa2"/>
+<rect x="979" y="383" width="242" height="116" rx="12" fill="#edf8f5" stroke="#b6dcd1"/>
+<text x="994" y="412.7" fill="#21534d" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Interpret and resolve</text>
+<text x="994" y="441.7" fill="#21534d" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Observe the outcome</text>
+<text x="994" y="470.7" fill="#21534d" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Learn and assess the goal</text>
+<polyline points="1100.0,366 1100.0,378" fill="none" stroke="#7eaaa2" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1100.00,378.00 1095.51,367.96 1104.49,367.96" fill="#7eaaa2"/>
+<text x="640" y="533.26" fill="#475569" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="middle">Waiting ends an invocation; a durable wake resumes the same stage.</text>
+<rect x="32" y="560" width="1216" height="178" rx="16" fill="#ffffff" stroke="#cbd5e1"/>
+<text x="52" y="592.26" fill="#62451b" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="start">EXISTING HOST INFRASTRUCTURE  /  authoritative tools and limits</text>
+<text x="58" y="637.38" fill="#263449" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" text-anchor="start">Authority</text>
+<text x="58" y="672.7" fill="#475569" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Identity, approvals, tool scope</text>
+<text x="462" y="637.38" fill="#263449" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" text-anchor="start">Native records</text>
+<text x="462" y="672.7" fill="#475569" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Source, checks, effects, analysis</text>
+<text x="866" y="637.38" fill="#263449" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" text-anchor="start">Independent protection</text>
+<text x="866" y="672.7" fill="#475569" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Exposure limits, stopping, supervision</text>
+<text x="640" y="715.7" fill="#62451b" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Authority expands only after the prior invocation ends and required facts are verified.</text>
+<text x="640" y="782.26" fill="#475569" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="middle">One SQLite store · one host worker · four stages · one owner of the shared product</text>
+</svg>

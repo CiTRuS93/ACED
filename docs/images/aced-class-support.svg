@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1770" viewBox="0 0 1800 1770" role="img" aria-labelledby="title desc">
+<title id="title">F · reference fixtures and error types</title>
+<desc id="desc">Conformance substitutes four structural implementations. Exceptions are grouped by their actual Python base class. Current source, not a proposed architecture. Solid arrows are associations or calls; dashed open triangles show structural protocol conformance.</desc>
+<rect width="1800" height="1770" fill="#ffffff"/>
+<polyline points="520,255.0 660,267.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="660.00,267.00 647.64,271.02 648.50,260.93" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1140,267.0 1280,243.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1280.00,243.00 1269.05,250.01 1267.34,240.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="900.0,570 900.0,389" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="900.00,389.00 905.06,400.97 894.94,400.97" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="660,668.0 520,668.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="520.00,668.00 531.97,662.94 531.97,673.06" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="660,1066.0 520,1066.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="520.00,1066.00 531.97,1060.94 531.97,1071.06" fill="white" stroke="#566d88" stroke-width="2"/>
+<polyline points="1280,1066.0 1140,1066.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1140.00,1066.00 1151.97,1060.94 1151.97,1071.06" fill="white" stroke="#566d88" stroke-width="2"/>
+<polyline points="280.0,1310 280.0,1142" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="280.00,1142.00 285.06,1153.97 274.94,1153.97" fill="white" stroke="#566d88" stroke-width="2"/>
+<text x="40" y="59" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="700" fill="#24344b" text-anchor="start">F · reference fixtures and error types</text>
+<text x="40" y="95" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#5c6c7e" text-anchor="start">Conformance substitutes four structural implementations. Exceptions are grouped by their actual Python base class.</text>
+<rect x="40" y="145" width="480" height="220" rx="6" fill="#f5f2f8" stroke="#a798b7"/>
+<text x="54" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a798b7" text-anchor="start">«fixture»</text>
+<text x="54" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">DemoRunner</text>
+<text x="54" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced/reference.py</text>
+<path d="M 40 232 H 520" stroke="#a798b7"/>
+<text x="54" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">tasks: dict[str, AgentTask]</text>
+<text x="54" y="283" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">infrastructure: DemoInfrastructure | None</text>
+<path d="M 40 294 H 520" stroke="#a798b7"/>
+<text x="54" y="321" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">start() / observe() / cancel()</text>
+<rect x="660" y="145" width="480" height="244" rx="6" fill="#f5f2f8" stroke="#a798b7"/>
+<text x="674" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a798b7" text-anchor="start">«fixture»</text>
+<text x="674" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">DemoInfrastructure</text>
+<text x="674" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced/reference.py</text>
+<path d="M 660 232 H 1140" stroke="#a798b7"/>
+<text x="674" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">clock / ledger / exposures / stop_receipts</text>
+<text x="674" y="283" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">tasks / proposals / native_plan</text>
+<path d="M 660 294 H 1140" stroke="#a798b7"/>
+<text x="674" y="321" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">authorize() / read_evidence()</text>
+<text x="674" y="345" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">safety() / request_stop() / execute() / monitor()</text>
+<rect x="1280" y="145" width="480" height="196" rx="6" fill="#f5f2f8" stroke="#a798b7"/>
+<text x="1294" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a798b7" text-anchor="start">«fixture»</text>
+<text x="1294" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">DemoClock</text>
+<text x="1294" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced/reference.py</text>
+<path d="M 1280 232 H 1760" stroke="#a798b7"/>
+<text x="1294" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">value: datetime (mutable dataclass)</text>
+<path d="M 1280 270 H 1760" stroke="#a798b7"/>
+<text x="1294" y="297" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">now() / tick(seconds)</text>
+<rect x="40" y="570" width="480" height="196" rx="6" fill="#f5f2f8" stroke="#a798b7"/>
+<text x="54" y="594" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a798b7" text-anchor="start">«fixture»</text>
+<text x="54" y="624" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">DemoIdentity</text>
+<text x="54" y="646" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced/reference.py</text>
+<path d="M 40 657 H 520" stroke="#a798b7"/>
+<text x="54" y="684" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">principal: Principal</text>
+<path d="M 40 695 H 520" stroke="#a798b7"/>
+<text x="54" y="722" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">async authenticate(context)</text>
+<rect x="660" y="570" width="480" height="196" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="674" y="594" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="674" y="624" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">cli + reference</text>
+<text x="674" y="646" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced/{cli,reference}.py</text>
+<path d="M 660 657 H 1140" stroke="#c6a36c"/>
+<text x="674" y="684" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">__main__ delegates to cli.main()</text>
+<path d="M 660 695 H 1140" stroke="#c6a36c"/>
+<text x="674" y="722" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">conformance() / demo_project() / envelope()</text>
+<rect x="1280" y="570" width="480" height="224" rx="6" fill="#f1edfa" stroke="#9b84bc"/>
+<text x="1294" y="594" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#9b84bc" text-anchor="start">«group»</text>
+<text x="1294" y="624" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Structural contracts</text>
+<text x="1294" y="646" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">implemented without Python base classes</text>
+<path d="M 1280 657 H 1760" stroke="#9b84bc"/>
+<text x="1294" y="684" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">DemoRunner → AgentRunner</text>
+<text x="1294" y="708" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">DemoInfrastructure → Infrastructure</text>
+<text x="1294" y="732" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">DemoClock → Clock</text>
+<text x="1294" y="756" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">DemoIdentity → IdentityProvider</text>
+<rect x="40" y="990" width="480" height="152" rx="6" fill="#fff0ee" stroke="#c09a91"/>
+<text x="54" y="1014" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c09a91" text-anchor="start">«exception»</text>
+<text x="54" y="1044" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">StoreError</text>
+<text x="54" y="1066" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced/store.py</text>
+<path d="M 40 1077 H 520" stroke="#c09a91"/>
+<text x="54" y="1104" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">extends RuntimeError</text>
+<rect x="660" y="990" width="480" height="152" rx="6" fill="#fff0ee" stroke="#c09a91"/>
+<text x="674" y="1014" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c09a91" text-anchor="start">«exception»</text>
+<text x="674" y="1044" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">ConflictError</text>
+<text x="674" y="1066" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced/store.py</text>
+<path d="M 660 1077 H 1140" stroke="#c09a91"/>
+<text x="674" y="1104" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">extends StoreError</text>
+<rect x="1280" y="990" width="480" height="152" rx="6" fill="#fff0ee" stroke="#c09a91"/>
+<text x="1294" y="1014" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c09a91" text-anchor="start">«exception»</text>
+<text x="1294" y="1044" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">StaleLeaseError</text>
+<text x="1294" y="1066" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced/store.py</text>
+<path d="M 1280 1077 H 1760" stroke="#c09a91"/>
+<text x="1294" y="1104" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">extends ConflictError</text>
+<rect x="40" y="1310" width="480" height="152" rx="6" fill="#fff0ee" stroke="#c09a91"/>
+<text x="54" y="1334" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c09a91" text-anchor="start">«exception»</text>
+<text x="54" y="1364" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">NotFoundError</text>
+<text x="54" y="1386" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced/store.py</text>
+<path d="M 40 1397 H 520" stroke="#c09a91"/>
+<text x="54" y="1424" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">extends StoreError</text>
+<rect x="660" y="1290" width="480" height="248" rx="6" fill="#fff0ee" stroke="#c09a91"/>
+<text x="674" y="1314" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c09a91" text-anchor="start">«exception»</text>
+<text x="674" y="1344" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">ValueError subclasses</text>
+<text x="674" y="1366" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">core / host / product</text>
+<path d="M 660 1377 H 1140" stroke="#c09a91"/>
+<text x="674" y="1404" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">TransitionError · transitions.py</text>
+<text x="674" y="1428" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">InvalidEvidence · workflow.py</text>
+<text x="674" y="1452" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">JSONFormatError · _json.py</text>
+<text x="674" y="1476" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">PendingEvidence · host infrastructure.py</text>
+<text x="674" y="1500" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">BrowserCheckoutError · product shop.py</text>
+<rect x="1280" y="1310" width="480" height="176" rx="6" fill="#fff0ee" stroke="#c09a91"/>
+<text x="1294" y="1334" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c09a91" text-anchor="start">«exception»</text>
+<text x="1294" y="1364" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Other exception types</text>
+<text x="1294" y="1386" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">core / host</text>
+<path d="M 1280 1397 H 1760" stroke="#c09a91"/>
+<text x="1294" y="1424" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">AuthorizationError extends PermissionError</text>
+<text x="1294" y="1448" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">ShopUnavailable extends RuntimeError</text>
+<rect x="40" y="1655" width="1720" height="70" rx="6" fill="#f8fafc" stroke="#d9e1ea"/>
+<text x="54" y="1682" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">Fixtures establish offline orchestration behavior; they are not the live host. ValueError/PermissionError/RuntimeError and StrEnum are standard-library base classes. No proposed providers or</text>
+<text x="54" y="1706" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">historical lifecycle classes are shown.</text>
+<rect x="521.5859375" y="248" width="136.828125" height="48" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="265" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">executes fixture</text>
+<text x="590" y="287" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">work</text>
+<rect x="1182.734375" y="248" width="54.53125" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1210" y="265" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">clock</text>
+<rect x="794.203125" y="498" width="211.59375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="900" y="515" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">constructs fixture runtime</text>
+<rect x="557.4921875" y="648" width="65.015625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="665" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">injects</text>
+<text x="40" y="1751" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#68788a" text-anchor="start">CURRENT CODE · 2026-10-21 · fields/methods abbreviated · arrows explained in docs/code-structure.md</text>
+</svg>

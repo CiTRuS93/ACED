@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="960" viewBox="0 0 1400 960" role="img" aria-labelledby="aced-state-lifecycle-title aced-state-lifecycle-desc">
+<title id="aced-state-lifecycle-title">A · Run lifecycle</title>
+<desc id="aced-state-lifecycle-desc">Four public development stages; all inherit the task, result and control regions below.. Development-preview state chart; descriptive conditions are not additional public development stages. Transition guards are specified in the companion document.</desc>
+<rect width="1400" height="960" fill="#ffffff"/>
+<text x="32" y="49.2" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="30" font-weight="700" text-anchor="start">A · Run lifecycle</text>
+<text x="32" y="85.12" fill="#59687b" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="400" text-anchor="start">Four public development stages; all inherit the task, result and control regions below.</text>
+<rect x="35" y="130" width="250" height="100" rx="10" fill="#f4f6f9" stroke="#adb7c6" stroke-width="1" stroke-dasharray="7 5"/>
+<text x="160.0" y="156.64" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Accepted start</text>
+<text x="160.0" y="189.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Identity, source, limits</text>
+<text x="160.0" y="212.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">and exclusive ownership</text>
+<rect x="35" y="330" width="250" height="110" rx="10" fill="#edf3fc" stroke="#91afd2" stroke-width="1"/>
+<text x="160.0" y="361.64" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Hypothesize</text>
+<text x="160.0" y="394.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Evidence, assumptions</text>
+<text x="160.0" y="417.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">and cycle plan</text>
+<rect x="395" y="330" width="250" height="110" rx="10" fill="#edf3fc" stroke="#91afd2" stroke-width="1"/>
+<text x="520.0" y="361.64" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Implement</text>
+<text x="520.0" y="394.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Candidate and trusted</text>
+<text x="520.0" y="417.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">checks</text>
+<rect x="755" y="330" width="250" height="110" rx="10" fill="#edf3fc" stroke="#91afd2" stroke-width="1"/>
+<text x="880.0" y="361.64" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Experiment</text>
+<text x="880.0" y="394.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Canary -&gt; zero -&gt;</text>
+<text x="880.0" y="417.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">separate main -&gt; readout</text>
+<rect x="1115" y="330" width="250" height="110" rx="10" fill="#edf3fc" stroke="#91afd2" stroke-width="1"/>
+<text x="1240.0" y="361.64" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Decide</text>
+<text x="1240.0" y="394.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Disposition, learning and</text>
+<text x="1240.0" y="417.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">next action</text>
+<rect x="1115" y="730" width="250" height="110" rx="10" fill="#eaf6ef" stroke="#89b89c" stroke-width="2"/>
+<text x="1240.0" y="761.64" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">completed</text>
+<text x="1240.0" y="794.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Settled cycle; assessment</text>
+<text x="1240.0" y="817.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">recorded separately</text>
+<rect x="35" y="730" width="320" height="110" rx="10" fill="#f4f6f9" stroke="#adb7c6" stroke-width="1" stroke-dasharray="7 5"/>
+<text x="195.0" y="761.64" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Stop / reconcile</text>
+<text x="195.0" y="794.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">See F; retains current stage until</text>
+<text x="195.0" y="817.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">safe closure</text>
+<rect x="470" y="730" width="320" height="110" rx="10" fill="#eaf6ef" stroke="#89b89c" stroke-width="2"/>
+<text x="630.0" y="761.64" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">stopped</text>
+<text x="630.0" y="794.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Sticky operator stop + verified</text>
+<text x="630.0" y="817.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">settlement</text>
+<polyline points="160,230 160,330" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="160.00,330.00 154.78,319.19 165.22,319.19" fill="#365d8d"/>
+<polyline points="285,385 395,385" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="395.00,385.00 384.19,390.22 384.19,379.78" fill="#365d8d"/>
+<polyline points="645,385 755,385" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="755.00,385.00 744.19,390.22 744.19,379.78" fill="#365d8d"/>
+<polyline points="1005,385 1115,385" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1115.00,385.00 1104.19,390.22 1104.19,379.78" fill="#365d8d"/>
+<polyline points="250,330 250,280 1240,280 1240,330" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1240.00,330.00 1234.78,319.19 1245.22,319.19" fill="#365d8d"/>
+<polyline points="520,330 520,280 1240,280 1240,330" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1240.00,330.00 1234.78,319.19 1245.22,319.19" fill="#365d8d"/>
+<polyline points="1290,440 1290,625 160,625 160,440" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="160.00,440.00 165.22,450.81 154.78,450.81" fill="#365d8d"/>
+<polyline points="1190,440 1190,520 520,520 520,440" fill="none" stroke="#815b32" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="520.00,440.00 525.22,450.81 514.78,450.81" fill="#815b32"/>
+<polyline points="1340,440 1380,440 1380,785 1365,785" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1365.00,785.00 1375.81,779.78 1375.81,790.22" fill="#365d8d"/>
+<polyline points="355,785 470,785" fill="none" stroke="#815b32" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="470.00,785.00 459.19,790.22 459.19,779.78" fill="#815b32"/>
+<rect x="35" y="660" width="1030" height="53" rx="8" fill="#f5f7fa" stroke="#dde3eb" stroke-width="1"/>
+<text x="52" y="689.12" fill="#48586d" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="400" text-anchor="start">Waits, approval, correction and reconciliation preserve the stage. A stage transition is not a model invocation.</text>
+<rect x="825" y="730" width="250" height="140" rx="8" fill="#f5f7fa" stroke="#dde3eb" stroke-width="1"/>
+<text x="842" y="759.12" fill="#48586d" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="400" text-anchor="start">Goal result: attained,</text>
+<text x="842" y="784.12" fill="#48586d" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="400" text-anchor="start">not_attained or</text>
+<text x="842" y="809.12" fill="#48586d" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="400" text-anchor="start">undetermined.</text>
+<rect x="71.796875" y="262" width="136.40625" height="29" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="140" y="279.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">L1 · create run</text>
+<rect x="294.8671875" y="335" width="90.265625" height="52" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="340" y="352.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">L2 · plan</text>
+<text x="340" y="375.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">accepted</text>
+<rect x="646.4375" y="335" width="107.125" height="52" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="700" y="352.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">L3 · checks</text>
+<text x="700" y="375.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">accepted</text>
+<rect x="1019.890625" y="335" width="80.21875" height="75" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="1060" y="352.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">L4 ·</text>
+<text x="1060" y="375.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">attempt</text>
+<text x="1060" y="398.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">settled</text>
+<rect x="624.78515625" y="245" width="210.4296875" height="29" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="730" y="262.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">L5a · safely abandoned</text>
+<rect x="439.7734375" y="294" width="160.453125" height="29" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="520" y="311.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">L5b · same guard</text>
+<rect x="566.1328125" y="591" width="287.734375" height="29" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="710" y="608.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">L6 · next_hypothesis · new cycle</text>
+<rect x="760.3984375" y="485" width="199.203125" height="29" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="860" y="502.28" fill="#815b32" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">L7 · repair · new cycle</text>
+<rect x="1177.828125" y="665" width="94.34375" height="29" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="1225" y="682.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">L8 · finish</text>
+<rect x="357.8515625" y="735" width="104.296875" height="98" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="410" y="752.28" fill="#815b32" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">L9 ·</text>
+<text x="410" y="775.28" fill="#815b32" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">operator</text>
+<text x="410" y="798.28" fill="#815b32" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">stop +</text>
+<text x="410" y="821.28" fill="#815b32" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">settlement</text>
+<text x="32" y="943.44" fill="#64748b" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="400" text-anchor="start">PREVIEW · implemented contracts; qualification pending · full guards in aced-state-chart.md</text>
+</svg>

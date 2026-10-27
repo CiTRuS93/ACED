@@ -1,0 +1,105 @@
+classDiagram
+    direction TB
+    class IdentityProvider["IdentityProvider"] {
+        <<protocol>>
+        host-authenticated identity
+        async authenticate(context): Principal
+    }
+    class Runtime["Runtime"] {
+        <<class>>
+        store: SQLiteStore
+        projects: Mapping[str, ProjectConfig]
+        runners: Mapping[str, AgentRunner]
+        infrastructure: Infrastructure
+        identity: IdentityProvider / clock: Clock
+        start() / advance() / run_worker()
+        inspect() / tasks() / history()
+        hold() / resume() / stop() / repropose()
+        record_observation() / close()
+    }
+    class AgentRunner["AgentRunner"] {
+        <<protocol>>
+        async start(task): ExecutionRef
+        async observe(ref): AgentResult
+        async cancel(ref): AgentResult
+    }
+    class Clock["Clock"] {
+        <<protocol>>
+        now(): datetime
+    }
+    class SystemClock["SystemClock"] {
+        <<class>>
+        now(): aware UTC datetime
+    }
+    class CodexCliRunner["CodexCliRunner"] {
+        <<class>>
+        state_directory / output_directory
+        env / launcher_prefix / tool_profiles
+        _children: dict[str, Popen]
+        start() / observe() / cancel()
+    }
+    class SQLiteStore["SQLiteStore"] {
+        <<class>>
+        _connection: sqlite3.Connection
+        create() / get() / find() / list_due()
+        acquire() / save() / release()
+        tasks() / history() / verify_audit() / close()
+    }
+    class Record["Record"] {
+        <<value>>
+        id / project_id / key / fingerprint
+        revision / data: dict
+    }
+    class Lease["Lease"] {
+        <<value>>
+        run_id / owner / fence / expires_at
+    }
+    class RuntimeDB["Runtime SQLite"] {
+        <<store>>
+        runs = projection + lease + ownership
+        tasks = durable task outbox
+        records = content-addressed immutable data
+        events = ordered hash-linked history
+        cddai_metadata = format / audit anchors
+    }
+    class CodexJob["_codex_job"] {
+        <<module>>
+        manifest / output / protected receipt
+        record() / _capture()
+        starts and records codex exec
+    }
+    class Workflow["workflow"] {
+        <<module>>
+        INSTRUCTIONS; four-stage evidence guards
+        complete(data, facts, config, now)
+        request_stop() / continuation_seed()
+    }
+    class TransitionRegistry["transitions"] {
+        <<module>>
+        TRANSITIONS: dict[(Step, event), Transition]
+        DEFAULT_SCOPES: dict[Step, str]
+        transition(step, event): Step
+        scope_for(step, event): str
+    }
+    class Transition["Transition"] {
+        <<value>>
+        step: Step / scope: str | None
+    }
+    class Json["_json"] {
+        <<module>>
+        canonical serialization / hashes / UTC
+        canonical_text() / canonical_hash()
+        freeze() / json_value() / utc_text()
+    }
+    Runtime --> IdentityProvider : authenticates
+    Runtime --> AgentRunner : selects frozen runner
+    Runtime --> Clock : reads time
+    SystemClock ..|> Clock
+    CodexCliRunner ..|> AgentRunner
+    Runtime *-- SQLiteStore : owns one
+    SQLiteStore --> Record : reads / writes
+    SQLiteStore --> Lease : fences commits
+    SQLiteStore *-- RuntimeDB : persists atomically
+    CodexCliRunner --> CodexJob : launches recorder
+    Workflow --> TransitionRegistry : uses sole registry
+    TransitionRegistry --> Transition : values

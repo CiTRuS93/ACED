@@ -1,0 +1,23 @@
+stateDiagram-v2
+    direction TB
+    state "Ordinary scheduling\nOnly while other launch guards allow" as GO
+    state "Held\nNo ordinary launch / resume / repair" as HOLD
+    state "Stop / incident\nPersist cause; operator stop is sticky" as INC
+    state "Stop delivery\nStable request identity; send immediately" as DEL
+    state "Settlement pending\nStop application + zero + execution / effects" as SET
+    state "Authorized reconciliation\nMutable cleanup only after execution terminal / fenced" as REC
+    state "Reconciliation blocked\nStopping / recovery remains nonterminal" as BLOCK
+    state "Closure verified\nNo re-exposure; source and required disposition settled" as FACT
+    state "stopped\nOperator stop; learning or explicit learning_unavailable" as OS
+    state "Decide\nSettled operational failure; learning before any repair" as FAIL
+    state "Observe without stopping\nE / R11: protected active work can continue" as BACK
+    GO --> HOLD: F1 hold
+    HOLD --> GO: F2 resume + recheck
+    INC --> DEL: F3 stop required
+    DEL --> SET: F4 send + observe
+    SET --> REC: F5 observe + reconcile
+    REC --> FACT: F6 all closure facts verified
+    REC --> BLOCK: F7 cannot establish closure
+    BLOCK --> REC: F8 actual resolution
+    FACT --> OS: F9 operator stop
+    FACT --> FAIL: F10 operational failure

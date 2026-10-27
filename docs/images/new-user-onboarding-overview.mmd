@@ -1,0 +1,74 @@
+sequenceDiagram
+    actor U as User
+    participant S as Setup assistant
+    participant C as ACED
+    participant A as Stage agent
+    participant H as Existing tools and infrastructure
+
+    Note over U,H: 1. Discover
+    U->>S: Project, desired outcome and constraints
+    S->>H: Inspect documentation, tools and records
+    H-->>S: Available capabilities and current state
+    S-->>U: Capabilities map and remaining questions
+    U->>S: Resolve business choices and limits
+
+    Note over U,H: 2. Prepare
+    S->>S: Prepare configuration, skills and host connections
+    S->>H: Configure existing identity, permissions and supervision
+    S-->>U: Concrete integration and bounded validation plan
+    U->>S: Authorize scope, including standing policy where appropriate
+
+    Note over U,H: 3. Rehearse
+    S->>A: Exercise the actual runner in an isolated environment
+    A->>H: Test access, checks, evidence writing and controls
+    S->>H: Verify independent stopping and interruption recovery
+    H-->>S: Receipts and permission results
+    Note over S,H: Fix authorized setup issues and repeat failed checks
+
+    Note over U,H: 4. Complete a short real cycle
+    S->>C: Start the authorized validation run
+    Note over C,H: Before each task: persist inputs and budget, obtain host authorization
+    C->>A: Hypothesize
+    A->>H: Research approved evidence
+    A-->>C: Hypothesis and bounded plan
+    C->>C: Accept and freeze plan
+    C->>A: Implement
+    A->>H: Edit, test and debug
+    A-->>C: Candidate and trusted check references
+    C->>H: Verify candidate and checks
+    C->>A: Experiment - canary scope
+    A->>H: Deploy disabled, establish protection, operate canary
+    A-->>C: Yield with canary closure evidence
+    C->>H: Verify zero, separation and prior execution settlement
+    C->>A: Experiment - main scope
+    A->>H: Establish main protection, activate once
+    A-->>C: Operation reference and checkpoint
+    par Durable coordination
+        C->>C: Wait and recheck due records
+    and Independent protection
+        H->>H: Monitor and enforce stopping
+    end
+    C->>A: Resume for closed-window readout
+    A->>H: Inspect the same experiment
+    A-->>C: Readout or unsuccessful outcome
+    C->>H: Verify closure and evidence
+    C->>A: Decide
+    A-->>C: Proposed disposition
+    C->>H: Verify eligibility and authorization
+    C->>A: Execute any required authorized disposition
+    A->>H: Apply and observe outcome
+    A-->>C: Retained source, learning and assessment
+    C->>H: Verify settlement
+    C-->>S: Completed cycle and history
+
+    Note over U,H: 5. Validate recovery
+    S->>C: Exercise bounded interruption and failure cases
+    C->>H: Reconcile original operations and verify stopping
+    C-->>S: Recovery evidence and remaining blockers
+
+    Note over U,H: 6. Hand over
+    S-->>U: Versioned setup, evidence and operating instructions
+    U->>C: Start an authorized goal
+    C->>A: Orchestrate subsequent development stages
+    C-->>U: Inspectable progress, decisions and learning
+    Note over U,H: Setup assistant can exit; independent protection remains available

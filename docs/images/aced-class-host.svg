@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2320" viewBox="0 0 1800 2320" role="img" aria-labelledby="title desc">
+<title id="title">D · playground host composition and helpers</title>
+<desc id="desc">The host integrates the core. File/module boxes are explicitly marked; there is no second lifecycle. Current source, not a proposed architecture. Solid arrows are associations or calls; dashed open triangles show structural protocol conformance.</desc>
+<rect width="1800" height="2320" fill="#ffffff"/>
+<polyline points="520,255.0 660,267.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="660.00,267.00 647.64,271.02 648.50,260.93" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1140,267.0 1280,267.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1280.00,267.00 1268.03,272.06 1268.03,261.94" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="900.0,389 900.0,540" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="900.00,540.00 894.94,528.03 905.06,528.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="660,638.0 520,638.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="520.00,638.00 531.97,632.94 531.97,643.06" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1140,638.0 1280,638.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1280.00,638.00 1268.03,643.06 1268.03,632.94" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="900.0,736 900,810 280,810 280.0,900" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="280.00,900.00 274.94,888.03 285.06,888.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="520,1034.0 660,1022.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="660.00,1022.00 648.50,1028.07 647.64,1017.98" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polygon points="520.00,1034.00 528.40,1038.30 535.94,1032.63 527.54,1028.34" fill="#566d88"/>
+<polyline points="1280,1022.0 1140,1022.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1140.00,1022.00 1151.97,1016.94 1151.97,1027.06" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polygon points="1280.00,1022.00 1272.00,1017.00 1264.00,1022.00 1272.00,1027.00" fill="#566d88"/>
+<polyline points="1520.0,736 1520.0,900" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="1520.00,900.00 1514.94,888.03 1525.06,888.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="280.0,1168 280.0,1310" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="280.00,1310.00 274.94,1298.03 285.06,1298.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1520.0,1144 1520.0,1310" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1520.00,1310.00 1514.94,1298.03 1525.06,1298.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1280,1092.0 1200,1080 1200,1270 900,1270 900.0,1310" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="900.00,1310.00 894.94,1298.03 905.06,1298.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="520,1124.0 555,1105 555,1430 660,1432.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="660.00,1432.00 647.93,1436.83 648.12,1426.71" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="520,1838.0 660,1850.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="660.00,1850.00 647.64,1854.02 648.50,1843.93" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="40,1838.0 17,1845 17,1045 40,1034.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="40.00,1034.00 31.38,1043.73 27.01,1034.60" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<text x="40" y="59" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="700" fill="#24344b" text-anchor="start">D · playground host composition and helpers</text>
+<text x="40" y="95" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#5c6c7e" text-anchor="start">The host integrates the core. File/module boxes are explicitly marked; there is no second lifecycle.</text>
+<rect x="660" y="145" width="480" height="244" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="674" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="674" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">__main__</text>
+<text x="674" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host/__main__.py</text>
+<path d="M 660 232 H 1140" stroke="#c6a36c"/>
+<text x="674" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">existing host process + worker lock</text>
+<path d="M 660 270 H 1140" stroke="#c6a36c"/>
+<text x="674" y="297" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">execute() / work() / prepare()</text>
+<text x="674" y="321" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">agent_runner() / configure_agent()</text>
+<text x="674" y="345" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">observe_research()</text>
+<rect x="40" y="145" width="480" height="220" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="54" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="54" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">GoalSpec</text>
+<text x="54" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host/config.py</text>
+<path d="M 40 232 H 520" stroke="#72a898"/>
+<text x="54" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">key / objective / plan / plan_bounds</text>
+<text x="54" y="283" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">max_cycles / max_tasks / instructions</text>
+<path d="M 40 294 H 520" stroke="#72a898"/>
+<text x="54" y="321" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">goal: Goal</text>
+<rect x="1280" y="145" width="480" height="244" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="1294" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="1294" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">config + settings + workspace</text>
+<text x="1294" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host/{config,settings,workspace}.py</text>
+<path d="M 1280 232 H 1760" stroke="#c6a36c"/>
+<text x="1294" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">typed config / paths / public Git boundary</text>
+<path d="M 1280 270 H 1760" stroke="#c6a36c"/>
+<text x="1294" y="297" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">load_goals() / build_project()</text>
+<text x="1294" y="321" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">verify_product_workspace()</text>
+<text x="1294" y="345" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">prepare_product_workspace()</text>
+<rect x="40" y="540" width="480" height="196" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="54" y="564" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="54" y="594" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">LocalIdentity</text>
+<text x="54" y="616" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host/identity.py</text>
+<path d="M 40 627 H 520" stroke="#6b8bb7"/>
+<text x="54" y="654" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">_token / _principal: Principal</text>
+<path d="M 40 665 H 520" stroke="#6b8bb7"/>
+<text x="54" y="692" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">async authenticate(context): Principal</text>
+<rect x="660" y="540" width="480" height="196" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="674" y="564" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="674" y="594" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Runtime</text>
+<text x="674" y="616" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced.runtime · injected core</text>
+<path d="M 660 627 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="654" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">one coordinator / one SQLiteStore</text>
+<path d="M 660 665 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="692" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">run_worker() / inspect() / history()</text>
+<rect x="1280" y="540" width="480" height="196" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="1294" y="564" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="1294" y="594" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">CodexCliRunner</text>
+<text x="1294" y="616" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced.codex · injected core</text>
+<path d="M 1280 627 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="654" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">host-prepared sandbox / env / outputs</text>
+<path d="M 1280 665 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="692" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">start() / observe() / cancel()</text>
+<rect x="40" y="900" width="480" height="268" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="54" y="924" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="54" y="954" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">PlaygroundInfrastructure</text>
+<text x="54" y="976" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host/infrastructure.py</text>
+<path d="M 40 987 H 520" stroke="#6b8bb7"/>
+<text x="54" y="1014" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">state_directory / status_file</text>
+<text x="54" y="1038" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">approvals: LocalApprovals</text>
+<text x="54" y="1062" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">repair_preauthorized</text>
+<path d="M 40 1073 H 520" stroke="#6b8bb7"/>
+<text x="54" y="1100" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">authorize() / read_evidence()</text>
+<text x="54" y="1124" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">safety() / request_stop()</text>
+<rect x="660" y="900" width="480" height="244" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="674" y="924" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="674" y="954" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">LocalApprovals</text>
+<text x="674" y="976" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host/approvals.py</text>
+<path d="M 660 987 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="1014" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">root / directory / policy: ApprovalPolicy</text>
+<path d="M 660 1025 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="1052" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">authorize() / respond() / pending()</text>
+<text x="674" y="1076" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">replace_plan_review()</text>
+<text x="674" y="1100" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">emit() / async collect_events()</text>
+<rect x="1280" y="900" width="480" height="244" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="1294" y="924" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="1294" y="954" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">TrustedTools</text>
+<text x="1294" y="976" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host/tools.py</text>
+<path d="M 1280 987 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="1014" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">runtime: Runtime / directory / surface</text>
+<text x="1294" y="1038" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">approvals: LocalApprovals</text>
+<path d="M 1280 1049 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="1076" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">async process() / poll() / run()</text>
+<text x="1294" y="1100" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">publish()</text>
+<rect x="40" y="1310" width="480" height="220" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="54" y="1334" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="54" y="1364" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">hypothesis + capture_evidence</text>
+<text x="54" y="1386" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host/{hypothesis,capture_evidence}.py</text>
+<path d="M 40 1397 H 520" stroke="#c6a36c"/>
+<text x="54" y="1424" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">retained scoped observations + proposals</text>
+<path d="M 40 1435 H 520" stroke="#c6a36c"/>
+<text x="54" y="1462" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">capture() / admit_research_task()</text>
+<text x="54" y="1486" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">verify_hypothesis() / repropose_plan_review()</text>
+<rect x="660" y="1310" width="480" height="244" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="674" y="1334" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="674" y="1364" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">source + checks + evidence</text>
+<text x="674" y="1386" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host/{source,checks,evidence}.py</text>
+<path d="M 660 1397 H 1140" stroke="#c6a36c"/>
+<text x="674" y="1424" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">native source / checks / readout / settlement</text>
+<path d="M 660 1435 H 1140" stroke="#c6a36c"/>
+<text x="674" y="1462" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">verify_implementation() / read_receipt()</text>
+<text x="674" y="1486" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">capture_checks() / candidate_checks()</text>
+<text x="674" y="1510" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">shop_records() / native_deadline()</text>
+<rect x="1280" y="1310" width="480" height="220" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="1294" y="1334" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="1294" y="1364" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">controls + ownership</text>
+<text x="1294" y="1386" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host/{controls,ownership}.py</text>
+<path d="M 1280 1397 H 1760" stroke="#c6a36c"/>
+<text x="1294" y="1424" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">native grants / original arm proposal / ownership</text>
+<path d="M 1280 1435 H 1760" stroke="#c6a36c"/>
+<text x="1294" y="1462" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">provision() / arm() / acknowledge_incident()</text>
+<text x="1294" y="1486" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">owner() / claim() / release()</text>
+<rect x="40" y="1740" width="480" height="196" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="54" y="1764" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="54" y="1794" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">watchdog</text>
+<text x="54" y="1816" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host/watchdog.py · independent process</text>
+<path d="M 40 1827 H 520" stroke="#c6a36c"/>
+<text x="54" y="1854" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">guardrails / coverage / native deadline</text>
+<path d="M 40 1865 H 520" stroke="#c6a36c"/>
+<text x="54" y="1892" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">inspect() / probe() / monitor()</text>
+<rect x="660" y="1740" width="480" height="220" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="674" y="1764" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="674" y="1794" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">stop_treatment + deployment</text>
+<text x="674" y="1816" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host/{stop_treatment,deployment}.py</text>
+<path d="M 660 1827 H 1140" stroke="#c6a36c"/>
+<text x="674" y="1854" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">existing HTTP controls / systemd reads</text>
+<path d="M 660 1865 H 1140" stroke="#c6a36c"/>
+<text x="674" y="1892" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">stop_treatment() / snapshot() / request()</text>
+<text x="674" y="1916" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">service_state() / inspect_shop()</text>
+<rect x="1280" y="1740" width="480" height="224" rx="6" fill="#eef1f7" stroke="#7c8d9f"/>
+<text x="1294" y="1764" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#7c8d9f" text-anchor="start">«store»</text>
+<text x="1294" y="1794" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Host files and tool surfaces</text>
+<text x="1294" y="1816" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">files · not a new runtime database</text>
+<path d="M 1280 1827 H 1760" stroke="#7c8d9f"/>
+<text x="1294" y="1854" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">protected inbox / checks / protection / monitor</text>
+<text x="1294" y="1878" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">protected runner and helper receipts</text>
+<text x="1294" y="1902" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">agent-writable requests and output</text>
+<text x="1294" y="1926" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">agent-readable responses; not authoritative</text>
+<rect x="40" y="2115" width="1720" height="70" rx="6" fill="#f8fafc" stroke="#d9e1ea"/>
+<text x="54" y="2142" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">work() runs Runtime.run_worker, TrustedTools.run and approval event delivery together. Each LocalApprovals object uses the same locked inbox. The helper serves only checks and arm; agents use</text>
+<text x="54" y="2166" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">other authorized tools directly. Watchdog stopping does not depend on this worker. Host __init__ is package scaffolding; agent.md/goals.toml are instructions/configuration.</text>
+<rect x="531.984375" y="228" width="116.03125" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="245" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">goal + config</text>
+<rect x="1185.203125" y="228" width="49.59375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1210" y="245" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">calls</text>
+<rect x="805.53125" y="458" width="188.9375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="900" y="475" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">constructs / supervises</text>
+<rect x="522.3828125" y="608" width="135.234375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="625" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">IdentityProvider</text>
+<rect x="1152.9765625" y="608" width="114.046875" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1210" y="625" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">AgentRunner</text>
+<rect x="520.6875" y="783" width="118.625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="580" y="800" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">Infrastructure</text>
+<rect x="528.4765625" y="1008" width="123.046875" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="1025" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">owns instance</text>
+<rect x="1150.921875" y="1008" width="118.15625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1210" y="1025" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">owns another</text>
+<rect x="1370.8203125" y="804" width="298.359375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1520" y="821" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">launched agent → tool CLI → requests</text>
+<rect x="203.15625" y="1258" width="153.6875" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="280" y="1275" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">research evidence</text>
+<rect x="1497.1484375" y="1255" width="45.703125" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1520" y="1272" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">arm</text>
+<rect x="1016.1328125" y="1241" width="67.734375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1050" y="1258" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">checks</text>
+<rect x="533.2421875" y="1248" width="103.515625" height="48" rx="3" fill="#fff" stroke="#fff"/>
+<text x="585" y="1265" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">reads exact</text>
+<text x="585" y="1287" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">receipts</text>
+<rect x="529.0234375" y="1838" width="121.953125" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="1855" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">stop / rollback</text>
+<rect x="86.140625" y="1648" width="167.71875" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="170" y="1665" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">safety via status file</text>
+<text x="40" y="2301" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#68788a" text-anchor="start">CURRENT CODE · 2026-10-21 · fields/methods abbreviated · arrows explained in docs/code-structure.md</text>
+</svg>

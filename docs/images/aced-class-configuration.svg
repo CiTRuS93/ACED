@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1520" viewBox="0 0 1800 1520" role="img" aria-labelledby="title desc">
+<title id="title">B · configuration and continuity</title>
+<desc id="desc">Frozen values configure one run. A selected cycle plan can change only at a new Hypothesize handoff. Current source, not a proposed architecture. Solid arrows are associations or calls; dashed open triangles show structural protocol conformance.</desc>
+<rect width="1800" height="1520" fill="#ffffff"/>
+<polyline points="780.0,461 780,570 280,570 280.0,640" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="280.00,640.00 274.94,628.03 285.06,628.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="900.0,461 900.0,640" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="900.00,640.00 894.94,628.03 905.06,628.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1020.0,461 1020,570 1520,570 1520.0,640" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1520.00,640.00 1514.94,628.03 1525.06,628.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1140,408.0 1195,450 1195,1220 1140,1212.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1140.00,1212.00 1152.58,1208.71 1151.12,1218.73" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="900.0,1090 900.0,932" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="900.00,932.00 905.06,943.97 894.94,943.97" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1520.0,908 1520.0,1090" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1520.00,1090.00 1514.94,1078.03 1525.06,1078.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<text x="40" y="59" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="700" fill="#24344b" text-anchor="start">B · configuration and continuity</text>
+<text x="40" y="95" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#5c6c7e" text-anchor="start">Frozen values configure one run. A selected cycle plan can change only at a new Hypothesize handoff.</text>
+<rect x="40" y="145" width="480" height="152" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="54" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="54" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Goal</text>
+<text x="54" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 40 232 H 520" stroke="#72a898"/>
+<text x="54" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">project_id / objective</text>
+<rect x="660" y="145" width="480" height="316" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="674" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="674" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">ProjectConfig</text>
+<text x="674" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 660 232 H 1140" stroke="#72a898"/>
+<text x="674" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">project_id / workspace / source_revision</text>
+<text x="674" y="283" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">resource_id / default_agent / required_checks</text>
+<text x="674" y="307" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">max_tasks / max_attempts / max_cycles</text>
+<text x="674" y="331" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">cleanup_tasks / poll_seconds / constraints</text>
+<text x="674" y="355" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">require_research_observation: bool</text>
+<path d="M 660 366 H 1140" stroke="#72a898"/>
+<text x="674" y="393" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">step(Step): StepConfig</text>
+<text x="674" y="417" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">snapshot() / fingerprint</text>
+<rect x="1280" y="145" width="480" height="176" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="1294" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="1294" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">RunContinuation</text>
+<text x="1294" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 1280 232 H 1760" stroke="#72a898"/>
+<text x="1294" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">previous_run_id / accepted_source</text>
+<text x="1294" y="283" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">learning_references / candidate_ids</text>
+<rect x="40" y="640" width="480" height="176" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="54" y="664" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="54" y="694" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">StepConfig</text>
+<text x="54" y="716" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 40 727 H 520" stroke="#72a898"/>
+<text x="54" y="754" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">agent: str | None / instructions</text>
+<text x="54" y="778" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">tool_profile / timeout_seconds / max_cost</text>
+<rect x="660" y="640" width="480" height="292" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="674" y="664" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="674" y="694" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">ExperimentPlan</text>
+<text x="674" y="716" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 660 727 H 1140" stroke="#72a898"/>
+<text x="674" y="754" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">metric / decision_rule / guardrails</text>
+<text x="674" y="778" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">separate canary + main cohorts / allocation</text>
+<text x="674" y="802" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">canary duration + samples / main duration</text>
+<text x="674" y="826" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">monitor_grace / readout + observation delay</text>
+<text x="674" y="850" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">native: Mapping[str, Any]</text>
+<path d="M 660 861 H 1140" stroke="#72a898"/>
+<text x="674" y="888" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">fingerprint</text>
+<rect x="1280" y="640" width="480" height="268" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="1294" y="664" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="1294" y="694" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">ApprovalPolicy</text>
+<text x="1294" y="716" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 1280 727 H 1760" stroke="#72a898"/>
+<text x="1294" y="754" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">boundaries / approvers / channel</text>
+<text x="1294" y="778" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">destinations / events / escalation</text>
+<text x="1294" y="802" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">delivery_failure / no_response</text>
+<text x="1294" y="826" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">no_response_seconds / validity_seconds</text>
+<path d="M 1280 837 H 1760" stroke="#72a898"/>
+<text x="1294" y="864" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">mode(scope): ApprovalMode</text>
+<rect x="40" y="1070" width="480" height="176" rx="6" fill="#f0f4f7" stroke="#91a3b5"/>
+<text x="54" y="1094" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#91a3b5" text-anchor="start">«enum»</text>
+<text x="54" y="1124" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Step</text>
+<text x="54" y="1146" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py · StrEnum</text>
+<path d="M 40 1157 H 520" stroke="#91a3b5"/>
+<text x="54" y="1184" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">HYPOTHESIZE / IMPLEMENT</text>
+<text x="54" y="1208" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">EXPERIMENT / DECIDE</text>
+<rect x="660" y="1090" width="480" height="244" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="674" y="1114" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="674" y="1144" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">PlanBounds</text>
+<text x="674" y="1166" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 660 1177 H 1140" stroke="#72a898"/>
+<text x="674" y="1204" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">allowed metrics / rules / guardrails</text>
+<text x="674" y="1228" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">allocation and time ceilings</text>
+<text x="674" y="1252" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">traffic, maturity and observation floors</text>
+<path d="M 660 1263 H 1140" stroke="#72a898"/>
+<text x="674" y="1290" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">admit(plan: ExperimentPlan)</text>
+<rect x="1280" y="1090" width="480" height="152" rx="6" fill="#f0f4f7" stroke="#91a3b5"/>
+<text x="1294" y="1114" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#91a3b5" text-anchor="start">«enum»</text>
+<text x="1294" y="1144" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">ApprovalMode</text>
+<text x="1294" y="1166" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py · StrEnum</text>
+<path d="M 1280 1177 H 1760" stroke="#91a3b5"/>
+<text x="1294" y="1204" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">REVIEW / DENY / PREAUTHORIZED</text>
+<rect x="40" y="1355" width="1720" height="70" rx="6" fill="#f8fafc" stroke="#d9e1ea"/>
+<text x="54" y="1382" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">Runtime.start receives Goal and optional RunContinuation, uses the registered ProjectConfig and returns Inspection. Agent routing keys are strings, not AgentRunner object fields. No universal</text>
+<text x="54" y="1406" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">candidate-scoring or campaign class is present.</text>
+<rect x="440.75" y="543" width="138.5" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="510" y="560" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">steps[Step]: 0..*</text>
+<rect x="866.1328125" y="563" width="67.734375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="900" y="580" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">plan: 1</text>
+<rect x="1225.6796875" y="543" width="108.640625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1280" y="560" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">approvals: 1</text>
+<rect x="1115.3359375" y="1013" width="149.328125" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1190" y="1030" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">plan_bounds: 0..1</text>
+<rect x="864.4609375" y="1028" width="71.078125" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="900" y="1045" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">admit()</text>
+<rect x="1449.5078125" y="1023" width="140.984375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1520" y="1040" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">boundary values</text>
+<text x="40" y="1501" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#68788a" text-anchor="start">CURRENT CODE · 2026-10-21 · fields/methods abbreviated · arrows explained in docs/code-structure.md</text>
+</svg>

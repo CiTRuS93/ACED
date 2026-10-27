@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1320" viewBox="0 0 1800 1320" role="img" aria-labelledby="title desc">
+<title id="title">ACED · components and their connections</title>
+<desc id="desc">One coordinator; injected contracts; agent-owned procedures and independently enforced host controls. Current source, not a proposed architecture. Solid arrows are associations or calls; dashed open triangles show structural protocol conformance.</desc>
+<rect width="1800" height="1320" fill="#ffffff"/>
+<polyline points="900.0,341 900.0,455" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="900.00,455.00 894.94,443.03 905.06,443.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polygon points="900.00,341.00 895.00,349.00 900.00,357.00 905.00,349.00" fill="#566d88"/>
+<polyline points="660,565.0 590,570 590,405 280,405 280.0,341" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="280.00,341.00 285.06,352.97 274.94,352.97" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1140,565.0 1210,570 1210,405 1520,405 1520.0,341" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1520.00,341.00 1525.06,352.97 1514.94,352.97" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="660,565.0 520,553.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="520.00,553.00 532.36,548.98 531.50,559.07" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1140,565.0 1280,553.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1280.00,553.00 1268.50,559.07 1267.64,548.98" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="900.0,675 900,760 280,760 280.0,820" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="280.00,820.00 274.94,808.03 285.06,808.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polygon points="900.00,675.00 895.00,683.00 900.00,691.00 905.00,683.00" fill="#566d88"/>
+<polyline points="1030.0,675 1030.0,820" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1030.00,820.00 1024.94,808.03 1035.06,808.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1520.0,651 1520.0,820" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="1520.00,820.00 1514.94,808.03 1525.06,808.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1280,918.0 1140,930.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="1140.00,930.00 1151.50,923.93 1152.36,934.02" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<text x="40" y="59" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="700" fill="#24344b" text-anchor="start">ACED · components and their connections</text>
+<text x="40" y="95" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#5c6c7e" text-anchor="start">One coordinator; injected contracts; agent-owned procedures and independently enforced host controls.</text>
+<rect x="660" y="145" width="480" height="196" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="674" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="674" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">cddai_host.__main__</text>
+<text x="674" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">playground integration</text>
+<path d="M 660 232 H 1140" stroke="#c6a36c"/>
+<text x="674" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">compose Runtime + runner + infrastructure</text>
+<path d="M 660 270 H 1140" stroke="#c6a36c"/>
+<text x="674" y="297" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">work(): worker + helpers + events</text>
+<rect x="40" y="145" width="480" height="196" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="54" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="54" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">ProjectConfig</text>
+<text x="54" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced.models</text>
+<path d="M 40 232 H 520" stroke="#72a898"/>
+<text x="54" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">source, plan, bounds, budgets, approvals</text>
+<path d="M 40 270 H 520" stroke="#72a898"/>
+<text x="54" y="297" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">snapshot() / step()</text>
+<rect x="1280" y="145" width="480" height="196" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="1294" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="1294" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">LocalIdentity</text>
+<text x="1294" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host.identity</text>
+<path d="M 1280 232 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">token-bound Principal</text>
+<path d="M 1280 270 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="297" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">authenticate(context)</text>
+<rect x="660" y="455" width="480" height="220" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="674" y="479" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="674" y="509" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Runtime</text>
+<text x="674" y="531" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced.runtime</text>
+<path d="M 660 542 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="569" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">projects / runners / infrastructure / identity</text>
+<path d="M 660 580 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="607" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">advance() / run_worker()</text>
+<text x="674" y="631" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">hold() / resume() / stop()</text>
+<rect x="40" y="455" width="480" height="196" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="54" y="479" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="54" y="509" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">workflow + transitions</text>
+<text x="54" y="531" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced.workflow / aced.transitions</text>
+<path d="M 40 542 H 520" stroke="#c6a36c"/>
+<text x="54" y="569" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">evidence predicates + legal registry</text>
+<path d="M 40 580 H 520" stroke="#c6a36c"/>
+<text x="54" y="607" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">complete() / request_stop() / transition()</text>
+<rect x="1280" y="455" width="480" height="196" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="1294" y="479" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="1294" y="509" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">CodexCliRunner</text>
+<text x="1294" y="531" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced.codex</text>
+<path d="M 1280 542 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="569" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">implements AgentRunner structurally</text>
+<path d="M 1280 580 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="607" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">start() / observe() / cancel()</text>
+<rect x="40" y="820" width="480" height="196" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="54" y="844" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="54" y="874" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">SQLiteStore</text>
+<text x="54" y="896" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">aced.store</text>
+<path d="M 40 907 H 520" stroke="#6b8bb7"/>
+<text x="54" y="934" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">one runtime DB: runs, tasks, records, events</text>
+<path d="M 40 945 H 520" stroke="#6b8bb7"/>
+<text x="54" y="972" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">fenced save() / history() / verify_audit()</text>
+<rect x="660" y="820" width="480" height="220" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="674" y="844" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="674" y="874" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">PlaygroundInfrastructure</text>
+<text x="674" y="896" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">cddai_host.infrastructure</text>
+<path d="M 660 907 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="934" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">implements Infrastructure structurally</text>
+<path d="M 660 945 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="972" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">authorize() / read_evidence()</text>
+<text x="674" y="996" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">safety() / request_stop()</text>
+<rect x="1280" y="820" width="480" height="196" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="1294" y="844" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="1294" y="874" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">TrustedTools</text>
+<text x="1294" y="896" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">TrustedTools class; other tools are modules</text>
+<path d="M 1280 907 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="934" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">task-bound checks and arm requests</text>
+<path d="M 1280 945 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="972" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">process() / poll() / run()</text>
+<rect x="40" y="1150" width="1720" height="70" rx="6" fill="#f8fafc" stroke="#d9e1ea"/>
+<text x="54" y="1177" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">Separate host watchdog process observes native deadlines and health, applies stopping, and publishes safety records. Core SQLite, protected host journals and native product SQLite are distinct</text>
+<text x="54" y="1201" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">stores. No model polling loop or second lifecycle exists.</text>
+<rect x="816.921875" y="376.0" width="166.15625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="900.0" y="393.0" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">creates / supervises</text>
+<rect x="371.203125" y="380" width="57.59375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="400" y="397" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">reads</text>
+<rect x="1322.3828125" y="380" width="135.234375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1390" y="397" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">IdentityProvider</text>
+<rect x="527.3984375" y="538" width="125.203125" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="555" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">validates facts</text>
+<rect x="1152.9765625" y="538" width="114.046875" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1210" y="555" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">AgentRunner</text>
+<rect x="542.625" y="734" width="54.75" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="570" y="751" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">owns</text>
+<rect x="970.6875" y="773" width="118.625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1030" y="790" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">Infrastructure</text>
+<rect x="1393.4921875" y="753" width="253.015625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1520" y="770" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">launched agent → tool requests</text>
+<rect x="1140.8125" y="886" width="138.375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1210" y="903" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">receipts via files</text>
+<text x="40" y="1301" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#68788a" text-anchor="start">CURRENT CODE · 2026-10-21 · fields/methods abbreviated · arrows explained in docs/code-structure.md</text>
+</svg>

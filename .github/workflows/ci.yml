@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        python: ["3.12", "3.13"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: python -m pip install -e ".[dev]"
+      - run: npm ci && npm run format:check && npm run build && npm test
+        working-directory: frontend
+      - run: python -m playwright install --with-deps chromium
+      - run: python tests/manager/run_browser.py
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: mypy
+      - run: pytest --cov=aced --cov-branch --cov-fail-under=90
+      - run: python -m build
+      - run: python tests/manager/wheel_smoke.py dist/*.whl
+      - run: 'aced --database :memory: conformance'

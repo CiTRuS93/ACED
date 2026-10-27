@@ -1,0 +1,450 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="9408" viewBox="0 0 1140 9408" role="img" aria-labelledby="title desc">
+<title id="title">New user onboarding — complete sequence</title>
+<desc id="desc">Read top to bottom. Lifelines distinguish the user, setup assistant, ACED and its host worker, stage agents, existing tools and records, and independent monitoring and stopping. This is the integration qualification procedure; it does not certify a live cycle.</desc>
+<rect width="1140" height="9408" fill="#ffffff"/>
+<text x="24" y="45.239999999999995" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" text-anchor="start">New user onboarding — complete sequence</text>
+<text x="24" y="79.28" fill="#566579" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">PREVIEW · qualification required · arrows are interactions, not elapsed time</text>
+<polyline points="90,187 90,9363" fill="none" stroke="#c9d1dd" stroke-width="1" stroke-dasharray="5 6"/>
+<rect x="12" y="104" width="156" height="78" rx="6" fill="#edf3fa" stroke="#d0dbe9"/>
+<text x="90" y="133.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle">User</text>
+<polyline points="282,187 282,9363" fill="none" stroke="#c9d1dd" stroke-width="1" stroke-dasharray="5 6"/>
+<rect x="204" y="104" width="156" height="78" rx="6" fill="#edf3fa" stroke="#d0dbe9"/>
+<text x="282" y="133.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Setup</text>
+<text x="282" y="158.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle">assistant</text>
+<polyline points="474,187 474,9363" fill="none" stroke="#c9d1dd" stroke-width="1" stroke-dasharray="5 6"/>
+<rect x="396" y="104" width="156" height="78" rx="6" fill="#edf3fa" stroke="#d0dbe9"/>
+<text x="474" y="133.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle">ACED +</text>
+<text x="474" y="158.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle">host worker</text>
+<polyline points="666,187 666,9363" fill="none" stroke="#c9d1dd" stroke-width="1" stroke-dasharray="5 6"/>
+<rect x="588" y="104" width="156" height="78" rx="6" fill="#edf3fa" stroke="#d0dbe9"/>
+<text x="666" y="133.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Stage</text>
+<text x="666" y="158.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle">agent</text>
+<polyline points="858,187 858,9363" fill="none" stroke="#c9d1dd" stroke-width="1" stroke-dasharray="5 6"/>
+<rect x="780" y="104" width="156" height="78" rx="6" fill="#edf3fa" stroke="#d0dbe9"/>
+<text x="858" y="133.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Existing tools</text>
+<text x="858" y="158.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle">+ records</text>
+<polyline points="1050,187 1050,9363" fill="none" stroke="#c9d1dd" stroke-width="1" stroke-dasharray="5 6"/>
+<rect x="972" y="104" width="156" height="78" rx="6" fill="#edf3fa" stroke="#d0dbe9"/>
+<text x="1050" y="133.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Independent</text>
+<text x="1050" y="158.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle">monitor / stop</text>
+<rect x="16" y="214" width="1108" height="48" rx="0" fill="#e5eef9" stroke="none"/>
+<text x="32" y="243.43" fill="#214b7d" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" text-anchor="start">1  Discover the project</text>
+<rect x="76.8515625" y="280" width="218.296875" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="186.0" y="299.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Project, initial goal and</text>
+<text x="186.0" y="324.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">known constraints</text>
+<polyline points="90,346 282,346" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="282.00,346.00 272.10,350.78 272.10,341.22" fill="#284c76"/>
+<rect x="334.4453125" y="375" width="471.109375" height="35" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="394.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Read docs, source, tools, metrics and current state</text>
+<polyline points="282,416 858,416" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,416.00 848.10,420.78 848.10,411.22" fill="#284c76"/>
+<rect x="343.84375" y="445" width="452.3125" height="35" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="464.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Existing capabilities, native records and baseline</text>
+<polyline points="858,486 282,486" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="282.00,486.00 291.90,481.22 291.90,490.78" fill="#586b83"/>
+<rect x="459.48828125" y="515" width="413.0234375" height="35" rx="0" fill="#ffffff" stroke="none"/>
+<text x="666.0" y="534.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Inspect monitoring and stopping capabilities</text>
+<polyline points="282,556 1050,556" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="1050.00,556.00 1040.10,560.78 1040.10,551.22" fill="#284c76"/>
+<rect x="480.24609375" y="585" width="371.5078125" height="35" rx="0" fill="#ffffff" stroke="none"/>
+<text x="666.0" y="604.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Protection, deadlines and stop interface</text>
+<polyline points="1050,626 282,626" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="282.00,626.00 291.90,621.22 291.90,630.78" fill="#586b83"/>
+<rect x="60.03125" y="655" width="251.9375" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="186.0" y="674.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Capabilities map and</text>
+<text x="186.0" y="699.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">questions still unanswered</text>
+<polyline points="282,721 90,721" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="90.00,721.00 99.90,716.22 99.90,725.78" fill="#284c76"/>
+<rect x="28" y="750" width="1084" height="55" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="779.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">MAIN PATH: required capabilities exist. Missing capability -&gt; record the gap; separate discussion before proceeding.</text>
+<rect x="16" y="841" width="1108" height="48" rx="0" fill="#e5eef9" stroke="none"/>
+<text x="32" y="870.43" fill="#214b7d" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" text-anchor="start">2  Prepare and agree the integration</text>
+<rect x="58.64453125" y="907" width="254.7109375" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="186.0" y="926.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Goal boundaries, budgets,</text>
+<text x="186.0" y="951.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">runner and approval policy</text>
+<polyline points="90,973 282,973" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="282.00,973.00 272.10,977.78 272.10,968.22" fill="#284c76"/>
+<rect x="102" y="1002" width="360" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="282" y="1021.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Install selected library / runner;</text>
+<text x="282" y="1046.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">prepare configuration, product skills</text>
+<text x="282" y="1071.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">and small host connections</text>
+<polyline points="282,1093 326,1093 326,1115 282,1115" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="282.00,1115.00 291.90,1110.22 291.90,1119.78" fill="#284c76"/>
+<rect x="307.46484375" y="1142" width="525.0703125" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="1161.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Bind identity, tool scopes, records, evidence storage and</text>
+<text x="570.0" y="1186.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">worker supervision</text>
+<polyline points="282,1208 858,1208" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,1208.00 848.10,1212.78 848.10,1203.22" fill="#284c76"/>
+<rect x="28" y="1237" width="1084" height="80" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="1266.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">Map -&gt; product skills + runner configuration + native-record / safety connections. Secrets remain in existing</text>
+<text x="46" y="1291.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">credential storage.</text>
+<rect x="60.0390625" y="1335" width="251.921875" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="186.0" y="1354.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Concrete setup, required</text>
+<text x="186.0" y="1379.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">custom code and bounded</text>
+<text x="186.0" y="1404.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">validation plan</text>
+<polyline points="282,1426 90,1426" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="90.00,1426.00 99.90,1421.22 99.90,1430.78" fill="#284c76"/>
+<rect x="70.2734375" y="1455" width="231.453125" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="186.0" y="1474.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Authority to execute the</text>
+<text x="186.0" y="1499.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">agreed validation plan</text>
+<polyline points="90,1521 282,1521" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="282.00,1521.00 272.10,1525.78 272.10,1516.22" fill="#586b83"/>
+<rect x="28" y="1550" width="1084" height="55" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="1579.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">Reuse authorization already granted. It may include standing policy; a human is not required at every later handoff.</text>
+<rect x="16" y="1641" width="1108" height="48" rx="0" fill="#e5eef9" stroke="none"/>
+<text x="32" y="1670.43" fill="#214b7d" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" text-anchor="start">3  Rehearse the actual agent environment</text>
+<rect x="260.3671875" y="1707" width="235.265625" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="378.0" y="1726.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Load setup in disposable</text>
+<text x="378.0" y="1751.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">state and an isolated</text>
+<text x="378.0" y="1776.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">product/profile</text>
+<polyline points="282,1798 474,1798" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="474.00,1798.00 464.10,1802.78 464.10,1793.22" fill="#284c76"/>
+<rect x="504.21484375" y="1827" width="323.5703125" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="666.0" y="1846.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Check identity, baseline, exclusive</text>
+<text x="666.0" y="1871.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">product ownership and bindings</text>
+<polyline points="474,1893 858,1893" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,1893.00 848.10,1897.78 848.10,1888.22" fill="#284c76"/>
+<rect x="304.73828125" y="1922" width="338.5234375" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="474.0" y="1941.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Rehearse the configured runner and</text>
+<text x="474.0" y="1966.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">actual tool profile</text>
+<polyline points="282,1988 666,1988" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="666.00,1988.00 656.10,1992.78 656.10,1983.22" fill="#284c76"/>
+<rect x="646.6640625" y="2017" width="230.671875" height="110" rx="0" fill="#ffffff" stroke="none"/>
+<text x="762.0" y="2036.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Read data; run checks;</text>
+<text x="762.0" y="2061.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">write evidence; exercise</text>
+<text x="762.0" y="2086.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">permitted and denied</text>
+<text x="762.0" y="2111.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">controls</text>
+<polyline points="666,2133 858,2133" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,2133.00 848.10,2137.78 848.10,2128.22" fill="#284c76"/>
+<rect x="441.4140625" y="2162" width="449.171875" height="35" rx="0" fill="#ffffff" stroke="none"/>
+<text x="666.0" y="2181.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Verify independent protection and stop behavior</text>
+<polyline points="282,2203 1050,2203" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="1050.00,2203.00 1040.10,2207.78 1040.10,2198.22" fill="#284c76"/>
+<rect x="102" y="2232" width="360" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="282" y="2251.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Interrupt a rehearsal invocation;</text>
+<text x="282" y="2276.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">recover in a fresh session and</text>
+<text x="282" y="2301.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">inspect original operations</text>
+<polyline points="282,2323 326,2323 326,2345 282,2345" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="282.00,2345.00 291.90,2340.22 291.90,2349.78" fill="#284c76"/>
+<rect x="316.21484375" y="2372" width="507.5703125" height="35" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="2391.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Native receipts, exact identities and permission results</text>
+<polyline points="858,2413 282,2413" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="282.00,2413.00 291.90,2408.22 291.90,2417.78" fill="#586b83"/>
+<rect x="28" y="2442" width="1084" height="80" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="2471.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">IF CHECKS FAIL: repair configuration, skills or bindings and repeat affected checks. Readiness does not start an</text>
+<text x="46" y="2496.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">experiment.</text>
+<rect x="65.05859375" y="2540" width="241.8828125" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="186.0" y="2559.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Rehearsal evidence and</text>
+<text x="186.0" y="2584.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">any remaining limitations</text>
+<polyline points="282,2606 90,2606" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="90.00,2606.00 99.90,2601.22 99.90,2610.78" fill="#284c76"/>
+<rect x="16" y="2653" width="1108" height="48" rx="0" fill="#e5eef9" stroke="none"/>
+<text x="32" y="2682.43" fill="#214b7d" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" text-anchor="start">4a  Start a short real validation run</text>
+<rect x="255.41015625" y="2719" width="245.1796875" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="378.0" y="2738.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Start the authorized short</text>
+<text x="378.0" y="2763.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">run; arrange existing</text>
+<text x="378.0" y="2788.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">worker supervision</text>
+<polyline points="282,2810 474,2810" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="474.00,2810.00 464.10,2814.78 464.10,2805.22" fill="#284c76"/>
+<rect x="294" y="2839" width="360" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="474" y="2858.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Persist goal, baseline, constraints</text>
+<text x="474" y="2883.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">and budgets; hold the shared</text>
+<text x="474" y="2908.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">product for this run</text>
+<polyline points="474,2930 518,2930 518,2952 474,2952" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="474.00,2952.00 483.90,2947.22 483.90,2956.78" fill="#284c76"/>
+<rect x="28" y="2979" width="1084" height="105" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="3008.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">BEFORE EVERY TASK: persist intent, inputs, runner and budget; obtain host authorization; launch through the</text>
+<text x="46" y="3033.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">configured runner. Before expanded scope, verify prior execution terminal / fenced. Wait or denial never grants</text>
+<text x="46" y="3058.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">permission.</text>
+<rect x="446.0078125" y="3102" width="247.984375" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="3121.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Hypothesize: research the</text>
+<text x="570.0" y="3146.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">goal</text>
+<polyline points="474,3168 666,3168" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="666.00,3168.00 656.10,3172.78 656.10,3163.22" fill="#284c76"/>
+<rect x="651.8359375" y="3197" width="220.328125" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="762.0" y="3216.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Inspect approved data,</text>
+<text x="762.0" y="3241.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">source and previous</text>
+<text x="762.0" y="3266.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">learning</text>
+<polyline points="666,3288 858,3288" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,3288.00 848.10,3292.78 848.10,3283.22" fill="#284c76"/>
+<rect x="452.8515625" y="3317" width="234.296875" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="3336.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Evidence-backed</text>
+<text x="570.0" y="3361.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">hypothesis and bounded</text>
+<text x="570.0" y="3386.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">experiment plan</text>
+<polyline points="666,3408 474,3408" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="474.00,3408.00 483.90,3403.22 483.90,3412.78" fill="#586b83"/>
+<rect x="294" y="3437" width="360" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="474" y="3456.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Check bounds + plan authority; freeze</text>
+<text x="474" y="3481.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">it before exposure</text>
+<polyline points="474,3503 518,3503 518,3525 474,3525" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="474.00,3525.00 483.90,3520.22 483.90,3529.78" fill="#284c76"/>
+<rect x="445.90234375" y="3552" width="248.1953125" height="35" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="3571.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Implement the hypothesis</text>
+<polyline points="474,3593 666,3593" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="666.00,3593.00 656.10,3597.78 656.10,3588.22" fill="#284c76"/>
+<rect x="657.84765625" y="3622" width="208.3046875" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="762.0" y="3641.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Edit, test and debug</text>
+<text x="762.0" y="3666.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">through existing tools</text>
+<polyline points="666,3688 858,3688" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,3688.00 848.10,3692.78 848.10,3683.22" fill="#284c76"/>
+<rect x="451.8671875" y="3717" width="236.265625" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="3736.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Exact candidate and</text>
+<text x="570.0" y="3761.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">trusted check references</text>
+<polyline points="666,3783 474,3783" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="474.00,3783.00 483.90,3778.22 483.90,3787.78" fill="#586b83"/>
+<rect x="490.26953125" y="3812" width="351.4609375" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="666.0" y="3831.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Verify native candidate/check records</text>
+<text x="666.0" y="3856.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">before exposure</text>
+<polyline points="474,3878 858,3878" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,3878.00 848.10,3882.78 848.10,3873.22" fill="#284c76"/>
+<rect x="16" y="3925" width="1108" height="48" rx="0" fill="#e5eef9" stroke="none"/>
+<text x="32" y="3954.43" fill="#214b7d" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" text-anchor="start">4b  Run canary, then the separate main experiment</text>
+<rect x="453.66796875" y="3991" width="232.6640625" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="4010.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Experiment: preparation</text>
+<text x="570.0" y="4035.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">and canary scope</text>
+<polyline points="474,4057 666,4057" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="666.00,4057.00 656.10,4061.78 656.10,4052.22" fill="#284c76"/>
+<rect x="637.46875" y="4086" width="249.0625" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="762.0" y="4105.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Deploy disabled; establish</text>
+<text x="762.0" y="4130.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">readiness; prepare</text>
+<text x="762.0" y="4155.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">bounded canary</text>
+<polyline points="666,4177 858,4177" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,4177.00 848.10,4181.78 848.10,4172.22" fill="#284c76"/>
+<rect x="702.8828125" y="4206" width="310.234375" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="858.0" y="4225.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Establish independent protection</text>
+<text x="858.0" y="4250.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">before allocation</text>
+<polyline points="666,4272 1050,4272" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="1050.00,4272.00 1040.10,4276.78 1040.10,4267.22" fill="#284c76"/>
+<rect x="644.83984375" y="4301" width="234.3203125" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="762.0" y="4320.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Operate canary; close to</text>
+<text x="762.0" y="4345.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">zero; return native</text>
+<text x="762.0" y="4370.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">references</text>
+<polyline points="666,4392 858,4392" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,4392.00 848.10,4396.78 848.10,4387.22" fill="#284c76"/>
+<rect x="453.359375" y="4421" width="233.28125" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="4440.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Yield and end invocation</text>
+<text x="570.0" y="4465.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">at canary closure</text>
+<polyline points="666,4487 474,4487" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="474.00,4487.00 483.90,4482.22 483.90,4491.78" fill="#586b83"/>
+<rect x="487.859375" y="4516" width="356.28125" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="666.0" y="4535.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Verify candidate, canary criteria, zero,</text>
+<text x="666.0" y="4560.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">separation and prior execution</text>
+<text x="666.0" y="4585.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">settlement</text>
+<polyline points="474,4607 858,4607" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,4607.00 848.10,4611.78 848.10,4602.22" fill="#284c76"/>
+<rect x="461.265625" y="4636" width="217.46875" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="4655.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">New invocation with</text>
+<text x="570.0" y="4680.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">authorized main scope</text>
+<polyline points="474,4702 666,4702" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="666.00,4702.00 656.10,4706.78 656.10,4697.22" fill="#284c76"/>
+<rect x="686.1953125" y="4731" width="343.609375" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="858.0" y="4750.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Prepare main-specific protection and</text>
+<text x="858.0" y="4775.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">activation window</text>
+<polyline points="666,4797 1050,4797" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="1050.00,4797.00 1040.10,4801.78 1040.10,4792.22" fill="#284c76"/>
+<rect x="687.453125" y="4826" width="341.09375" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="858.0" y="4845.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Durable protection acknowledgment</text>
+<text x="858.0" y="4870.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">bound to this main attempt</text>
+<polyline points="1050,4892 666,4892" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="666.00,4892.00 675.90,4887.22 675.90,4896.78" fill="#586b83"/>
+<rect x="651.171875" y="4921" width="221.65625" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="762.0" y="4940.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Activate separate main</text>
+<text x="762.0" y="4965.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">once; retain native</text>
+<text x="762.0" y="4990.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">start/end receipt</text>
+<polyline points="666,5012 858,5012" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,5012.00 848.10,5016.78 848.10,5007.22" fill="#284c76"/>
+<rect x="832.90625" y="5041" width="242.1875" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="954.0" y="5060.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Within protected</text>
+<text x="954.0" y="5085.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">activation: bind the same</text>
+<text x="954.0" y="5110.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">fixed deadline</text>
+<polyline points="858,5132 1050,5132" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="1050.00,5132.00 1040.10,5136.78 1040.10,5127.22" fill="#284c76"/>
+<rect x="28" y="5161" width="1084" height="80" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="5190.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">Positive allocation requires durable protection acknowledgment. Receipt / deadline binding cannot leave an</text>
+<text x="46" y="5215.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">unprotected interval.</text>
+<rect x="445.3359375" y="5259" width="249.328125" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="5278.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Checkpoint with operation</text>
+<text x="570.0" y="5303.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">identity; yield for a</text>
+<text x="570.0" y="5328.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">durable wait</text>
+<polyline points="666,5350 474,5350" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="474.00,5350.00 483.90,5345.22 483.90,5354.78" fill="#586b83"/>
+<rect x="280" y="5379" width="840" height="180" rx="5" fill="#f3f8f7" stroke="#d9e6e3"/>
+<text x="300" y="5405.94" fill="#245b52" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="start">CONCURRENT · agent invocation has ended</text>
+<text x="474" y="5441.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Wait durably; recheck due records</text>
+<text x="474" y="5466.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">without routine model calls</text>
+<text x="954.0" y="5441.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Monitor independently;</text>
+<text x="954.0" y="5466.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">stop on limit, harm or</text>
+<text x="954.0" y="5491.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">sustained failure</text>
+<polyline points="474,5512 518,5512 518,5534 474,5534" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="474.00,5534.00 483.90,5529.22 483.90,5538.78" fill="#284c76"/>
+<polyline points="1050,5512 858,5512" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,5512.00 867.90,5507.22 867.90,5516.78" fill="#284c76"/>
+<rect x="446.4765625" y="5577" width="247.046875" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="5596.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Resume after closure /</text>
+<text x="570.0" y="5621.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">maturity, or for a material</text>
+<text x="570.0" y="5646.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">incident</text>
+<polyline points="474,5668 666,5668" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="666.00,5668.00 656.10,5672.78 656.10,5663.22" fill="#284c76"/>
+<rect x="650.4140625" y="5697" width="223.171875" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="762.0" y="5716.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Observe the same</text>
+<text x="762.0" y="5741.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">experiment; obtain</text>
+<text x="762.0" y="5766.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">closed-window analysis</text>
+<polyline points="666,5788 858,5788" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,5788.00 848.10,5792.78 848.10,5783.22" fill="#284c76"/>
+<rect x="447.25390625" y="5817" width="245.4921875" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="5836.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Mature readout or explicit</text>
+<text x="570.0" y="5861.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">unsuccessful attempt</text>
+<polyline points="666,5883 474,5883" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="474.00,5883.00 483.90,5878.22 483.90,5887.78" fill="#586b83"/>
+<rect x="516.28515625" y="5912" width="299.4296875" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="666.0" y="5931.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Verify actual closure, operation</text>
+<text x="666.0" y="5956.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">settlement and readout identity</text>
+<polyline points="474,5978 858,5978" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,5978.00 848.10,5982.78 848.10,5973.22" fill="#284c76"/>
+<rect x="16" y="6025" width="1108" height="48" rx="0" fill="#e5eef9" stroke="none"/>
+<text x="32" y="6054.43" fill="#214b7d" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" text-anchor="start">4c  Decide and close the learning cycle</text>
+<rect x="444.015625" y="6091" width="251.96875" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="6110.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Decide: interpret evidence</text>
+<text x="570.0" y="6135.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">and propose disposition</text>
+<polyline points="474,6157 666,6157" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="666.00,6157.00 656.10,6161.78 656.10,6152.22" fill="#284c76"/>
+<rect x="457.3515625" y="6186" width="225.296875" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="6205.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Decision proposal with</text>
+<text x="570.0" y="6230.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">evidence; yield if a new</text>
+<text x="570.0" y="6255.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">effect is needed</text>
+<polyline points="666,6277 474,6277" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="474.00,6277.00 483.90,6272.22 483.90,6281.78" fill="#586b83"/>
+<rect x="506.9453125" y="6306" width="318.109375" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="666.0" y="6325.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Check action eligibility and obtain</text>
+<text x="666.0" y="6350.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">current authorization</text>
+<polyline points="474,6372 858,6372" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,6372.00 848.10,6376.78 848.10,6367.22" fill="#284c76"/>
+<rect x="443.7734375" y="6401" width="252.453125" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="6420.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">New authorized invocation</text>
+<text x="570.0" y="6445.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">for any required</text>
+<text x="570.0" y="6470.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">disposition</text>
+<polyline points="474,6492 666,6492" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="666.00,6492.00 656.10,6496.78 656.10,6487.22" fill="#284c76"/>
+<rect x="657.83203125" y="6521" width="208.3359375" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="762.0" y="6540.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Execute disposition;</text>
+<text x="762.0" y="6565.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">observe outcome and</text>
+<text x="762.0" y="6590.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">retained source</text>
+<polyline points="666,6612 858,6612" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,6612.00 848.10,6616.78 848.10,6607.22" fill="#284c76"/>
+<rect x="28" y="6641" width="1084" height="80" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="6670.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">Promotion requires independent delayed-harm protection and separately authorized rollback before execution.</text>
+<text x="46" y="6695.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">Already-settled no-effect decisions skip the extra invocation.</text>
+<rect x="444.28125" y="6739" width="251.4375" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="6758.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Settled outcome, learning,</text>
+<text x="570.0" y="6783.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">goal assessment and next</text>
+<text x="570.0" y="6808.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">action</text>
+<polyline points="666,6830 474,6830" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="474.00,6830.00 483.90,6825.22 483.90,6834.78" fill="#586b83"/>
+<rect x="483.53515625" y="6859" width="364.9296875" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="666.0" y="6878.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Verify disposition, required observation</text>
+<text x="666.0" y="6903.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">and retained source</text>
+<polyline points="474,6925 858,6925" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,6925.00 848.10,6929.78 848.10,6920.22" fill="#284c76"/>
+<rect x="294" y="6954" width="360" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="474" y="6973.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Commit accepted source, learning</text>
+<text x="474" y="6998.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">and assessment; finish this bounded</text>
+<text x="474" y="7023.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">validation run</text>
+<polyline points="474,7045 518,7045 518,7067 474,7067" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="474.00,7067.00 483.90,7062.22 483.90,7071.78" fill="#284c76"/>
+<rect x="259.4609375" y="7094" width="237.078125" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="378.0" y="7113.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Complete cycle history,</text>
+<text x="378.0" y="7138.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">receipts and actual costs</text>
+<polyline points="474,7160 282,7160" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="282.00,7160.00 291.90,7155.22 291.90,7164.78" fill="#586b83"/>
+<rect x="28" y="7189" width="1084" height="80" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="7218.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">Completion can mean a valid inconclusive / revert result. Early stopping or allocation zero alone does not complete</text>
+<text x="46" y="7243.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">the learning cycle.</text>
+<rect x="16" y="7305" width="1108" height="48" rx="0" fill="#e5eef9" stroke="none"/>
+<text x="32" y="7334.43" fill="#214b7d" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" text-anchor="start">5  Prove interruption and recovery</text>
+<rect x="256.64453125" y="7371" width="242.7109375" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="378.0" y="7390.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Repeat isolated, bounded</text>
+<text x="378.0" y="7415.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">cases within the agreed</text>
+<text x="378.0" y="7440.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">validation plan</text>
+<polyline points="282,7462 474,7462" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="474.00,7462.00 464.10,7466.78 464.10,7457.22" fill="#284c76"/>
+<rect x="28" y="7491" width="1084" height="80" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="7520.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">Cases: worker / agent interruption; lost activation reply; interrupted deadline binding; brief and sustained</text>
+<text x="46" y="7545.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">monitoring failures; authorized repair; second-goal exclusion.</text>
+<rect x="485.3671875" y="7589" width="361.265625" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="666.0" y="7608.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Recover original execution / operation;</text>
+<text x="666.0" y="7633.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">inspect native outcome</text>
+<polyline points="474,7655 858,7655" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,7655.00 848.10,7659.78 848.10,7650.22" fill="#284c76"/>
+<rect x="28" y="7684" width="1084" height="80" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="7713.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">UNKNOWN OUTCOME: retain uncertainty; observe or obtain fencing before replacement. Never blindly replay an</text>
+<text x="46" y="7738.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">uncertain external action.</text>
+<rect x="256.6015625" y="7782" width="242.796875" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="378.0" y="7801.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Exercise an operator stop</text>
+<text x="378.0" y="7826.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">during the isolated test</text>
+<polyline points="282,7848 474,7848" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="474.00,7848.00 464.10,7852.78 464.10,7843.22" fill="#284c76"/>
+<rect x="498.93359375" y="7877" width="526.1328125" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="762.0" y="7896.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Persist stop intent and deliver the same idempotent stop</text>
+<text x="762.0" y="7921.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">request</text>
+<polyline points="474,7943 1050,7943" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="1050.00,7943.00 1040.10,7947.78 1040.10,7938.22" fill="#284c76"/>
+<rect x="836.69921875" y="7972" width="234.6015625" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="954.0" y="7991.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Enforce stopping and</text>
+<text x="954.0" y="8016.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">prevent late re-exposure</text>
+<polyline points="1050,8038 858,8038" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,8038.00 867.90,8033.22 867.90,8042.78" fill="#284c76"/>
+<rect x="481.30859375" y="8067" width="369.3828125" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="666.0" y="8086.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Confirm zero, execution settlement and</text>
+<text x="666.0" y="8111.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">any required rollback</text>
+<polyline points="474,8133 858,8133" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="858.00,8133.00 848.10,8137.78 848.10,8128.22" fill="#284c76"/>
+<rect x="28" y="8162" width="1084" height="80" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="8191.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">Stop delivery does not wait for agent cancellation. Acknowledgment is not confirmed zero. Agent interruption alone</text>
+<text x="46" y="8216.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">does not stop exposure.</text>
+<rect x="274.24609375" y="8260" width="207.5078125" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="378.0" y="8279.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Recovery evidence,</text>
+<text x="378.0" y="8304.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">unresolved cases and</text>
+<text x="378.0" y="8329.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">manual interventions</text>
+<polyline points="474,8351 282,8351" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="282.00,8351.00 291.90,8346.22 291.90,8355.78" fill="#586b83"/>
+<rect x="28" y="8380" width="1084" height="80" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="8409.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">FAILED VALIDATION: fix authorized integration issues or report the responsible owner&#x27;s blocker; repeat affected</text>
+<text x="46" y="8434.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">cases. Every manual state repair is a failed autonomy criterion.</text>
+<rect x="16" y="8496" width="1108" height="48" rx="0" fill="#e5eef9" stroke="none"/>
+<text x="32" y="8525.43" fill="#214b7d" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" text-anchor="start">6  Hand over the usable integration</text>
+<rect x="59.42578125" y="8562" width="253.1484375" height="110" rx="0" fill="#ffffff" stroke="none"/>
+<text x="186.0" y="8581.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Versioned setup,</text>
+<text x="186.0" y="8606.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">validation results, retained</text>
+<text x="186.0" y="8631.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">source and inspect / hold /</text>
+<text x="186.0" y="8656.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">resume / stop instructions</text>
+<polyline points="282,8678 90,8678" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="90.00,8678.00 99.90,8673.22 99.90,8682.78" fill="#284c76"/>
+<rect x="28" y="8707" width="1084" height="80" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="8736.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">Finish only with test effects settled, no competing owner and evidence retained. Passing these checks does not</text>
+<text x="46" y="8761.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">establish production or unattended qualification.</text>
+<rect x="111.0" y="8805" width="342.0" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="282.0" y="8824.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Start an authorized goal through the</text>
+<text x="282.0" y="8849.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">host entry point</text>
+<polyline points="90,8871 474,8871" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="474.00,8871.00 464.10,8875.78 464.10,8866.22" fill="#284c76"/>
+<rect x="294" y="8900" width="360" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="474" y="8919.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Verify source + selected lineage;</text>
+<text x="474" y="8944.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">persist next run for host worker</text>
+<polyline points="474,8966 518,8966 518,8988 474,8988" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="474.00,8988.00 483.90,8983.22 483.90,8992.78" fill="#284c76"/>
+<rect x="456.48828125" y="9015" width="227.0234375" height="85" rx="0" fill="#ffffff" stroke="none"/>
+<text x="570.0" y="9034.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Run the four-stage loop</text>
+<text x="570.0" y="9059.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">within configured policy</text>
+<text x="570.0" y="9084.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">and budgets</text>
+<polyline points="474,9106 666,9106" fill="none" stroke="#284c76" stroke-width="2"/>
+<polygon points="666.00,9106.00 656.10,9110.78 656.10,9101.22" fill="#284c76"/>
+<rect x="136.17578125" y="9135" width="291.6484375" height="60" rx="0" fill="#ffffff" stroke="none"/>
+<text x="282.0" y="9154.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Inspectable progress, blockers,</text>
+<text x="282.0" y="9179.94" fill="#24344b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle">decisions and learning</text>
+<polyline points="474,9201 90,9201" fill="none" stroke="#586b83" stroke-width="2" stroke-dasharray="5 6"/>
+<polygon points="90.00,9201.00 99.90,9196.22 99.90,9205.78" fill="#586b83"/>
+<rect x="28" y="9230" width="1084" height="80" rx="5" fill="#f4f6f9" stroke="#dfe5ed"/>
+<text x="46" y="9259.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">The setup assistant can exit. ACED owns orchestration; stage agents use existing tools; monitoring / stopping</text>
+<text x="46" y="9284.94" fill="#45536a" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">remains independently available.</text>
+<text x="24" y="9391.28" fill="#566579" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">Development preview · typed Python setup · live qualification required</text>
+</svg>

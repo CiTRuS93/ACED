@@ -1,0 +1,21 @@
+stateDiagram-v2
+    direction TB
+    state "Interpret / propose\nReadout or unsuccessful attempt; propose action" as DP
+    state "Disposition boundary\nEligibility + exact identities + current authority" as DG
+    state "Authorized disposition\nFresh invocation performs permitted effect" as DA
+    state "Observation / settlement\nRequired observation, reversal and effects" as DO
+    state "Accept decision\nSource + learning + goal assessment + next action" as DL
+    state "Correction / blocker\nNo automatic alternative decision" as DB
+    state "Hypothesize\nNew cycle; accepted source and learning" as DH
+    state "Implement\nAuthorized repair; same hypothesis and plan" as DI
+    state "completed\nFinish; goal need not be attained" as DF
+    DP --> DG: D1 new effect required
+    DG --> DA: D2 scope granted
+    DA --> DO: D3 perform + observe
+    DO --> DL: D4 settlement verified
+    DP --> DL: D5 no effect needed, already settled
+    DL --> DB: D6 unusable / incomplete
+    DB --> DP: D7 resolved + authorized work
+    DL --> DH: D8 next_hypothesis
+    DL --> DI: D9 repair
+    DL --> DF: D10 finish

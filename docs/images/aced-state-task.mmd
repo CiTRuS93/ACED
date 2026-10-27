@@ -1,0 +1,22 @@
+stateDiagram-v2
+    direction TB
+    state "Prepared task\nFrozen inputs / runner / scope; reserve budget" as TP
+    state "Authorization pending\nNamed external decision; no execution consumed" as TW
+    state "Blocked\nDenial, missing authority or budget" as TB
+    state "Launch eligible\nCurrent authorization and control guards" as TL
+    state "Original execution\nDispatch / run / observe under one identity" as TR
+    state "Execution unknown\nObserve original identity or obtain fencing" as TU
+    state "Cancel requested\nDeadline / stop / policy; not terminal proof" as TC
+    state "Execution settled\nTrusted terminal / fenced evidence" as TS
+    state "Result disposition\nRetain output once; missing output is diagnostic" as TO
+    TP --> TW: T1 approval pending
+    TW --> TB: T2 denied / unavailable
+    TP --> TL: T3 authorization allowed
+    TW --> TL: T4 actual approval
+    TL --> TR: T5 dispatch once
+    TR --> TU: T6 lost response / crash
+    TU --> TR: T7 running confirmed
+    TR --> TS: T8 terminal proof
+    TU --> TC: T9 deadline / stop
+    TC --> TS: T10 terminal / fenced
+    TS --> TO: T11 process result

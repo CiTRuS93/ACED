@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1140" viewBox="0 0 1400 1140" role="img" aria-labelledby="aced-state-decision-title aced-state-decision-desc">
+<title id="aced-state-decision-title">C · Inside Decide</title>
+<desc id="aced-state-decision-desc">Decision authority, product settlement and atomic learning continuity.. Development-preview state chart; descriptive conditions are not additional public development stages. Transition guards are specified in the companion document.</desc>
+<rect width="1400" height="1140" fill="#ffffff"/>
+<text x="32" y="49.2" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="30" font-weight="700" text-anchor="start">C · Inside Decide</text>
+<text x="32" y="85.12" fill="#59687b" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="400" text-anchor="start">Decision authority, product settlement and atomic learning continuity.</text>
+<rect x="50" y="155" width="340" height="125" rx="10" fill="#edf3fc" stroke="#91afd2" stroke-width="1"/>
+<text x="220.0" y="194.14" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Interpret / propose</text>
+<text x="220.0" y="226.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Readout or unsuccessful attempt;</text>
+<text x="220.0" y="249.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">propose action</text>
+<rect x="530" y="155" width="340" height="125" rx="10" fill="#fff6df" stroke="#cfb36e" stroke-width="1"/>
+<text x="700.0" y="194.14" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Disposition boundary</text>
+<text x="700.0" y="226.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Eligibility + exact identities +</text>
+<text x="700.0" y="249.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">current authority</text>
+<rect x="1010" y="155" width="340" height="125" rx="10" fill="#edf3fc" stroke="#91afd2" stroke-width="1"/>
+<text x="1180.0" y="194.14" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Authorized disposition</text>
+<text x="1180.0" y="226.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Fresh invocation performs permitted</text>
+<text x="1180.0" y="249.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">effect</text>
+<rect x="1010" y="480" width="340" height="125" rx="10" fill="#fff6df" stroke="#cfb36e" stroke-width="1"/>
+<text x="1180.0" y="519.14" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Observation / settlement</text>
+<text x="1180.0" y="551.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Required observation, reversal and</text>
+<text x="1180.0" y="574.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">effects</text>
+<rect x="530" y="480" width="340" height="125" rx="10" fill="#edf3fc" stroke="#91afd2" stroke-width="1"/>
+<text x="700.0" y="519.14" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Accept decision</text>
+<text x="700.0" y="551.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Source + learning + goal</text>
+<text x="700.0" y="574.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">assessment + next action</text>
+<rect x="50" y="480" width="340" height="125" rx="10" fill="#fff0ec" stroke="#d3a496" stroke-width="1"/>
+<text x="220.0" y="530.64" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Correction / blocker</text>
+<text x="220.0" y="563.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">No automatic alternative decision</text>
+<rect x="50" y="830" width="340" height="125" rx="10" fill="#f4f6f9" stroke="#adb7c6" stroke-width="1" stroke-dasharray="7 5"/>
+<text x="220.0" y="869.14" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Hypothesize</text>
+<text x="220.0" y="901.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">New cycle; accepted source and</text>
+<text x="220.0" y="924.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">learning</text>
+<rect x="530" y="830" width="340" height="125" rx="10" fill="#f4f6f9" stroke="#adb7c6" stroke-width="1" stroke-dasharray="7 5"/>
+<text x="700.0" y="869.14" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Implement</text>
+<text x="700.0" y="901.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Authorized repair; same hypothesis</text>
+<text x="700.0" y="924.78" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">and plan</text>
+<rect x="1010" y="830" width="340" height="125" rx="10" fill="#eaf6ef" stroke="#89b89c" stroke-width="2"/>
+<text x="1180.0" y="880.64" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" text-anchor="middle">completed</text>
+<text x="1180.0" y="913.28" fill="#24344b" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">Finish; goal need not be attained</text>
+<polyline points="390,218 530,218" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="530.00,218.00 519.19,223.22 519.19,212.78" fill="#365d8d"/>
+<polyline points="870,218 1010,218" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1010.00,218.00 999.19,223.22 999.19,212.78" fill="#365d8d"/>
+<polyline points="1180,280 1180,480" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1180.00,480.00 1174.78,469.19 1185.22,469.19" fill="#365d8d"/>
+<polyline points="1010,543 870,543" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="870.00,543.00 880.81,537.78 880.81,548.22" fill="#365d8d"/>
+<polyline points="280,280 280,380 700,380 700,480" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="700.00,480.00 694.78,469.19 705.22,469.19" fill="#365d8d"/>
+<polyline points="530,543 390,543" fill="none" stroke="#815b32" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="390.00,543.00 400.81,537.78 400.81,548.22" fill="#815b32"/>
+<polyline points="140,480 140,280" fill="none" stroke="#815b32" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="140.00,280.00 145.22,290.81 134.78,290.81" fill="#815b32"/>
+<polyline points="590,605 590,720 220,720 220,830" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="220.00,830.00 214.78,819.19 225.22,819.19" fill="#365d8d"/>
+<polyline points="700,605 700,830" fill="none" stroke="#815b32" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="700.00,830.00 694.78,819.19 705.22,819.19" fill="#815b32"/>
+<polyline points="810,605 810,720 1180,720 1180,830" fill="none" stroke="#365d8d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1180.00,830.00 1174.78,819.19 1185.22,819.19" fill="#365d8d"/>
+<rect x="50" y="990" width="1300" height="78" rx="8" fill="#f5f7fa" stroke="#dde3eb" stroke-width="1"/>
+<text x="67" y="1019.12" fill="#48586d" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="400" text-anchor="start">A valid inconclusive/revert decision can finish. Promotion is not zero product serving. Operator stop overrides continuation; delayed harm</text>
+<text x="67" y="1044.12" fill="#48586d" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="400" text-anchor="start">uses required reversal / F reconciliation.</text>
+<rect x="416.3671875" y="162" width="87.265625" height="75" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="460" y="179.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">D1 · new</text>
+<text x="460" y="202.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">effect</text>
+<text x="460" y="225.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">required</text>
+<rect x="889.01171875" y="162" width="101.9765625" height="52" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="940" y="179.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">D2 · scope</text>
+<text x="940" y="202.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">granted</text>
+<rect x="1073.45703125" y="352" width="213.0859375" height="29" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="1180" y="369.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">D3 · perform + observe</text>
+<rect x="887.8515625" y="487" width="104.296875" height="75" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="940" y="504.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">D4 ·</text>
+<text x="940" y="527.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">settlement</text>
+<text x="940" y="550.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">verified</text>
+<rect x="392.43359375" y="342" width="335.1328125" height="29" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="560" y="359.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">D5 · no effect needed; already settled</text>
+<rect x="395.15234375" y="482" width="129.6953125" height="52" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="460" y="499.28" fill="#815b32" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">D6 · unusable</text>
+<text x="460" y="522.28" fill="#815b32" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">/ incomplete</text>
+<rect x="45.26953125" y="347" width="149.4609375" height="52" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="120" y="364.28" fill="#815b32" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">D7 · resolved +</text>
+<text x="120" y="387.28" fill="#815b32" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">authorized work</text>
+<rect x="204.671875" y="687" width="190.65625" height="29" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="300" y="704.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">D8 · next_hypothesis</text>
+<rect x="648.9375" y="717" width="102.125" height="29" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="700" y="734.28" fill="#815b32" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">D9 · repair</text>
+<rect x="1025.609375" y="687" width="108.78125" height="29" rx="3" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="1080" y="704.28" fill="#365d8d" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="400" text-anchor="middle">D10 · finish</text>
+<text x="32" y="1123.44" fill="#64748b" font-family="DejaVu Sans,sans-serif" font-size="16" font-weight="400" text-anchor="start">PREVIEW · implemented contracts; qualification pending · full guards in aced-state-chart.md</text>
+</svg>

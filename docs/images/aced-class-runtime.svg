@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1900" viewBox="0 0 1800 1900" role="img" aria-labelledby="title desc">
+<title id="title">A · coordinator, persistence and execution</title>
+<desc id="desc">Classes and the procedural lifecycle kernel. Protocol implementations use structural typing. Current source, not a proposed architecture. Solid arrows are associations or calls; dashed open triangles show structural protocol conformance.</desc>
+<rect width="1800" height="1900" fill="#ffffff"/>
+<polyline points="660,327.0 520,243.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="520.00,243.00 532.87,244.82 527.66,253.50" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1140,327.0 1280,245.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1280.00,245.00 1272.23,255.42 1267.11,246.68" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="660,327.0 600,420 600,535 520,526.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="520.00,526.00 532.46,522.31 531.33,532.37" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="280.0,700 280.0,602" fill="none" stroke="#8b68a7" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="280.00,602.00 285.06,613.97 274.94,613.97" fill="white" stroke="#8b68a7" stroke-width="2"/>
+<polyline points="1520.0,490 1520.0,345" fill="none" stroke="#8b68a7" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="1520.00,345.00 1525.06,356.97 1514.94,356.97" fill="white" stroke="#8b68a7" stroke-width="2"/>
+<polyline points="900.0,509 900.0,740" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="900.00,740.00 894.94,728.03 905.06,728.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polygon points="900.00,509.00 895.00,517.00 900.00,525.00 905.00,517.00" fill="#566d88"/>
+<polyline points="660,862.0 590,900 590,1120 520,1118.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="520.00,1118.00 532.11,1113.28 531.82,1123.40" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="660,912.0 555,950 555,1395 520,1406.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="520.00,1406.00 529.91,1397.58 532.94,1407.24" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="900.0,984 900.0,1140" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="900.00,1140.00 894.94,1128.03 905.06,1128.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polygon points="900.00,984.00 895.00,992.00 900.00,1000.00 905.00,992.00" fill="#566d88"/>
+<polyline points="1520.0,734 1520.0,865" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1520.00,865.00 1514.94,853.03 1525.06,853.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1520.0,1430 1520.0,1510" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1520.00,1510.00 1514.94,1498.03 1525.06,1498.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1280,1632.0 1140,1606.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1140.00,1606.00 1152.70,1603.21 1150.85,1613.16" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<text x="40" y="59" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="700" fill="#24344b" text-anchor="start">A · coordinator, persistence and execution</text>
+<text x="40" y="95" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#5c6c7e" text-anchor="start">Classes and the procedural lifecycle kernel. Protocol implementations use structural typing.</text>
+<rect x="40" y="145" width="480" height="196" rx="6" fill="#f1edfa" stroke="#9b84bc"/>
+<text x="54" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#9b84bc" text-anchor="start">«protocol»</text>
+<text x="54" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">IdentityProvider</text>
+<text x="54" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 40 232 H 520" stroke="#9b84bc"/>
+<text x="54" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">host-authenticated identity</text>
+<path d="M 40 270 H 520" stroke="#9b84bc"/>
+<text x="54" y="297" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">async authenticate(context): Principal</text>
+<rect x="660" y="145" width="480" height="364" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="674" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="674" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Runtime</text>
+<text x="674" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">runtime.py</text>
+<path d="M 660 232 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">store: SQLiteStore</text>
+<text x="674" y="283" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">projects: Mapping[str, ProjectConfig]</text>
+<text x="674" y="307" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">runners: Mapping[str, AgentRunner]</text>
+<text x="674" y="331" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">infrastructure: Infrastructure</text>
+<text x="674" y="355" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">identity: IdentityProvider / clock: Clock</text>
+<path d="M 660 366 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="393" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">start() / advance() / run_worker()</text>
+<text x="674" y="417" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">inspect() / tasks() / history()</text>
+<text x="674" y="441" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">hold() / resume() / stop() / repropose()</text>
+<text x="674" y="465" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">record_observation() / close()</text>
+<rect x="1280" y="145" width="480" height="200" rx="6" fill="#f1edfa" stroke="#9b84bc"/>
+<text x="1294" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#9b84bc" text-anchor="start">«protocol»</text>
+<text x="1294" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">AgentRunner</text>
+<text x="1294" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">agents.py</text>
+<path d="M 1280 236 H 1760" stroke="#9b84bc"/>
+<text x="1294" y="263" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">async start(task): ExecutionRef</text>
+<text x="1294" y="287" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">async observe(ref): AgentResult</text>
+<text x="1294" y="311" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">async cancel(ref): AgentResult</text>
+<rect x="40" y="450" width="480" height="152" rx="6" fill="#f1edfa" stroke="#9b84bc"/>
+<text x="54" y="474" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#9b84bc" text-anchor="start">«protocol»</text>
+<text x="54" y="504" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Clock</text>
+<text x="54" y="526" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 40 541 H 520" stroke="#9b84bc"/>
+<text x="54" y="568" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">now(): datetime</text>
+<rect x="40" y="700" width="480" height="152" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="54" y="724" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="54" y="754" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">SystemClock</text>
+<text x="54" y="776" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 40 791 H 520" stroke="#6b8bb7"/>
+<text x="54" y="818" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">now(): aware UTC datetime</text>
+<rect x="1280" y="490" width="480" height="244" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="1294" y="514" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="1294" y="544" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">CodexCliRunner</text>
+<text x="1294" y="566" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">codex.py</text>
+<path d="M 1280 577 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="604" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">state_directory / output_directory</text>
+<text x="1294" y="628" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">env / launcher_prefix / tool_profiles</text>
+<text x="1294" y="652" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">_children: dict[str, Popen]</text>
+<path d="M 1280 663 H 1760" stroke="#6b8bb7"/>
+<text x="1294" y="690" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">start() / observe() / cancel()</text>
+<rect x="660" y="740" width="480" height="244" rx="6" fill="#edf3fc" stroke="#6b8bb7"/>
+<text x="674" y="764" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#6b8bb7" text-anchor="start">«class»</text>
+<text x="674" y="794" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">SQLiteStore</text>
+<text x="674" y="816" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">store.py</text>
+<path d="M 660 827 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="854" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">_connection: sqlite3.Connection</text>
+<path d="M 660 865 H 1140" stroke="#6b8bb7"/>
+<text x="674" y="892" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">create() / get() / find() / list_due()</text>
+<text x="674" y="916" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">acquire() / save() / release()</text>
+<text x="674" y="940" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">tasks() / history() / verify_audit() / close()</text>
+<rect x="40" y="1030" width="480" height="176" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="54" y="1054" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="54" y="1084" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Record</text>
+<text x="54" y="1106" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">store.py</text>
+<path d="M 40 1117 H 520" stroke="#72a898"/>
+<text x="54" y="1144" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">id / project_id / key / fingerprint</text>
+<text x="54" y="1168" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">revision / data: dict</text>
+<rect x="40" y="1330" width="480" height="152" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="54" y="1354" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="54" y="1384" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Lease</text>
+<text x="54" y="1406" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">store.py</text>
+<path d="M 40 1417 H 520" stroke="#72a898"/>
+<text x="54" y="1444" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">run_id / owner / fence / expires_at</text>
+<rect x="660" y="1140" width="480" height="248" rx="6" fill="#eef1f7" stroke="#7c8d9f"/>
+<text x="674" y="1164" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#7c8d9f" text-anchor="start">«store»</text>
+<text x="674" y="1194" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Runtime SQLite</text>
+<text x="674" y="1216" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">store.py · not a Python class</text>
+<path d="M 660 1227 H 1140" stroke="#7c8d9f"/>
+<text x="674" y="1254" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">runs = projection + lease + ownership</text>
+<text x="674" y="1278" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">tasks = durable task outbox</text>
+<text x="674" y="1302" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">records = content-addressed immutable data</text>
+<text x="674" y="1326" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">events = ordered hash-linked history</text>
+<text x="674" y="1350" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">cddai_metadata = format / audit anchors</text>
+<rect x="1280" y="865" width="480" height="220" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="1294" y="889" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="1294" y="919" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">_codex_job</text>
+<text x="1294" y="941" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">_codex_job.py · detached recorder</text>
+<path d="M 1280 952 H 1760" stroke="#c6a36c"/>
+<text x="1294" y="979" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">manifest / output / protected receipt</text>
+<path d="M 1280 990 H 1760" stroke="#c6a36c"/>
+<text x="1294" y="1017" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">record() / _capture()</text>
+<text x="1294" y="1041" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">starts and records codex exec</text>
+<rect x="1280" y="1210" width="480" height="220" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="1294" y="1234" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="1294" y="1264" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">workflow</text>
+<text x="1294" y="1286" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">workflow.py</text>
+<path d="M 1280 1297 H 1760" stroke="#c6a36c"/>
+<text x="1294" y="1324" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">INSTRUCTIONS; four-stage evidence guards</text>
+<path d="M 1280 1335 H 1760" stroke="#c6a36c"/>
+<text x="1294" y="1362" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">complete(data, facts, config, now)</text>
+<text x="1294" y="1386" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">request_stop() / continuation_seed()</text>
+<rect x="1280" y="1510" width="480" height="244" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="1294" y="1534" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="1294" y="1564" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">transitions</text>
+<text x="1294" y="1586" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">transitions.py</text>
+<path d="M 1280 1597 H 1760" stroke="#c6a36c"/>
+<text x="1294" y="1624" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">TRANSITIONS: dict[(Step, event), Transition]</text>
+<text x="1294" y="1648" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">DEFAULT_SCOPES: dict[Step, str]</text>
+<path d="M 1280 1659 H 1760" stroke="#c6a36c"/>
+<text x="1294" y="1686" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">transition(step, event): Step</text>
+<text x="1294" y="1710" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">scope_for(step, event): str</text>
+<rect x="660" y="1530" width="480" height="152" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="674" y="1554" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="674" y="1584" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Transition</text>
+<text x="674" y="1606" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">transitions.py</text>
+<path d="M 660 1617 H 1140" stroke="#72a898"/>
+<text x="674" y="1644" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">step: Step / scope: str | None</text>
+<rect x="40" y="1570" width="480" height="220" rx="6" fill="#fff5e6" stroke="#c6a36c"/>
+<text x="54" y="1594" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#c6a36c" text-anchor="start">«module»</text>
+<text x="54" y="1624" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">_json</text>
+<text x="54" y="1646" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">_json.py</text>
+<path d="M 40 1657 H 520" stroke="#c6a36c"/>
+<text x="54" y="1684" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">canonical serialization / hashes / UTC</text>
+<path d="M 40 1695 H 520" stroke="#c6a36c"/>
+<text x="54" y="1722" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">canonical_text() / canonical_hash()</text>
+<text x="54" y="1746" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">freeze() / json_value() / utc_text()</text>
+<rect x="40" y="895" width="480" height="118" rx="6" fill="#f8fafc" stroke="#d9e1ea"/>
+<text x="54" y="922" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">Runtime also calls workflow and the registry directly;</text>
+<text x="54" y="946" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">JSON helpers are shared by models, runtime, store</text>
+<text x="54" y="970" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">and runner. Run state is a projection, not a Run</text>
+<text x="54" y="994" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">class.</text>
+<rect x="530.3984375" y="228" width="119.203125" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="245" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">authenticates</text>
+<rect x="1149.96875" y="233" width="120.0625" height="48" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1210" y="250" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">selects frozen</text>
+<text x="1210" y="272" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">runner</text>
+<rect x="541.875" y="453" width="96.25" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="470" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">reads time</text>
+<rect x="856.2890625" y="660" width="87.421875" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="900" y="677" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">owns one</text>
+<rect x="531.1484375" y="1006" width="117.703125" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="1023" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">reads / writes</text>
+<rect x="507.7109375" y="1303" width="134.578125" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="575" y="1320" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">fences commits</text>
+<rect x="821.578125" y="1076" width="156.84375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="900" y="1093" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">persists atomically</text>
+<rect x="1444.375" y="788" width="151.25" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1520" y="805" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">launches recorder</text>
+<rect x="1446.109375" y="1455" width="147.78125" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1520" y="1472" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">uses sole registry</text>
+<rect x="1177.609375" y="1593" width="64.78125" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1210" y="1610" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">values</text>
+<text x="40" y="1881" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#68788a" text-anchor="start">CURRENT CODE · 2026-10-21 · fields/methods abbreviated · arrows explained in docs/code-structure.md</text>
+</svg>

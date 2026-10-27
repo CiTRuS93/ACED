@@ -1,0 +1,58 @@
+classDiagram
+    direction TB
+    class HostEntry["cddai_host.__main__"] {
+        <<module>>
+        compose Runtime + runner + infrastructure
+        work(): worker + helpers + events
+    }
+    class ProjectConfig["ProjectConfig"] {
+        <<value>>
+        source, plan, bounds, budgets, approvals
+        snapshot() / step()
+    }
+    class LocalIdentity["LocalIdentity"] {
+        <<class>>
+        token-bound Principal
+        authenticate(context)
+    }
+    class Runtime["Runtime"] {
+        <<class>>
+        projects / runners / infrastructure / identity
+        advance() / run_worker()
+        hold() / resume() / stop()
+    }
+    class Workflow["workflow + transitions"] {
+        <<module>>
+        evidence predicates + legal registry
+        complete() / request_stop() / transition()
+    }
+    class CodexCliRunner["CodexCliRunner"] {
+        <<class>>
+        implements AgentRunner structurally
+        start() / observe() / cancel()
+    }
+    class SQLiteStore["SQLiteStore"] {
+        <<class>>
+        one runtime DB: runs, tasks, records, events
+        fenced save() / history() / verify_audit()
+    }
+    class PlaygroundInfrastructure["PlaygroundInfrastructure"] {
+        <<class>>
+        implements Infrastructure structurally
+        authorize() / read_evidence()
+        safety() / request_stop()
+    }
+    class TrustedTools["TrustedTools"] {
+        <<class>>
+        task-bound checks and arm requests
+        process() / poll() / run()
+    }
+    HostEntry *-- Runtime : creates / supervises
+    Runtime --> ProjectConfig : reads
+    Runtime --> LocalIdentity : IdentityProvider
+    Runtime --> Workflow : validates facts
+    Runtime --> CodexCliRunner : AgentRunner
+    Runtime *-- SQLiteStore : owns
+    Runtime --> PlaygroundInfrastructure : Infrastructure
+    CodexCliRunner ..> TrustedTools : launched agent → tool requests
+    TrustedTools ..> PlaygroundInfrastructure : receipts via files

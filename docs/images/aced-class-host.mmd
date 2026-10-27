@@ -1,0 +1,111 @@
+classDiagram
+    direction TB
+    class HostEntry["__main__"] {
+        <<module>>
+        existing host process + worker lock
+        execute() / work() / prepare()
+        agent_runner() / configure_agent()
+        observe_research()
+    }
+    class GoalSpec["GoalSpec"] {
+        <<value>>
+        key / objective / plan / plan_bounds
+        max_cycles / max_tasks / instructions
+        goal: Goal
+    }
+    class ConfigModule["config + settings + workspace"] {
+        <<module>>
+        typed config / paths / public Git boundary
+        load_goals() / build_project()
+        verify_product_workspace()
+        prepare_product_workspace()
+    }
+    class LocalIdentity["LocalIdentity"] {
+        <<class>>
+        _token / _principal: Principal
+        async authenticate(context): Principal
+    }
+    class Runtime["Runtime"] {
+        <<class>>
+        one coordinator / one SQLiteStore
+        run_worker() / inspect() / history()
+    }
+    class CodexCliRunner["CodexCliRunner"] {
+        <<class>>
+        host-prepared sandbox / env / outputs
+        start() / observe() / cancel()
+    }
+    class PlaygroundInfrastructure["PlaygroundInfrastructure"] {
+        <<class>>
+        state_directory / status_file
+        approvals: LocalApprovals
+        repair_preauthorized
+        authorize() / read_evidence()
+        safety() / request_stop()
+    }
+    class LocalApprovals["LocalApprovals"] {
+        <<class>>
+        root / directory / policy: ApprovalPolicy
+        authorize() / respond() / pending()
+        replace_plan_review()
+        emit() / async collect_events()
+    }
+    class TrustedTools["TrustedTools"] {
+        <<class>>
+        runtime: Runtime / directory / surface
+        approvals: LocalApprovals
+        async process() / poll() / run()
+        publish()
+    }
+    class ResearchModules["hypothesis + capture_evidence"] {
+        <<module>>
+        retained scoped observations + proposals
+        capture() / admit_research_task()
+        verify_hypothesis() / repropose_plan_review()
+    }
+    class EvidenceModules["source + checks + evidence"] {
+        <<module>>
+        native source / checks / readout / settlement
+        verify_implementation() / read_receipt()
+        capture_checks() / candidate_checks()
+        shop_records() / native_deadline()
+    }
+    class ControlModules["controls + ownership"] {
+        <<module>>
+        native grants / original arm proposal / ownership
+        provision() / arm() / acknowledge_incident()
+        owner() / claim() / release()
+    }
+    class Watchdog["watchdog"] {
+        <<module>>
+        guardrails / coverage / native deadline
+        inspect() / probe() / monitor()
+    }
+    class StopDeployment["stop_treatment + deployment"] {
+        <<module>>
+        existing HTTP controls / systemd reads
+        stop_treatment() / snapshot() / request()
+        service_state() / inspect_shop()
+    }
+    class HostArtifacts["Host files and tool surfaces"] {
+        <<store>>
+        protected inbox / checks / protection / monitor
+        protected runner and helper receipts
+        agent-writable requests and output
+        agent-readable responses; not authoritative
+    }
+    GoalSpec --> HostEntry : goal + config
+    HostEntry --> ConfigModule : calls
+    HostEntry --> Runtime : constructs / supervises
+    Runtime --> LocalIdentity : IdentityProvider
+    Runtime --> CodexCliRunner : AgentRunner
+    Runtime --> PlaygroundInfrastructure : Infrastructure
+    PlaygroundInfrastructure *-- LocalApprovals : owns instance
+    TrustedTools *-- LocalApprovals : owns another
+    CodexCliRunner ..> TrustedTools : launched agent → tool CLI → requests
+    PlaygroundInfrastructure --> ResearchModules : research evidence
+    TrustedTools --> ControlModules : arm
+    TrustedTools --> EvidenceModules : checks
+    PlaygroundInfrastructure --> EvidenceModules : reads exact receipts
+    Watchdog --> StopDeployment : stop / rollback
+    Watchdog ..> PlaygroundInfrastructure : safety via status file

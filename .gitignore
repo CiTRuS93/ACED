@@ -1,0 +1,87 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+/venv/
+build/
+dist/
+
+# Test, type-checker, and coverage output
+.coverage*
+coverage.xml
+htmlcov/
+.hypothesis/
+.tox/
+.nox/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Local configuration and credentials (only sanitized examples belong in Git)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local databases, including SQLite journals and sidecars
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Local agent instructions and tooling state
+AGENT.md
+AGENTS.md
+AGENTS.override.md
+CLAUDE.md
+GEMINI.md
+/.agents/
+/.codex/
+/.claude/
+/.cursor/
+/.opencode/
+/.windsurf/
+/.aider*
+/.cursorrules
+/.cursorignore
+/.windsurfrules
+/.github/copilot-instructions.md
+/.github/instructions/
+/.github/prompts/
+
+# Local development log and separate article/publication materials
+/CHANGELOG.md
+/changelog.md
+/article.md
+/article-assets.md
+/images/
+/video/
+
+# Run state, checkpoints, and temporary development records
+.cddai-roadmap-loop/
+.cddai-checkpoints/
+.aced-roadmap-loop/
+.aced-checkpoints/
+playground/.local/
+/docs/reviews/
+/docs/tasks/
+*.log
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Manager frontend build and dependencies
+node_modules/
+/src/aced/manager/static/
+/frontend/coverage/
+/frontend/test-results/

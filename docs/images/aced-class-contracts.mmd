@@ -1,0 +1,104 @@
+classDiagram
+    direction TB
+    class AgentTask["AgentTask"] {
+        <<value>>
+        id / run_id / cycle / step: str / attempt
+        runner: str / instructions / context
+        workspace / deadline / max_cost
+        purpose / scope / predecessor / tool_profile
+        output_schema
+        payload() / fingerprint / instruction_digest
+    }
+    class EvidenceRequest["EvidenceRequest"] {
+        <<value>>
+        task: AgentTask / result: AgentResult | None
+        expected / purpose / boundary
+        request_id / task_fingerprint
+    }
+    class AgentResult["AgentResult"] {
+        <<value>>
+        status: AgentStatus / output: Mapping
+        execution: ExecutionRef | None
+        reason / usage: float | None
+    }
+    class ExecutionRef["ExecutionRef"] {
+        <<value>>
+        task_id / job_id
+    }
+    class AgentStatus["AgentStatus"] {
+        <<enum>>
+        PENDING / COMPLETED / FAILED
+        UNKNOWN / CANCELLED / ABSENT
+    }
+    class Infrastructure["Infrastructure"] {
+        <<protocol>>
+        async authorize(task, principal): Authorization
+        async read_evidence(request, principal): Verification
+        async safety(project, run, principal): SafetyStatus
+        async request_stop(request, principal): StopDelivery
+    }
+    class Principal["Principal"] {
+        <<value>>
+        subject / claims: frozenset[str]
+    }
+    class Authorization["Authorization"] {
+        <<value>>
+        status: ApprovalStatus / task_fingerprint
+        reference / valid_until / reason
+    }
+    class Verification["Verification"] {
+        <<value>>
+        status: VerificationStatus / task_fingerprint
+        facts / evidence: tuple[Evidence, ...]
+        observed_at / valid_until / reason
+    }
+    class SafetyStatus["SafetyStatus"] {
+        <<value>>
+        healthy / independent_stop_ready
+        zero_confirmed / exposure_active / exposure_end
+        stop_required / stop_reason / protection_applied
+        degraded / last_success_at / freshness
+        experiment_id / candidate / plan_fingerprint
+    }
+    class ApprovalStatus["ApprovalStatus"] {
+        <<enum>>
+        ALLOWED / WAITING / DENIED
+    }
+    class Evidence["Evidence"] {
+        <<value>>
+        reference / digest / read_claims
+    }
+    class VerificationStatus["VerificationStatus"] {
+        <<enum>>
+        VERIFIED / WAITING / REJECTED
+        UNKNOWN / RETRY_SAFE
+    }
+    class StopRequest["StopRequest"] {
+        <<value>>
+        request_id / project_id / run_id / resource_id
+        reason / task_ids / task_fingerprints
+        operations / expected
+    }
+    class StopDelivery["StopDelivery"] {
+        <<value>>
+        request_id / accepted / reference / reason
+    }
+    class Inspection["Inspection"] {
+        <<value>>
+        id / project_id / key / revision
+        status / step: Step / cycle
+        blocker / wake_at / data / redacted
+    }
+    EvidenceRequest --> AgentTask : task: 1
+    EvidenceRequest --> AgentResult : result: 0..1
+    AgentResult --> ExecutionRef : execution: 0..1
+    AgentResult --> AgentStatus : status
+    Infrastructure ..> EvidenceRequest : reads request
+    Infrastructure --> Principal : requires
+    Infrastructure --> Authorization : returns
+    Infrastructure --> Verification : returns
+    Infrastructure --> SafetyStatus : returns
+    Authorization --> ApprovalStatus : status
+    Verification --> Evidence : evidence: 0..*
+    Verification --> VerificationStatus : status
+    StopRequest ..> StopDelivery : request_id binding

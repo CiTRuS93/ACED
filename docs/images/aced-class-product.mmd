@@ -1,0 +1,99 @@
+classDiagram
+    direction TB
+    class Handler["Handler"] {
+        <<class>>
+        extends BaseHTTPRequestHandler
+        do_HEAD() / do_GET() / do_POST()
+    }
+    class ReferenceShop["ReferenceShop"] {
+        <<class>>
+        database / connection: sqlite3.Connection
+        control() / operation() / validate_fence()
+        browser_visit() / browser_purchase()
+        readout() / overview() / summary()
+    }
+    class ScopedControl["scoped_control"] {
+        <<module>>
+        native grant / protection / stop latch
+        grant() / protect() / authorize()
+        exposure_open() / record_effect()
+        stop_run() / expire()
+    }
+    class BrowserSession["BrowserSession"] {
+        <<value>>
+        visitor_token / session_id / user_id
+    }
+    class ControlReceipt["ControlReceipt"] {
+        <<value>>
+        operation_id / operation / status
+        effective_at / details / request_hash
+    }
+    class ShopReadout["ShopReadout"] {
+        <<value>>
+        experiment_id / observed_at
+        counts / conversion / confidence interval
+        latency / errors / delayed harms
+        assignment + exposure integrity / blockers
+    }
+    class ProductStore["Native product SQLite"] {
+        <<store>>
+        source of experiment and operation records
+        assignment / metrics / protection / ownership
+    }
+    class ProductWeb["web + overview"] {
+        <<module>>
+        HTTP API / storefront / observed dashboard
+        create_server(): ThreadingHTTPServer
+        serve_shop() / overview_page()
+    }
+    class Simulator["Simulator"] {
+        <<class>>
+        extends ReferenceShop
+        state / private: sqlite3.Connection
+        initialize() / attach()
+        configure_scenario() / run_traffic()
+    }
+    class BrowserTraffic["BrowserTraffic"] {
+        <<class>>
+        origin / seed / population / state: BrowserState
+        run() / close()
+    }
+    class BrowserState["BrowserState"] {
+        <<class>>
+        path / lock / connection: sqlite3.Connection
+        recover() / begin() / checkpoint() / finish()
+        storage() / save_storage() / read()
+    }
+    class Strategy["strategy"] {
+        <<module>>
+        shared deterministic traffic policy
+        persona_for() / profile() / arrival()
+        choose_purchase(options): PurchaseChoice | None
+    }
+    class Persona["Persona"] {
+        <<value>>
+        name / weight / intent / budget
+        scrolls / patience
+    }
+    class PurchaseOption["PurchaseOption"] {
+        <<value>>
+        label / card_text / visible / enabled
+    }
+    class PurchaseChoice["PurchaseChoice"] {
+        <<value>>
+        index / label / price_cents
+    }
+    Handler --> ReferenceShop : per-request instance
+    ReferenceShop --> ScopedControl : native effect guards
+    ReferenceShop --> BrowserSession : browser_visit()
+    ReferenceShop --> ControlReceipt : control() / operation()
+    ReferenceShop --> ShopReadout : readout()
+    ReferenceShop *-- ProductStore : owns connection
+    Simulator --|> ReferenceShop : inherits
+    BrowserTraffic --> ProductWeb : Playwright / HTTP only
+    BrowserTraffic *-- BrowserState : owns
+    BrowserTraffic --> Strategy : uses
+    Simulator --> Strategy : persona policy
+    Strategy --> Persona : population
+    Strategy --> PurchaseOption : accepts options
+    Strategy --> PurchaseChoice : returns choice

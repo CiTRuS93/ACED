@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2210" viewBox="0 0 1800 2210" role="img" aria-labelledby="title desc">
+<title id="title">C · immutable task and trusted evidence contracts</title>
+<desc id="desc">Agent output, host authorization, verified evidence, safety and stop acknowledgment are separate types. Current source, not a proposed architecture. Solid arrows are associations or calls; dashed open triangles show structural protocol conformance.</desc>
+<rect width="1800" height="2210" fill="#ffffff"/>
+<polyline points="660,255.0 520,291.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="520.00,291.00 530.34,283.12 532.86,292.92" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1140,255.0 1280,245.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1280.00,245.00 1268.42,250.90 1267.70,240.80" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1520.0,345 1520.0,500" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1520.00,500.00 1514.94,488.03 1525.06,488.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1760,245.0 1780,250 1780,840 1760,848.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1760.00,848.00 1769.24,838.85 1773.00,848.25" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="900.0,630 900.0,365" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="900.00,365.00 905.06,376.97 894.94,376.97" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="660,742.0 520,706.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="520.00,706.00 532.86,704.08 530.34,713.88" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="660,822.0 585,850 280,850 280.0,970" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="280.00,970.00 274.94,958.03 285.06,958.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="900.0,854 900.0,1050" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="900.00,1050.00 894.94,1038.03 905.06,1038.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1140,742.0 1205,780 1205,1025 1520,1025 1520.0,1060" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1520.00,1060.00 1514.94,1048.03 1525.06,1048.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="280.0,1146 280.0,1290" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="280.00,1290.00 274.94,1278.03 285.06,1278.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="900.0,1250 900.0,1425" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="900.00,1425.00 894.94,1413.03 905.06,1413.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="1140,1150.0 1210,1180 1210,1395 1520,1395 1520.0,1460" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1520.00,1460.00 1514.94,1448.03 1525.06,1448.03" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<polyline points="520,1785.0 660,1851.0" fill="none" stroke="#566d88" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="660.00,1851.00 647.01,1850.47 651.33,1841.32" fill="#566d88" stroke="#566d88" stroke-width="2"/>
+<text x="40" y="59" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="700" fill="#24344b" text-anchor="start">C · immutable task and trusted evidence contracts</text>
+<text x="40" y="95" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#5c6c7e" text-anchor="start">Agent output, host authorization, verified evidence, safety and stop acknowledgment are separate types.</text>
+<rect x="40" y="145" width="480" height="292" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="54" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="54" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">AgentTask</text>
+<text x="54" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">agents.py</text>
+<path d="M 40 232 H 520" stroke="#72a898"/>
+<text x="54" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">id / run_id / cycle / step: str / attempt</text>
+<text x="54" y="283" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">runner: str / instructions / context</text>
+<text x="54" y="307" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">workspace / deadline / max_cost</text>
+<text x="54" y="331" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">purpose / scope / predecessor / tool_profile</text>
+<text x="54" y="355" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">output_schema</text>
+<path d="M 40 366 H 520" stroke="#72a898"/>
+<text x="54" y="393" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">payload() / fingerprint / instruction_digest</text>
+<rect x="660" y="145" width="480" height="220" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="674" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="674" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">EvidenceRequest</text>
+<text x="674" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 660 232 H 1140" stroke="#72a898"/>
+<text x="674" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">task: AgentTask / result: AgentResult | None</text>
+<text x="674" y="283" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">expected / purpose / boundary</text>
+<path d="M 660 294 H 1140" stroke="#72a898"/>
+<text x="674" y="321" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">request_id / task_fingerprint</text>
+<rect x="1280" y="145" width="480" height="200" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="1294" y="169" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="1294" y="199" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">AgentResult</text>
+<text x="1294" y="221" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">agents.py</text>
+<path d="M 1280 232 H 1760" stroke="#72a898"/>
+<text x="1294" y="259" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">status: AgentStatus / output: Mapping</text>
+<text x="1294" y="283" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">execution: ExecutionRef | None</text>
+<text x="1294" y="307" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">reason / usage: float | None</text>
+<rect x="1280" y="500" width="480" height="152" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="1294" y="524" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="1294" y="554" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">ExecutionRef</text>
+<text x="1294" y="576" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">agents.py</text>
+<path d="M 1280 587 H 1760" stroke="#72a898"/>
+<text x="1294" y="614" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">task_id / job_id</text>
+<rect x="1280" y="760" width="480" height="176" rx="6" fill="#f0f4f7" stroke="#91a3b5"/>
+<text x="1294" y="784" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#91a3b5" text-anchor="start">«enum»</text>
+<text x="1294" y="814" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">AgentStatus</text>
+<text x="1294" y="836" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">agents.py · StrEnum</text>
+<path d="M 1280 847 H 1760" stroke="#91a3b5"/>
+<text x="1294" y="874" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">PENDING / COMPLETED / FAILED</text>
+<text x="1294" y="898" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">UNKNOWN / CANCELLED / ABSENT</text>
+<rect x="660" y="630" width="480" height="224" rx="6" fill="#f1edfa" stroke="#9b84bc"/>
+<text x="674" y="654" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#9b84bc" text-anchor="start">«protocol»</text>
+<text x="674" y="684" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Infrastructure</text>
+<text x="674" y="706" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 660 721 H 1140" stroke="#9b84bc"/>
+<text x="674" y="748" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">async authorize(task, principal): Authorization</text>
+<text x="674" y="772" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">async read_evidence(request, principal): Verification</text>
+<text x="674" y="796" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">async safety(project, run, principal): SafetyStatus</text>
+<text x="674" y="820" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">async request_stop(request, principal): StopDelivery</text>
+<rect x="40" y="630" width="480" height="152" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="54" y="654" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="54" y="684" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Principal</text>
+<text x="54" y="706" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 40 717 H 520" stroke="#72a898"/>
+<text x="54" y="744" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">subject / claims: frozenset[str]</text>
+<rect x="40" y="970" width="480" height="176" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="54" y="994" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="54" y="1024" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Authorization</text>
+<text x="54" y="1046" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 40 1057 H 520" stroke="#72a898"/>
+<text x="54" y="1084" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">status: ApprovalStatus / task_fingerprint</text>
+<text x="54" y="1108" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">reference / valid_until / reason</text>
+<rect x="660" y="1050" width="480" height="200" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="674" y="1074" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="674" y="1104" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Verification</text>
+<text x="674" y="1126" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 660 1137 H 1140" stroke="#72a898"/>
+<text x="674" y="1164" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">status: VerificationStatus / task_fingerprint</text>
+<text x="674" y="1188" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">facts / evidence: tuple[Evidence, ...]</text>
+<text x="674" y="1212" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">observed_at / valid_until / reason</text>
+<rect x="1280" y="1060" width="480" height="248" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="1294" y="1084" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="1294" y="1114" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">SafetyStatus</text>
+<text x="1294" y="1136" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 1280 1147 H 1760" stroke="#72a898"/>
+<text x="1294" y="1174" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">healthy / independent_stop_ready</text>
+<text x="1294" y="1198" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">zero_confirmed / exposure_active / exposure_end</text>
+<text x="1294" y="1222" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">stop_required / stop_reason / protection_applied</text>
+<text x="1294" y="1246" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">degraded / last_success_at / freshness</text>
+<text x="1294" y="1270" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">experiment_id / candidate / plan_fingerprint</text>
+<rect x="40" y="1290" width="480" height="152" rx="6" fill="#f0f4f7" stroke="#91a3b5"/>
+<text x="54" y="1314" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#91a3b5" text-anchor="start">«enum»</text>
+<text x="54" y="1344" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">ApprovalStatus</text>
+<text x="54" y="1366" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py · StrEnum</text>
+<path d="M 40 1377 H 520" stroke="#91a3b5"/>
+<text x="54" y="1404" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">ALLOWED / WAITING / DENIED</text>
+<rect x="660" y="1425" width="480" height="152" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="674" y="1449" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="674" y="1479" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Evidence</text>
+<text x="674" y="1501" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 660 1512 H 1140" stroke="#72a898"/>
+<text x="674" y="1539" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">reference / digest / read_claims</text>
+<rect x="1280" y="1460" width="480" height="176" rx="6" fill="#f0f4f7" stroke="#91a3b5"/>
+<text x="1294" y="1484" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#91a3b5" text-anchor="start">«enum»</text>
+<text x="1294" y="1514" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">VerificationStatus</text>
+<text x="1294" y="1536" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py · StrEnum</text>
+<path d="M 1280 1547 H 1760" stroke="#91a3b5"/>
+<text x="1294" y="1574" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">VERIFIED / WAITING / REJECTED</text>
+<text x="1294" y="1598" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">UNKNOWN / RETRY_SAFE</text>
+<rect x="40" y="1685" width="480" height="200" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="54" y="1709" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="54" y="1739" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">StopRequest</text>
+<text x="54" y="1761" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 40 1772 H 520" stroke="#72a898"/>
+<text x="54" y="1799" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">request_id / project_id / run_id / resource_id</text>
+<text x="54" y="1823" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">reason / task_ids / task_fingerprints</text>
+<text x="54" y="1847" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">operations / expected</text>
+<rect x="660" y="1775" width="480" height="152" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="674" y="1799" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="674" y="1829" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">StopDelivery</text>
+<text x="674" y="1851" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 660 1862 H 1140" stroke="#72a898"/>
+<text x="674" y="1889" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">request_id / accepted / reference / reason</text>
+<rect x="1280" y="1810" width="480" height="200" rx="6" fill="#edf7f4" stroke="#72a898"/>
+<text x="1294" y="1834" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#72a898" text-anchor="start">«value»</text>
+<text x="1294" y="1864" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24344b" text-anchor="start">Inspection</text>
+<text x="1294" y="1886" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#5c6c7e" text-anchor="start">models.py</text>
+<path d="M 1280 1897 H 1760" stroke="#72a898"/>
+<text x="1294" y="1924" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">id / project_id / key / revision</text>
+<text x="1294" y="1948" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">status / step: Step / cycle</text>
+<text x="1294" y="1972" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#24344b" text-anchor="start">blocker / wake_at / data / redacted</text>
+<rect x="40" y="2050" width="1720" height="70" rx="6" fill="#f8fafc" stroke="#d9e1ea"/>
+<text x="54" y="2077" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">StopRequest is an input to Infrastructure.request_stop; StopDelivery only acknowledges delivery. Inspection is the redacted Runtime view. AgentResult.output is a frozen mapping (outcome,</text>
+<text x="54" y="2101" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#536579" text-anchor="start">deliverable, evidence, operations, checkpoint, wait, blocker), not another class.</text>
+<rect x="556.5390625" y="278" width="66.921875" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="295" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">task: 1</text>
+<rect x="1161.5625" y="253" width="96.875" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1210" y="270" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">result: 0..1</text>
+<rect x="1456.2421875" y="438" width="127.515625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1520" y="455" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">execution: 0..1</text>
+<rect x="1648.96875" y="708" width="62.0625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1680" y="725" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">status</text>
+<rect x="840.3125" y="528" width="119.375" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="900" y="545" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">reads request</text>
+<rect x="551.421875" y="705" width="77.15625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="722" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">requires</text>
+<rect x="365.1640625" y="823" width="69.671875" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="400" y="840" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">returns</text>
+<rect x="865.1640625" y="977" width="69.671875" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="900" y="994" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">returns</text>
+<rect x="1355.1640625" y="996" width="69.671875" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1390" y="1013" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">returns</text>
+<rect x="248.96875" y="1231" width="62.0625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="280" y="1248" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">status</text>
+<rect x="839.796875" y="1358" width="120.40625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="900" y="1375" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">evidence: 0..*</text>
+<rect x="1358.96875" y="1368" width="62.0625" height="26" rx="3" fill="#fff" stroke="#fff"/>
+<text x="1390" y="1385" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">status</text>
+<rect x="542.8984375" y="1838" width="94.203125" height="48" rx="3" fill="#fff" stroke="#fff"/>
+<text x="590" y="1855" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">request_id</text>
+<text x="590" y="1877" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#405975" text-anchor="middle">binding</text>
+<text x="40" y="2191" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#68788a" text-anchor="start">CURRENT CODE · 2026-10-21 · fields/methods abbreviated · arrows explained in docs/code-structure.md</text>
+</svg>

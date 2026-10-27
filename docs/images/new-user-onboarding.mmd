@@ -1,0 +1,101 @@
+sequenceDiagram
+    autonumber
+    participant U as User
+    participant S as Setup assistant
+    participant C as ACED + host worker
+    participant A as Stage agent
+    participant T as Existing tools + records
+    participant M as Independent monitor / stop
+    Note over U,M: 1. Discover the project
+    U->>S: Project, initial goal and known constraints
+    S->>T: Read docs, source, tools, metrics and current state
+    T-->>S: Existing capabilities, native records and baseline
+    S->>M: Inspect monitoring and stopping capabilities
+    M-->>S: Protection, deadlines and stop interface
+    S->>U: Capabilities map and questions still unanswered
+    Note over U,M: MAIN PATH: required capabilities exist. Missing capability -> record the gap, separate discussion before proceeding.
+    Note over U,M: 2. Prepare and agree the integration
+    U->>S: Goal boundaries, budgets, runner and approval policy
+    S->>S: Install selected library / runner, prepare configuration, product skills and small host connections
+    S->>T: Bind identity, tool scopes, records, evidence storage and worker supervision
+    Note over U,M: Map -> product skills + runner configuration + native-record / safety connections. Secrets remain in existing credential storage.
+    S->>U: Concrete setup, required custom code and bounded validation plan
+    U-->>S: Authority to execute the agreed validation plan
+    Note over U,M: Reuse authorization already granted. It may include standing policy, a human is not required at every later handoff.
+    Note over U,M: 3. Rehearse the actual agent environment
+    S->>C: Load setup in disposable state and an isolated product/profile
+    C->>T: Check identity, baseline, exclusive product ownership and bindings
+    S->>A: Rehearse the configured runner and actual tool profile
+    A->>T: Read data, run checks, write evidence, exercise permitted and denied controls
+    S->>M: Verify independent protection and stop behavior
+    S->>S: Interrupt a rehearsal invocation, recover in a fresh session and inspect original operations
+    T-->>S: Native receipts, exact identities and permission results
+    Note over U,M: IF CHECKS FAIL: repair configuration, skills or bindings and repeat affected checks. Readiness does not start an experiment.
+    S->>U: Rehearsal evidence and any remaining limitations
+    Note over U,M: 4a. Start a short real validation run
+    S->>C: Start the authorized short run, arrange existing worker supervision
+    C->>C: Persist goal, baseline, constraints and budgets, hold the shared product for this run
+    Note over U,M: BEFORE EVERY TASK: persist intent, inputs, runner and budget, obtain host authorization, launch through the configured runner. Before expanded scope, verify prior execution terminal / fenced. Wait or denial never grants permission.
+    C->>A: Hypothesize: research the goal
+    A->>T: Inspect approved data, source and previous learning
+    A-->>C: Evidence-backed hypothesis and bounded experiment plan
+    C->>C: Check bounds and exact plan authority; freeze the cycle plan before Implement
+    C->>A: Implement the hypothesis
+    A->>T: Edit, test and debug through existing tools
+    A-->>C: Exact candidate and trusted check references
+    C->>T: Verify native candidate/check records before exposure
+    Note over U,M: 4b. Run canary, then the separate main experiment
+    C->>A: Experiment: preparation and canary scope
+    A->>T: Deploy disabled, establish readiness, prepare bounded canary
+    A->>M: Establish independent protection before allocation
+    A->>T: Operate canary, close to zero, return native references
+    A-->>C: Yield and end invocation at canary closure
+    C->>T: Verify candidate, canary criteria, zero, separation and prior execution settlement
+    C->>A: New invocation with authorized main scope
+    A->>M: Prepare main-specific protection and activation window
+    M-->>A: Durable protection acknowledgment bound to this main attempt
+    A->>T: Activate separate main once, retain native start/end receipt
+    T->>M: Within protected activation: bind the same fixed deadline
+    Note over U,M: Positive allocation requires durable protection acknowledgment. Receipt / deadline binding cannot leave an unprotected interval.
+    A-->>C: Checkpoint with operation identity, yield for a durable wait
+    par Durable coordinator wait
+        C->>C: Wait durably, recheck due records without routine model calls
+    and Independent product protection
+        M->>T: Monitor independently, stop on limit, harm or sustained failure
+    end
+    C->>A: Resume after closure / maturity, or for a material incident
+    A->>T: Observe the same experiment, obtain closed-window analysis
+    A-->>C: Mature readout or explicit unsuccessful attempt
+    C->>T: Verify actual closure, operation settlement and readout identity
+    Note over U,M: 4c. Decide and close the learning cycle
+    C->>A: Decide: interpret evidence and propose disposition
+    A-->>C: Decision proposal with evidence, yield if a new effect is needed
+    C->>T: Check action eligibility and obtain current authorization
+    C->>A: New authorized invocation for any required disposition
+    A->>T: Execute disposition, observe outcome and retained source
+    Note over U,M: Promotion requires independent delayed-harm protection and separately authorized rollback before execution. Already-settled no-effect decisions skip the extra invocation.
+    A-->>C: Settled outcome, learning, goal assessment and next action
+    C->>T: Verify disposition, required observation and retained source
+    C->>C: Commit accepted source, learning and assessment, finish this bounded validation run
+    C-->>S: Complete cycle history, receipts and actual costs
+    Note over U,M: Completion can mean a valid inconclusive / revert result. Early stopping or allocation zero alone does not complete the learning cycle.
+    Note over U,M: 5. Prove interruption and recovery
+    S->>C: Repeat isolated, bounded cases within the agreed validation plan
+    Note over U,M: Cases: worker / agent interruption, lost activation reply, interrupted deadline binding, brief and sustained monitoring failures, authorized repair, second-goal exclusion.
+    C->>T: Recover original execution / operation, inspect native outcome
+    Note over U,M: UNKNOWN OUTCOME: retain uncertainty, observe or obtain fencing before replacement. Never blindly replay an uncertain external action.
+    S->>C: Exercise an operator stop during the isolated test
+    C->>M: Persist stop intent and deliver the same idempotent stop request
+    M->>T: Enforce stopping and prevent late re-exposure
+    C->>T: Confirm zero, execution settlement and any required rollback
+    Note over U,M: Stop delivery does not wait for agent cancellation. Acknowledgment is not confirmed zero. Agent interruption alone does not stop exposure.
+    C-->>S: Recovery evidence, unresolved cases and manual interventions
+    Note over U,M: FAILED VALIDATION: fix authorized integration issues or report the responsible owner's blocker, repeat affected cases. Every manual state repair is a failed autonomy criterion.
+    Note over U,M: 6. Hand over the usable integration
+    S->>U: Versioned setup, validation results, retained source and inspect / hold / resume / stop instructions
+    Note over U,M: Finish only with test effects settled, no competing owner and evidence retained. Passing these checks does not establish production or unattended qualification.
+    U->>C: Start an authorized goal through the host entry point
+    C->>C: Verify accepted source and selected predecessor lineage; persist new run for host worker
+    C->>A: Run the four-stage loop within configured policy and budgets
+    C-->>U: Inspectable progress, blockers, decisions and learning
+    Note over U,M: The setup assistant can exit. ACED owns orchestration, stage agents use existing tools, monitoring / stopping remains independently available.
