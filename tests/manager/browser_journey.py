@@ -33,6 +33,13 @@ def main():
             if page.get_by_role("button", name="Continue with new goal").count():
                 break
             approve = page.get_by_role("button", name="Approve task")
+            # Returning from the metrics tab remounts the inbox. Wait for its
+            # request to render before deciding whether an approval is available.
+            expect(
+                approve.or_(
+                    page.get_by_text("No approval requests for the current task.", exact=True)
+                ).first
+            ).to_be_visible()
             if approve.count() and approve.is_enabled():
                 approve.click()
             page.wait_for_timeout(1000)
