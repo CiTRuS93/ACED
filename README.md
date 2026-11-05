@@ -2,10 +2,9 @@
 
 **Agentic Continuous Experimentation and Development**
 
-An open-source Python framework implementing the
-Continuous Data-Driven AI Development paradigm. It coordinates coding
-agents through product experiments with durable progress, verified evidence, and
-human-controlled approvals.
+An open-source Python framework for durable AI coding-agent workflows and product
+experiments. ACED implements the Continuous Data-Driven AI Development paradigm
+with verified evidence and human-controlled approvals.
 
 > Hypothesize → Implement → Experiment → Decide → Repeat
 
@@ -18,7 +17,9 @@ operation are qualified. Fixture tests do not establish live integration safety.
 
 ## Try the offline demo
 
-![Offline manager showing the four stages, a completed fixture experiment, and retained inconclusive results.](docs/images/manager-offline-demo.png)
+![Recorded offline demo: review a task approval, follow a synthetic experiment, and inspect retained learning.](https://raw.githubusercontent.com/CiTRuS93/ACED/main/docs/images/manager-offline-demo.gif)
+
+[Static screenshot](https://raw.githubusercontent.com/CiTRuS93/ACED/main/docs/images/manager-offline-demo.png) · [Recording details](https://github.com/CiTRuS93/ACED/blob/main/docs/assets.md)
 
 Explore approvals, experiment observations, and learning in the local browser
 console. This demo uses deterministic agents and synthetic metrics; it needs no
@@ -42,7 +43,7 @@ inspect **Cycle history** and continue with retained learning. The fixture ends
 with an inconclusive readout and retains its baseline. Restarting the demo resets
 its in-memory state. Nothing is deployed and no product traffic is sent.
 
-The [manager guide](docs/manager.md) also covers installing a built wheel, which
+The [manager guide](https://github.com/CiTRuS93/ACED/blob/main/docs/manager.md) also covers installing a built wheel, which
 includes the browser assets and does not need Node at runtime.
 
 For a terminal-only check, create the virtual environment above and install the
@@ -53,7 +54,7 @@ core with `.venv/bin/python -m pip install -e .`. Run
 {"audit_valid":true,"cycles":2,"kind":"deterministic fixture","passed":true,"tasks":12}
 ```
 
-The core has no runtime dependencies. Try the [complete offline Python example](docs/runtime.md#run-an-offline-example)
+The core has no runtime dependencies. Try the [complete offline Python example](https://github.com/CiTRuS93/ACED/blob/main/docs/runtime.md#run-an-offline-example)
 to see how the library is embedded. Linux is the initial platform for coding CLI runners.
 
 ## What it does
@@ -63,9 +64,22 @@ to see how the library is embedded. Linux is the initial platform for coding CLI
 - Separates a bounded safety canary from the product experiment, requiring confirmed zero exposure between them and before readout.
 - Retains checked source, experiment outcomes, and learning for later cycles, with an audited SQLite history.
 
-See the [playground example](docs/playground-example.md): a real Codex agent tests
-catalog ordering against synthetic shop traffic. The October 24 snapshot reaches
-the main experiment; its final readout is not included and no benefit result is claimed.
+## Practical examples
+
+Run these credential-free examples from a source checkout with the core installed.
+Each uses a fresh temporary database and checks its result:
+
+| Learn how to | Run | Walkthrough |
+| --- | --- | --- |
+| Resume an interrupted agent workflow without a duplicate launch | `.venv/bin/python examples/resume_workflow.py` | [Recovery](https://github.com/CiTRuS93/ACED/blob/main/docs/examples/resume-workflow.md) |
+| Preserve an approval wait across process restarts | `.venv/bin/python examples/persist_approval.py` | [Approvals](https://github.com/CiTRuS93/ACED/blob/main/docs/examples/persist-approval.md) |
+| Complete a synthetic product experiment and retain learning | `.venv/bin/python examples/synthetic_experiment.py` | [Experiment](https://github.com/CiTRuS93/ACED/blob/main/docs/examples/synthetic-experiment.md) |
+
+These are deterministic fixtures. For real agent execution against a dummy product,
+read the [72-hour storefront experiment](https://github.com/CiTRuS93/ACED/blob/main/docs/playground-example.md):
+an interrupted attempt, a completed repair cycle, native readout, and retained
+learning. Its traffic and outcomes are synthetic; the companion playground is
+maintained separately.
 
 ## What you integrate
 
@@ -86,7 +100,7 @@ checkout is not included here. The offline demo above is included in this reposi
 
 A scheduling hold and a runtime shutdown do not stop exposure. Product stopping
 and rollback need confirmed outcomes; an agent's statement is insufficient.
-The [integration guide](docs/integrations.md) gives the complete host contract.
+The [integration guide](https://github.com/CiTRuS93/ACED/blob/main/docs/integrations.md) gives the complete host contract.
 
 ## Compatibility
 
@@ -101,9 +115,9 @@ alternate stores, and the former generic provider platform are no longer maintai
 
 ## Documentation
 
-- [Documentation starting points](docs/README.md)
-- [Design and rendered charts](docs/design.md)
-- [Product integration](docs/integrations.md)
-- [Runtime](docs/runtime.md) and [coding agent CLIs](docs/agent-clis.md)
-- [Qualification roadmap](docs/roadmap.md)
-- [Contributing](CONTRIBUTING.md)
+- [Documentation starting points](https://github.com/CiTRuS93/ACED/blob/main/docs/README.md)
+- [Design and rendered charts](https://github.com/CiTRuS93/ACED/blob/main/docs/design.md)
+- [Product integration](https://github.com/CiTRuS93/ACED/blob/main/docs/integrations.md)
+- [Runtime](https://github.com/CiTRuS93/ACED/blob/main/docs/runtime.md) and [coding agent CLIs](https://github.com/CiTRuS93/ACED/blob/main/docs/agent-clis.md)
+- [Qualification roadmap](https://github.com/CiTRuS93/ACED/blob/main/docs/roadmap.md)
+- [Contributing](https://github.com/CiTRuS93/ACED/blob/main/CONTRIBUTING.md)

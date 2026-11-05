@@ -60,6 +60,10 @@ individual tasks. The canary and main experiment use separate native fixture win
 Watch **Experiment** for chart observations and **Cycle history** for retained learning.
 A completed run can seed a new goal using selected retained learning and candidates.
 
+[Watch the recorded walkthrough](images/manager-offline-demo.gif) for task approval,
+the main experiment, its inconclusive readout, and retained learning. The recording
+omits idle waits and uses only this offline fixture; see [capture details](assets.md).
+
 ![Offline manager showing a completed fixture cycle and synthetic experiment metrics.](images/manager-offline-demo.png)
 
 The screenshot shows the deterministic offline demo. Its charts do not establish a

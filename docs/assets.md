@@ -2,6 +2,20 @@
 
 Paths below are relative to the repository root.
 
+## manager-offline-demo.gif
+
+Recording: `docs/images/manager-offline-demo.gif`, captured November 5, 2026
+(UTC) from the included offline manager fixture. It shows actual browser
+interactions: review a task approval, follow the synthetic main experiment,
+inspect an inconclusive readout, and read retained learning. Idle waits are omitted.
+The persistent caption identifies the offline fixture, synthetic data, and
+development-preview status. It contains no live-agent or playground footage.
+
+The [capture script](../tests/manager/record_demo.py) drives a disposable local
+fixture and assembles the recorded excerpts with FFmpeg. Reproduce it with the
+[recording instructions](../CONTRIBUTING.md#record-the-offline-demo).
+The static screenshot below remains available for readers who prefer no animation.
+
 ## manager-offline-demo.png
 
 Screenshot: `docs/images/manager-offline-demo.png`, captured October 27, 2026

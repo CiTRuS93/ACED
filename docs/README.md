@@ -9,7 +9,10 @@ guides explain its responsibilities, host contract, and qualification limits.
    follow experiment observations and inspect retained learning in a local browser.
 2. [Run a complete Python example](runtime.md#run-an-offline-example) to compose the
    runtime with the included deterministic fixtures.
-3. [Integrate a product](integrations.md) when you are ready to supply host identity,
+3. Try the runnable guides for [workflow recovery](examples/resume-workflow.md),
+   [approval waits across restarts](examples/persist-approval.md), and a
+   [synthetic experiment with retained learning](examples/synthetic-experiment.md).
+4. [Integrate a product](integrations.md) when you are ready to supply host identity,
    tools, authoritative evidence and independent stopping.
 
 The offline examples require no coding-agent credentials and deploy nothing.
@@ -18,7 +21,7 @@ this repository or package; see [example availability](integrations.md#example-a
 
 ## Guides and reference
 
-- [Playground example](playground-example.md): an October 24 snapshot of real agent execution on a synthetic storefront, recorded before the experiment readout.
+- [72-hour playground experiment](playground-example.md): real Codex execution on a dummy storefront, an interrupted attempt, a completed repair cycle, and retained synthetic results.
 - [Design and rendered charts](design.md): components, lifecycle, and recovery.
 - [Class diagram and code structure](code-structure.md): current classes, modules, contracts and interactions across core and playground.
 - [Four-stage orchestration](designs/four-stage-orchestration.md): implemented four-stage contract, rationale and remaining qualification.

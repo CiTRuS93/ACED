@@ -5,12 +5,27 @@ build-backend = "hatchling.build"
 [project]
 name = "aced"
 version = "0.1.0"
-description = "Coordinate coding agents through product experiments with durable progress, verified evidence, and human-controlled approvals"
+description = "Python framework for durable AI coding-agent workflows and product experiments, with verified evidence and human approvals"
 readme = "README.md"
 requires-python = ">=3.12"
 license = { text = "Apache-2.0" }
 authors = [{ name = "ACED contributors" }]
 dependencies = []
+keywords = ["ai-agents", "coding-agents", "workflow-orchestration", "experimentation", "sqlite"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/CiTRuS93/ACED"
+Documentation = "https://github.com/CiTRuS93/ACED/blob/main/docs/README.md"
+Repository = "https://github.com/CiTRuS93/ACED"
+Issues = "https://github.com/CiTRuS93/ACED/issues"
 
 [project.optional-dependencies]
 manager = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1"]
@@ -38,7 +53,10 @@ cddai-manager-demo = "aced.manager.demo:main"
 packages = ["src/aced", "src/cddai"]
 
 [tool.hatch.build.targets.sdist]
-include = ["src", "tests", "frontend", "docs", "README.md", "LICENSE", "pyproject.toml", "hatch_build.py"]
+include = [
+  "src", "tests", "examples", "frontend", "docs", "README.md", "CONTRIBUTING.md",
+  "LICENSE", "pyproject.toml", "hatch_build.py",
+]
 
 [tool.hatch.build.hooks.custom]
 

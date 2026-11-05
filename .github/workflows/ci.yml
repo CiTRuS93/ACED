@@ -30,6 +30,11 @@ jobs:
       - run: ruff check .
       - run: ruff format --check .
       - run: mypy
+      - name: Run offline documentation examples
+        run: |
+          python examples/resume_workflow.py
+          python examples/persist_approval.py
+          python examples/synthetic_experiment.py
       - run: pytest --cov=aced --cov-branch --cov-fail-under=90
       - run: python -m build
       - run: python tests/manager/wheel_smoke.py dist/*.whl
