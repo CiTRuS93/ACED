@@ -15,6 +15,18 @@ existing product tools and choose **Codex, Claude Code, Cursor, or OpenCode** pe
 **Development preview:** no production credentials, real-user exposure, or unattended
 operation are qualified. Fixture tests do not establish live integration safety.
 
+## Choose your first check
+
+- **A launch response was lost:** [recover the original task](https://github.com/CiTRuS93/ACED/blob/main/docs/examples/resume-workflow.md) without launching it twice.
+- **An approval must survive a restart:** [preserve a pending approval](https://github.com/CiTRuS93/ACED/blob/main/docs/examples/persist-approval.md) and recheck it with the host.
+- **You want the full loop:** [run the synthetic experiment](https://github.com/CiTRuS93/ACED/blob/main/docs/examples/synthetic-experiment.md) and inspect retained learning.
+- **You prefer a browser:** try the offline manager demo below.
+
+The first three paths need only Python 3.12+ and a source checkout, with no Node,
+agent account or product connection. The [first-run checklist](https://github.com/CiTRuS93/ACED/blob/main/docs/README.md#first-run-checklist)
+has setup, expected results and common setup fixes. These checks use fixtures,
+not live agents or production evidence.
+
 ## Try the offline demo
 
 ![Recorded offline demo: review a task approval, follow a synthetic experiment, and inspect retained learning.](https://raw.githubusercontent.com/CiTRuS93/ACED/main/docs/images/manager-offline-demo.gif)
