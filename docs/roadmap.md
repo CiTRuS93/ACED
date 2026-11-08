@@ -21,11 +21,20 @@ trusted check/protection requests, protected recorder files, public-only candida
 snapshots and Git history. That is actual sandbox-path evidence without a model or
 credentials; it does not establish a live learning cycle.
 
-A separate [playground integration snapshot](playground-example.md) records real
-Codex execution reaching a main experiment on a synthetic storefront, following
-an interrupted first attempt and a repair cycle. Its readout and disposition are
-still pending at that snapshot. This is partial live adapter evidence; it does
-not establish a completed measured cycle or operational qualification.
+The separate [playground case study](playground-example.md), reviewed November 5,
+2026, records real Codex execution on a synthetic storefront. After an interrupted
+first attempt, a second cycle completed its 72-hour experiment, mature native
+readout, promotion and retained learning on October 27, 2026. This is evidence of
+one completed measured synthetic integration cycle, not customer results or
+operational qualification.
+
+The interrupted attempt has no valid completed fixed-horizon analysis. The
+completed retry does not establish the earlier fault's root cause, a verified
+repair or fully autonomous recovery. The run then finished: these records do not
+demonstrate a later cycle consuming the promoted source. Local preauthorized
+gates also do not demonstrate human approval at every boundary, filesystem
+isolation, or broader delayed-harm protection. The qualification requirements
+below remain open for each real host and selected CLI version.
 
 A host integrating a real product must qualify the following before stronger
 profiles can be enabled:
@@ -44,6 +53,9 @@ Do not change qualification policy merely because a happy-path demo passed.
 Operational evidence belongs to the actual host environment and selected versions.
 
 ## Next integration work
+
+The recorded synthetic cycle provides a concrete example, not a substitute for
+these checks in a new host environment.
 
 1. Qualify the supplied runner profile with an actual model/account in a separately
    authorized isolated environment.
