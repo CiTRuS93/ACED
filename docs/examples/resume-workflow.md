@@ -1,3 +1,8 @@
+---
+title: Recover an agent workflow after a lost launch response
+description: Use an offline SQLite fixture to reconcile a lost agent launch response, then diagnose unknown outcomes without blindly launching a replacement.
+---
+
 # Resume an agent workflow after a lost launch response
 
 When a launch response is lost, starting the task again may duplicate work. ACED

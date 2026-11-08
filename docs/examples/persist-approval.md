@@ -1,3 +1,8 @@
+---
+title: Preserve human approval waits across process restarts
+description: Use a two-process SQLite fixture to preserve a pending approval, then check host authorization and task identity when a workflow remains blocked.
+---
+
 # Preserve a human-approval wait across process restarts
 
 An approval wait should survive the process that requested it. This example runs

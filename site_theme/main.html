@@ -1,5 +1,15 @@
 {% extends "base.html" %}
+{% block htmltitle %}
+{% if page and not page.is_homepage and page.meta.title %}
+<title>{{ page.meta.title|e }} - {{ config.site_name|e }}</title>
+{% else %}
+{{ super() }}
+{% endif %}
+{% endblock %}
 {% block extrahead %}
+{% if page and not page.is_homepage and page.meta.description %}
+<meta name="description" content="{{ page.meta.description|e }}">
+{% endif %}
 {% if not config.extra.production or not page %}
 <meta name="robots" content="noindex, nofollow">
 {% endif %}

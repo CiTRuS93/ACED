@@ -6,6 +6,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
+import yaml
 from build_docs import REPOSITORY, SITE_URL
 
 ROOT = Path(__file__).resolve().parents[1] / ".docs-preview"
@@ -14,6 +15,9 @@ ROOT = Path(__file__).resolve().parents[1] / ".docs-preview"
 class Page(HTMLParser):
     def __init__(self, path: Path):
         super().__init__()
+        self.titles: list[str] = []
+        self.descriptions: list[str] = []
+        self.in_title = False
         self.ids: set[str] = set()
         self.links: list[str] = []
         self.remote_assets: list[str] = []
@@ -23,6 +27,11 @@ class Page(HTMLParser):
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         values = dict(attrs)
+        if tag == "title":
+            self.in_title = True
+            self.titles.append("")
+        if tag == "meta" and values.get("name") == "description":
+            self.descriptions.append(values.get("content") or "")
         if values.get("id"):
             self.ids.add(str(values["id"]))
         if tag == "a" and values.get("href"):
@@ -39,6 +48,32 @@ class Page(HTMLParser):
             if urlsplit(asset).scheme or asset.startswith("//"):
                 self.remote_assets.append(asset)
 
+    def handle_data(self, data: str) -> None:
+        if self.in_title:
+            self.titles[-1] += data
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "title":
+            self.in_title = False
+
+
+def check_problem_guide_metadata(root: Path, pages: dict[Path, Page]) -> list[str]:
+    errors = []
+    descriptions = []
+    for name in ("resume-workflow", "persist-approval"):
+        source = Path(__file__).resolve().parents[1] / f"docs/examples/{name}.md"
+        metadata = yaml.safe_load(source.read_text(encoding="utf-8").split("---", 2)[1])
+        page = pages[root / f"docs/examples/{name}/index.html"]
+        title, description = metadata["title"], metadata["description"]
+        if not title or page.titles != [f"{title} - ACED documentation"]:
+            errors.append(f"{name}: missing or incorrect problem-specific title")
+        if not description or page.descriptions != [description]:
+            errors.append(f"{name}: missing or incorrect page description")
+        descriptions.append(description)
+    if len(set(descriptions)) != len(descriptions):
+        errors.append("Problem guides must have distinct descriptions")
+    return errors
+
 
 def main() -> None:
     global ROOT
@@ -49,8 +84,12 @@ def main() -> None:
         ROOT = ROOT.parent / ".docs-site"
     pages = {path: Page(path) for path in ROOT.rglob("*.html")}
     assert pages, "Build docs first"
-    errors = []
+    errors = check_problem_guide_metadata(ROOT, pages)
     for path, page in pages.items():
+        if len(page.titles) != 1 or not page.titles[0].strip():
+            errors.append(f"{path}: missing or duplicate title")
+        if len(page.descriptions) > 1:
+            errors.append(f"{path}: duplicate descriptions")
         if REPOSITORY not in page.links:
             errors.append(f"{path}: missing direct repository link")
         if page.remote_assets:
