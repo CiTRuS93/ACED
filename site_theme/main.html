@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% block htmltitle %}
-{% if page and not page.is_homepage and page.meta.title %}
+{% if page and page.is_homepage %}
+<title>{{ config.extra.homepage_title|e }}</title>
+{% elif page and page.meta.title %}
 <title>{{ page.meta.title|e }} - {{ config.site_name|e }}</title>
 {% else %}
 {{ super() }}

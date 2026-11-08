@@ -60,10 +60,15 @@ class Page(HTMLParser):
 def check_problem_guide_metadata(root: Path, pages: dict[Path, Page]) -> list[str]:
     errors = []
     descriptions = []
-    for name in ("resume-workflow", "persist-approval"):
-        source = Path(__file__).resolve().parents[1] / f"docs/examples/{name}.md"
+    for name in (
+        "examples/resume-workflow",
+        "examples/persist-approval",
+        "agent-clis",
+        "playground-example",
+    ):
+        source = Path(__file__).resolve().parents[1] / f"docs/{name}.md"
         metadata = yaml.safe_load(source.read_text(encoding="utf-8").split("---", 2)[1])
-        page = pages[root / f"docs/examples/{name}/index.html"]
+        page = pages[root / f"docs/{name}/index.html"]
         title, description = metadata["title"], metadata["description"]
         if not title or page.titles != [f"{title} - ACED documentation"]:
             errors.append(f"{name}: missing or incorrect problem-specific title")
@@ -85,6 +90,9 @@ def main() -> None:
     pages = {path: Page(path) for path in ROOT.rglob("*.html")}
     assert pages, "Build docs first"
     errors = check_problem_guide_metadata(ROOT, pages)
+    homepage = pages[ROOT / "index.html"]
+    if homepage.titles != ["ACED: Durable AI coding-agent workflows and product experiments"]:
+        errors.append("Homepage must have its descriptive ACED title")
     for path, page in pages.items():
         if len(page.titles) != 1 or not page.titles[0].strip():
             errors.append(f"{path}: missing or duplicate title")

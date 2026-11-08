@@ -82,7 +82,10 @@ def main() -> None:
             "site_description": (
                 "Durable AI coding-agent workflows with verified evidence and human approvals."
             ),
-            "extra": {"production": args.production},
+            "extra": {
+                "production": args.production,
+                "homepage_title": "ACED: Durable AI coding-agent workflows and product experiments",
+            },
             "docs_dir": str(staging),
             "site_dir": str(output),
             "use_directory_urls": True,

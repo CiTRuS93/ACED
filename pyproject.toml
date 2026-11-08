@@ -23,7 +23,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/CiTRuS93/ACED"
-Documentation = "https://github.com/CiTRuS93/ACED/blob/main/docs/README.md"
+Documentation = "https://citrus93.github.io/ACED/"
 Repository = "https://github.com/CiTRuS93/ACED"
 Issues = "https://github.com/CiTRuS93/ACED/issues"
 
