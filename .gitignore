@@ -89,3 +89,6 @@ node_modules/
 # Generated local documentation preview
 /.docs-preview/
 /.venv-docs/
+
+# Generated production documentation
+/.docs-site/

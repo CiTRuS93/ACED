@@ -1,5 +1,6 @@
-"""Build a local-only documentation preview from tracked Markdown sources."""
+"""Build preview or production documentation from the same tracked Markdown sources."""
 
+import argparse
 import json
 import os
 import re
@@ -10,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REPOSITORY = "https://github.com/CiTRuS93/ACED"
+SITE_URL = "https://citrus93.github.io/ACED/"
 
 
 def stage_sources(destination: Path) -> None:
@@ -64,14 +66,20 @@ def stage_sources(destination: Path) -> None:
 
 
 def main() -> None:
-    output = ROOT / ".docs-preview"
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--production", action="store_true", help="Build for GitHub Pages")
+    args = parser.parse_args()
+    output = ROOT / (".docs-site" if args.production else ".docs-preview")
     with tempfile.TemporaryDirectory(prefix="aced-docs-") as temporary:
         staging = Path(temporary) / "source"
         staging.mkdir()
         stage_sources(staging)
         config = {
             "site_name": "ACED documentation",
-            "site_description": "Development preview: durable coding-agent workflows",
+            "site_description": (
+                "Durable AI coding-agent workflows with verified evidence and human approvals."
+            ),
+            "extra": {"production": args.production},
             "docs_dir": str(staging),
             "site_dir": str(output),
             "use_directory_urls": True,
@@ -107,16 +115,24 @@ def main() -> None:
                 {"Contribute": "CONTRIBUTING.md"},
             ],
         }
+        if args.production:
+            config["site_url"] = SITE_URL
         config_path = Path(temporary) / "mkdocs.json"
         config_path.write_text(json.dumps(config), encoding="utf-8")
         subprocess.run(
             [sys.executable, "-m", "mkdocs", "build", "--strict", "-f", str(config_path)],
             check=True,
         )
-    for name in ("sitemap.xml", "sitemap.xml.gz"):
-        (output / name).unlink(missing_ok=True)
-    (output / "robots.txt").write_text("User-agent: *\nDisallow: /\n", encoding="utf-8")
-    print(f"Local-only preview: {output}")
+    if args.production:
+        (output / "robots.txt").write_text(
+            f"User-agent: *\nAllow: /ACED/\nSitemap: {SITE_URL}sitemap.xml\n", encoding="utf-8"
+        )
+        (output / ".nojekyll").touch()
+    else:
+        for name in ("sitemap.xml", "sitemap.xml.gz"):
+            (output / name).unlink(missing_ok=True)
+        (output / "robots.txt").write_text("User-agent: *\nDisallow: /\n", encoding="utf-8")
+    print(f"Documentation build: {output}")
 
 
 if __name__ == "__main__":
