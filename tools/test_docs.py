@@ -6,6 +6,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 import build_docs
+from check_docs import Page
 
 
 class StageSourcesTests(unittest.TestCase):
@@ -87,6 +88,21 @@ class StageSourcesTests(unittest.TestCase):
             )
             self.assertIn("[Other](https://example.org/guide)", staged)
             self.assertEqual((root / "docs/guide.md").read_text(encoding="utf-8"), source)
+
+
+class PageMetadataTests(unittest.TestCase):
+    def test_metadata_parser_preserves_escaped_values_and_duplicate_tags(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "index.html"
+            path.write_text(
+                "<title>Waits &amp; recovery</title><title>Duplicate</title>"
+                '<meta name="description" content="Host &quot;approval&quot; &amp; scope">'
+                '<meta name="description" content="Duplicate">',
+                encoding="utf-8",
+            )
+            page = Page(path)
+            self.assertEqual(page.titles, ["Waits & recovery", "Duplicate"])
+            self.assertEqual(page.descriptions, ['Host "approval" & scope', "Duplicate"])
 
 
 if __name__ == "__main__":
