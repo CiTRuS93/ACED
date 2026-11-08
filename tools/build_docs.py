@@ -76,6 +76,9 @@ def main() -> None:
         stage_sources(staging)
         config = {
             "site_name": "ACED documentation",
+            "repo_url": REPOSITORY,
+            "repo_name": "GitHub repository",
+            "edit_uri": "",
             "site_description": (
                 "Durable AI coding-agent workflows with verified evidence and human approvals."
             ),

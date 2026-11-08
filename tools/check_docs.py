@@ -6,7 +6,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
-from build_docs import SITE_URL
+from build_docs import REPOSITORY, SITE_URL
 
 ROOT = Path(__file__).resolve().parents[1] / ".docs-preview"
 
@@ -51,6 +51,8 @@ def main() -> None:
     assert pages, "Build docs first"
     errors = []
     for path, page in pages.items():
+        if REPOSITORY not in page.links:
+            errors.append(f"{path}: missing direct repository link")
         if page.remote_assets:
             errors.append(f"{path}: external asset")
         if args.production:

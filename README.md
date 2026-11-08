@@ -2,6 +2,9 @@
 
 **Agentic Continuous Experimentation and Development**
 
+[Documentation website](https://citrus93.github.io/ACED/) ·
+[GitHub repository](https://github.com/CiTRuS93/ACED)
+
 An open-source Python framework for durable AI coding-agent workflows and product
 experiments. ACED implements the Continuous Data-Driven AI Development paradigm
 with verified evidence and human-controlled approvals.
