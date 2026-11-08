@@ -1,3 +1,8 @@
+---
+title: Codex, Claude Code, Cursor and OpenCode CLI runners
+description: Configure ACED coding-agent CLI runners with durable launch, observation and cancellation. Linux development-preview adapters tested with model-free stand-ins.
+---
+
 # Coding agent CLI runners
 
 ACED includes `CodexCliRunner`, `ClaudeCliRunner`, `CursorCliRunner` and

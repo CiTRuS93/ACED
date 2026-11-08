@@ -1,3 +1,8 @@
+---
+title: A 72-hour synthetic storefront product experiment with Codex
+description: A development integration case study of a Codex agent running a 72-hour product experiment with synthetic storefront traffic. Not an agent benchmark or customer evidence.
+---
+
 # A coding agent runs a 72-hour product experiment in a synthetic storefront
 
 A real Codex agent proposed, implemented, and tested an availability-first catalog
