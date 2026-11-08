@@ -9,6 +9,23 @@ import build_docs
 
 
 class StageSourcesTests(unittest.TestCase):
+    def test_discovery_links_survive_staging(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "checkout"
+            root.mkdir()
+            target = Path(directory) / "staged"
+            source = (
+                f"[Documentation website]({build_docs.SITE_URL})\n"
+                f"[GitHub repository]({build_docs.REPOSITORY})\n"
+            )
+            (root / "README.md").write_text(source, encoding="utf-8")
+            with (
+                patch.object(build_docs, "ROOT", root),
+                patch.object(build_docs.subprocess, "check_output", return_value="README.md"),
+            ):
+                build_docs.stage_sources(target)
+            self.assertEqual((target / "README.md").read_text(encoding="utf-8"), source)
+
     def test_only_tracked_public_sources_are_staged(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory) / "checkout"
