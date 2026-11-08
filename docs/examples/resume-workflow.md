@@ -44,3 +44,30 @@ See [waiting and recovery](../runtime.md#waiting-recovery-and-stopping) for the
 runtime contract, [host integration](../integrations.md) for responsibilities, and
 the [two-process approval example](persist-approval.md) for a process exit before
 any task is launched.
+
+## If your own run is still waiting
+
+This is an integration checklist, not another standalone fixture command. Inspect
+the existing run through an authenticated host using `Runtime.inspect(run_id)`.
+Use `Runtime.tasks(run_id)` and `Runtime.history(run_id)` only with the required
+evidence-read claims. Retain those records privately; inspection can be redacted.
+
+| What you observe | What to check next |
+| --- | --- |
+| Launch outcome or original execution is unknown | Keep the original task identity and runner registration. Restore the host's execution lookup so recovery can observe the original execution; do not manually launch a replacement. |
+| An agent finished, but the stage has not advanced | Check the blocker and host evidence for the frozen task, source and scope. Agent completion alone is not accepted product evidence. |
+| The run is held | A hold prevents ordinary scheduling, not safety work or exposure. An authorized `resume` rechecks safety; it is not a replacement launch. |
+| The run is stopping | Keep the independent stop executor available and reconcile confirmed zero exposure and settled effects. Closing the runtime or receiving a stop acknowledgment does not prove either. |
+| Opening SQLite reports an incompatible format | Preserve the original database and its matching code. Do not rewrite its marker or create a new database to continue uncertain external work. See [storage compatibility](../runtime.md#storage). |
+
+Recover using the same database and run identity, registered original runner and
+independently retained host records. Do not use a new goal key, empty database,
+or `repropose` to bypass a launched task with an unknown outcome. `repropose` only
+replaces an **unlaunched** proposal and requires fresh approval. If native records
+cannot establish what happened, leave the uncertainty visible and resolve it with
+the host rather than treating absence of evidence as a safe retry.
+
+The [runtime recovery contract](../runtime.md#waiting-recovery-and-stopping)
+describes worker supervision and reconciliation. A SQLite reopen and a valid audit
+cannot establish external execution settlement, whole-host crash recovery or
+product safety on their own.

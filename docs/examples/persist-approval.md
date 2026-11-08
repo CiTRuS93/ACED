@@ -45,3 +45,29 @@ For human approval in an integration, configure host-owned approval boundaries
 and supply the corresponding adapter. See [configuration and authority](../runtime.md#configuration-and-authority)
 and the [integration guide](../integrations.md). The preview is not qualified for
 production credentials, real users or unattended operation.
+
+## If approval does not release your own run
+
+Use the host's authenticated inspection and approval interface to check the
+**current frozen proposal**, not just the human-readable goal. ACED does not bundle
+an approval inbox or notification provider for your product. The [local manager](../manager.md)
+exposes a host adapter; its offline demo is not that adapter for a real product.
+
+| What you observe | What to check next |
+| --- | --- |
+| The same proposal is still waiting after restart | This is expected until the host returns valid authorization. Check delivery and the host's approval record; restarting does not approve it. |
+| A person approved, but no task launches | Verify the authenticated approver, task fingerprint, requested scope and validity in the host record. Also inspect holds, task deadlines and the current blocker. Do not widen permissions just to make it run. |
+| Approval is denied or no response arrives | Keep the blocker or wait visible. Denial and no response do not grant permission; resolve them through the configured host policy. |
+| An unlaunched proposal has expired or needs replacement | An authorized caller can use `Runtime.repropose(run_id)`. The replacement needs fresh approval; the old decision cannot authorize its new fingerprint. |
+| A task has already launched, or its launch outcome is unknown | Do not repropose or launch again. Follow [original-execution recovery](resume-workflow.md#if-your-own-run-is-still-waiting). |
+
+Host approval must cover the actual task and tool scope. It does not make ACED an
+interceptor for every tool call or permit effects outside the host's authorization.
+Do not copy the fixture's `infrastructure.approval = ApprovalStatus.ALLOWED` into a
+real approval flow: that assignment simulates a decision and authenticates nobody.
+
+Continue with [configuration and authority](../runtime.md#configuration-and-authority)
+for approval policy and [public operations](../runtime.md#public-operations) for
+caller claims. If a pending approval appears to require another model invocation,
+compare it with this fixture's unchanged revision and zero launches before changing
+runtime behavior.
