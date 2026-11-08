@@ -85,3 +85,7 @@ node_modules/
 /src/aced/manager/static/
 /frontend/coverage/
 /frontend/test-results/
+
+# Generated local documentation preview
+/.docs-preview/
+/.venv-docs/

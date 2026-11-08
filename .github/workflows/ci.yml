@@ -39,3 +39,15 @@ jobs:
       - run: python -m build
       - run: python tests/manager/wheel_smoke.py dist/*.whl
       - run: 'aced --database :memory: conformance'
+
+  documentation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements-docs.txt
+      - run: python tools/test_docs.py
+      - run: python tools/build_docs.py
+      - run: python tools/check_docs.py
