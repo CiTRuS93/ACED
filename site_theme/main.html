@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% block extrahead %}
+{% if not config.extra.production or not page %}
 <meta name="robots" content="noindex, nofollow">
+{% endif %}
 <style>
   a, .nav-link { color: #075985; }
   a:hover, a:focus { color: #123b5d; }
@@ -22,7 +24,7 @@
 {{ super() }}
 {% endblock %}
 {% block content %}
-<div class="col-12 preview-notice">Local documentation preview. ACED is a development preview; fixture results do not qualify production or unattended operation.</div>
+<div class="col-12 preview-notice">{% if not config.extra.production %}Local documentation preview. {% endif %}ACED is a development preview; fixture results do not qualify production or unattended operation.</div>
 <div class="col-md-3">{% include "toc.html" %}</div>
 <main class="col-md-9" id="documentation-content" tabindex="-1">{% include "content.html" %}</main>
 {% endblock %}
