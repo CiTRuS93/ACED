@@ -32,9 +32,11 @@ not live agents or production evidence.
 
 ## Try the offline demo
 
-![Recorded offline demo: review a task approval, follow a synthetic experiment, and inspect retained learning.](https://raw.githubusercontent.com/CiTRuS93/ACED/main/docs/images/manager-offline-demo.gif)
+![Offline manager fixture: a completed cycle with zero exposure and an inconclusive synthetic readout.](https://raw.githubusercontent.com/CiTRuS93/ACED/main/docs/images/manager-offline-demo.png)
 
-[Static screenshot](https://raw.githubusercontent.com/CiTRuS93/ACED/main/docs/images/manager-offline-demo.png) · [Recording details](https://github.com/CiTRuS93/ACED/blob/main/docs/assets.md)
+[Full-size screenshot](https://raw.githubusercontent.com/CiTRuS93/ACED/main/docs/images/manager-offline-demo.png) ·
+[Watch the offline recording (animated GIF, about 3.7 MB)](https://raw.githubusercontent.com/CiTRuS93/ACED/main/docs/images/manager-offline-demo.gif) ·
+[Recording details](https://github.com/CiTRuS93/ACED/blob/main/docs/assets.md)
 
 Explore approvals, experiment observations, and learning in the local browser
 console. This demo uses deterministic agents and synthetic metrics; it needs no
