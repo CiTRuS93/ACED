@@ -14,7 +14,9 @@ development-preview status. It contains no live-agent or playground footage.
 The [capture script](../tests/manager/record_demo.py) drives a disposable local
 fixture and assembles the recorded excerpts with FFmpeg. Reproduce it with the
 [recording instructions](../CONTRIBUTING.md#record-the-offline-demo).
-The static screenshot below remains available for readers who prefer no animation.
+The README and documentation homepage show the static screenshot by default.
+The recording is an explicit link so animation is optional; opening it starts
+the looping GIF. No video player or pause control is provided by the recording.
 
 ## manager-offline-demo.png
 
