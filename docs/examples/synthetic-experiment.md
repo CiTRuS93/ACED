@@ -1,3 +1,8 @@
+---
+title: Run a synthetic product experiment with coding-agent tasks
+description: Run an offline two-cycle fixture with synthetic tasks, canary and main experiments, and retained learning. ACED is a development preview.
+---
+
 # Run a synthetic product experiment with coding-agent tasks
 
 See the complete development loop in seconds: research, implementation, canary,

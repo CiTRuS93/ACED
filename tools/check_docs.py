@@ -63,6 +63,7 @@ def check_problem_guide_metadata(root: Path, pages: dict[Path, Page]) -> list[st
     for name in (
         "examples/resume-workflow",
         "examples/persist-approval",
+        "examples/synthetic-experiment",
         "agent-clis",
         "playground-example",
     ):
