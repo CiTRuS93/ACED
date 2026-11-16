@@ -10,7 +10,9 @@ two separate Python child processes against one temporary SQLite database. The
 second recovers the same run, task, fingerprint and authorization reference, keeps
 waiting without launching an agent, then simulates the host approving that task.
 
-From a source checkout with Python 3.12+, install the core and run:
+From a source checkout with Python 3.12+, install the core and run. These commands
+use the POSIX virtual-environment path; see the [first-run checklist](../README.md#first-run-checklist)
+for prerequisites and the Windows interpreter path:
 
 ```bash
 python -m venv .venv

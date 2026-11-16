@@ -11,6 +11,10 @@ It is a development preview, not a qualified production or unattended service.
 The demo runs locally with deterministic agents and synthetic metrics. It needs no
 coding-agent account, credentials, product deployment or real-user traffic.
 
+The source-checkout and wheel commands below use POSIX virtual-environment paths.
+Current CI exercises the demo on Linux, not Windows; these instructions do not
+establish Windows compatibility.
+
 ### From a source checkout
 
 Use Python 3.12+, Node.js 22.12+ and the modern npm supplied with Node. Check both

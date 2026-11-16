@@ -42,7 +42,10 @@ agent account, credentials, or product connection.
 
 Requires Python 3.12+. For a source checkout, also install Node 22.12+ and a current
 npm. Download or clone this repository and open a terminal in its root directory
-(the directory containing `pyproject.toml`), then run:
+(the directory containing `pyproject.toml`). The commands below use POSIX
+virtual-environment paths. Current CI exercises the demo on Linux, not Windows.
+See the [manager guide](https://github.com/CiTRuS93/ACED/blob/main/docs/manager.md#offline-demonstration)
+for the complete setup, then run:
 
 ```bash
 python -m venv .venv

@@ -5,7 +5,9 @@ separate main experiment, decision, and a second cycle that receives the previou
 source and learning. Every agent and product record in this example is a
 deterministic fixture, so it needs no agent account or served product.
 
-From a source checkout with Python 3.12+, install the core and run:
+From a source checkout with Python 3.12+, install the core and run. These commands
+use the POSIX virtual-environment path; see the [first-run checklist](../README.md#first-run-checklist)
+for prerequisites and the Windows interpreter path:
 
 ```bash
 python -m venv .venv

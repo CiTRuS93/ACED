@@ -10,7 +10,9 @@ retains the original task intent in SQLite and observes its execution on recover
 This example reopens the coordinator after that uncertainty and checks that the
 original task completes with exactly one invocation.
 
-From a source checkout with Python 3.12+, install the core and run:
+From a source checkout with Python 3.12+, install the core and run. These commands
+use the POSIX virtual-environment path; see the [first-run checklist](../README.md#first-run-checklist)
+for prerequisites and the Windows interpreter path:
 
 ```bash
 python -m venv .venv
