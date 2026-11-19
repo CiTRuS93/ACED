@@ -18,9 +18,23 @@ real-user exposure or unattended operation.
 
 ## First-run checklist
 
-For any of the three Python examples, use Python 3.12+ and a terminal in a source
-checkout's root (the directory containing `pyproject.toml` and `examples/`).
-The commands below use a POSIX shell:
+For any of the three Python examples, you'll need Python 3.12+ and the ACED
+source files. If you don't already have the source, either option below works
+without a GitHub account:
+
+- **With Git:** clone the public repository over HTTPS and enter it:
+
+  ```bash
+  git clone https://github.com/CiTRuS93/ACED.git
+  cd ACED
+  ```
+
+- **Without Git:** open the [ACED repository](https://github.com/CiTRuS93/ACED),
+  select **Code → Download ZIP**, extract the archive, and open a terminal in
+  the extracted folder.
+
+In a POSIX shell, run these commands from the folder containing
+`pyproject.toml` and `examples/`:
 
 ```bash
 python --version
@@ -45,8 +59,8 @@ new demonstration rather than recovering a previous example run.
 
 - **Python is older than 3.12:** select an installed Python 3.12+ interpreter when
   creating the environment. Check its version before installing.
-- **`pyproject.toml` or the example file cannot be found:** change to the checkout
-  root. These commands assume source files, not only an installed wheel.
+- **`pyproject.toml` or the example file cannot be found:** change to the source
+  folder. These commands assume source files, not only an installed wheel.
 - **`ModuleNotFoundError: aced`:** install with the same `.venv/bin/python` used to
   run the example. Do not substitute an unrelated system interpreter.
 - **An assertion or unexpected result appears:** preserve the command, Python
@@ -73,8 +87,7 @@ The browser demo has additional Node/build requirements, described in its
 
 The separately maintained playground is not included in this repository or
 package; see [example availability](integrations.md#example-availability).
-Install from this source checkout for these instructions; they do not require a
-package-index release.
+These instructions install from source and do not require a package-index release.
 
 ## Guides and reference
 
