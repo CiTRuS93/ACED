@@ -17,10 +17,11 @@ qualification. It updates the earlier October 24 snapshot, which correctly
 reported that the main experiment was still running and no final result was known.
 
 The playground supplies the served shop, host integration, and synthetic browser
-traffic. It is not included in this repository. To explore the lifecycle locally,
-start with the included [offline manager demo](manager.md) or
-[offline Python example](runtime.md#run-an-offline-example). Those deterministic
-fixtures are separate from this recorded experiment.
+traffic. It is not included in this repository. To explore the lifecycle locally
+with just Python, start with the [two-cycle synthetic fixture](examples/synthetic-experiment.md).
+For a browser walkthrough, see the [offline manager demo](manager.md); for runtime
+composition, see the [offline Python example](runtime.md#run-an-offline-example).
+These deterministic examples are separate from this recorded experiment.
 
 ## The product hypothesis and checked change
 
